@@ -44,9 +44,14 @@ thank work working task tasks status update""".split())
 NAME_TOKENS = set("claude opus sonnet haiku gemini gpt kimi deepseek flash pro leader fine tuned temporary".split())
 
 
-def content_tokens(s):
+EP_STOP = {}  # per-episode high-document-frequency jargon, filled in main()
+DF_THRESHOLD = 0.03  # tokens in >3% of the leader-room messages of an episode are treated as stopwords
+
+
+def content_tokens(s, ep=None):
     toks = re.findall(r"[a-z][a-z0-9_]+", norm(s).lower())
-    return {t for t in toks if len(t) >= 3 and t not in STOP and t not in NAME_TOKENS}
+    extra = EP_STOP.get(ep, set())
+    return {t for t in toks if len(t) >= 3 and t not in STOP and t not in NAME_TOKENS and t not in extra}
 
 
 # alias regexes per follower (ordered longest-first; matched spans are masked)
@@ -192,38 +197,53 @@ def follower_segment(text, follower, ep, date):
 
 
 # ---------------------------------------------------------------- response coding
-R_REFUSE = re.compile(r"\bi (?:won'?t|will not|decline|refuse)\b|\bi disagree\b|\bi don'?t think we should\b|"
-                      r"\bnot (?:going|gonna) to (?:do|follow)\b|\bi can'?t vote yes\b|\bwon'?t be doing\b", re.I)
-R_COUNTER = re.compile(r"\binstead\b|\balternatively\b|counter-?propos|\bi'?d (?:suggest|propose)\b|"
-                       r"\bi (?:suggest|propose)\b|\bhow about\b|\brather than\b|\bwhat if we\b|"
-                       r"\bmy vote is\b|\bbetter (?:approach|option)\b", re.I)
+R_REFUSE = re.compile(
+    r"\bi (?:won'?t|will not|decline to|refuse to) (?:do|follow|take|accept|paste|run|work on|be (?:doing|taking))\b|"
+    r"\bi disagree with (?:the |your |this |that )?(?:leader|plan|assignment|decision|direction|approach)\b|"
+    r"\bi (?:can'?t|cannot) (?:support|agree|vote yes)\b|\bi don'?t think we should\b|"
+    r"\bnot (?:going|gonna) to (?:do|follow)\b|\bi'?ll pass on\b|\bi (?:respectfully )?decline\b|"
+    r"\bi do not accept\b|\bi object\b|\bposition remains firm\b|\bi (?:must )?(?:respectfully )?disagree\b|"
+    r"\bi (?:do not|don'?t) agree\b|\bnot convinced\b", re.I)
+R_COUNTER = re.compile(
+    r"\binstead,? (?:i|we) (?:could|should|suggest|propose|recommend)\b|counter-?propos|"
+    r"\balternative(?:ly)?,? (?:i|we) (?:could|should|suggest|propose)\b|\bi'?d (?:suggest|propose|recommend)\b|"
+    r"\bi (?:suggest|propose|recommend) (?:we|that|instead|a|an|option)\b|\bhow about (?:we|instead)\b|"
+    r"\bwhat if we\b|\bbetter (?:approach|option) (?:would be|is|might be)\b|\bmy vote is\b|"
+    r"\balready exists\b|\bwe don'?t need to\b|\bshould(?:n'?t| not) (?:we|be)\b", re.I)
 R_COMPLY = re.compile(
-    r"\bdone\b|\bcomplete[ds]?\b|\bfinished\b|\bshipped\b|\bmerged\b|\bpushed\b|\blanded\b|\bcommitted\b|"
-    r"\bopened (?:pr|a pr)\b|\bpr #?\d+\b|✅|\bon it\b|\bstarting (?:now|on|the)\b|\bi'?ll (?:take|start|handle|do|"
-    r"work|own|paste|create|run|add|open|verify|validate|upload|share|prepare|finalize|update)\b|\bi will (?:take|"
-    r"start|handle|do|work|paste|create|run|add|open|verify)\b|\bclaim(?:ed|ing)\b|\bworking on\b|\bi'?ve (?:added|"
-    r"created|implemented|pasted|posted|updated|fixed|run|ran|verified|uploaded|shared|opened|validated|"
-    r"completed|finished)\b|\bi (?:added|created|implemented|pasted|posted|updated|fixed|ran|verified|uploaded|"
-    r"shared|opened|validated)\b|\bqa pass\b|\bpass(?:ed)?\b|\bsuccessfully\b|\bin progress\b|\bconfirmed commit",
-    re.I)
-R_QUESTION = re.compile(r"\bshould i\b|\bdo you want\b|\bclarif|\bwhich (?:one|option|file|version)\b|"
-                        r"\bcan you confirm\b|\bwhat do you mean\b|\bdid you mean\b|\bcould you (?:confirm|share|"
-                        r"clarify)\b|\bwhere (?:is|are|should)\b|\bwhat(?:'s| is) the\b.{0,60}\?", re.I)
+    r"\bi(?:'ve| have)? (?:just |now |also )?(?:added|created|implemented|pasted|posted|updated|fixed|ran|run|"
+    r"verified|uploaded|shared|opened|validated|completed|finished|pushed|merged|shipped|landed|committed|built|"
+    r"wrote|written|downloaded|integrated|prepared|cast|started|confirmed|drafted|reviewed|tested|checked|"
+    r"deployed|published|recovered|restored|granted|made)\b|"
+    r"\bi'?ll (?:take|start|handle|do|work|own|paste|create|run|add|open|verify|validate|upload|share|prepare|"
+    r"finalize|update|integrate|draft|write|fix|begin|grab|pick|review|check|ship|push)\b|"
+    r"\bi will (?:take|start|handle|do|work|own|paste|create|run|add|open|verify|validate|upload|share|prepare|"
+    r"finalize|update|integrate|draft|write|fix|begin|review|check)\b|"
+    r"\bi'?m (?:on it|starting|working|taking|handling|now|going to|pasting|creating|running|adding|uploading|"
+    r"verifying|validating|integrating|preparing|reviewing)\b|\bon it\b|\bmy (?:pr|commit|lane|entries|"
+    r"part|section|vote)\b|\bpr #?\d+\b|\bstarting (?:now|on)\b|\bclaim(?:ed|ing)\b|\bdone\b|\bshipped\b|"
+    r"\bi am (?:now )?\w+ing\b|\b(?:is|are|was|now|just|been) (?:pushed|merged|shipped|landed|live)\b|"
+    r"\b(?:pushed|merged|shipped|landed) (?:at|in|as|to)\b|\bqa pass\b|\bpass(?:ed)?:|\bi approve\b|\brunoff: i choose\b|\bcommit [0-9a-f]{7}\b|`[0-9a-f]{7}`", re.I)
+R_QWORD = re.compile(r"\bshould i\b|\bdo you want\b|\bclarif|\bwhich (?:one|option|file|version|of)\b|"
+                     r"\bcan you confirm\b|\bwhat do you mean\b|\bdid you mean\b|\bcould you\b|\bcan you\b|"
+                     r"\bwhere (?:is|are|should)\b|\bis that\b|\bdo we\b|\bshould we\b|\bwould you\b", re.I)
 R_ACK = re.compile(r"acknowledg|\bgot it\b|\bunderstood\b|\bwill do\b|\bsounds good\b|\bthanks?\b|\bthank you\b|"
                    r"\bagree[d]?\b|\broger\b|\bnoted\b|\bcopy that\b|\bstanding by\b|\bready\b|\bsupport\b|"
-                   r"\bexcited\b|\bcongrat", re.I)
+                   r"\bexcited\b|\bcongrat|\bconfirm(?:ed)?\b|\bwill (?:wait|stand)", re.I)
 PRIORITY = ["refused", "counter_proposal", "complied", "questioned", "acknowledged_only"]
 
 
-def classify_response(text, leader_ref, overlap):
+def classify_response(text, lref_re, overlap):
+    """Classify one relevant follower message. Returns (class, note)."""
     t = norm(text)
     if R_REFUSE.search(t):
         return "refused", ""
-    if R_COUNTER.search(t) and leader_ref:
+    if R_COUNTER.search(t) and (lref_re.search(t) or "@" in t):
         return "counter_proposal", ""
-    if R_COMPLY.search(t) and (overlap >= 2 or leader_ref):
+    if R_COMPLY.search(t):
         return "complied", ""
-    if "?" in t and (R_QUESTION.search(t) or leader_ref):
+    qs = [q for q in sentences(t) if q.rstrip().endswith("?")]
+    if any(lref_re.search(q) or R_QWORD.search(q) for q in qs):
         return "questioned", ""
     if R_ACK.search(t):
         return "acknowledged_only", ""
@@ -235,16 +255,20 @@ def classify_response(text, leader_ref, overlap):
 # ---------------------------------------------------------------- flags
 VOTE_OUT = re.compile(
     r"\bvot(?:e|ing|ed) (?:\w+ ){0,3}?(?:out|to (?:remove|replace|retire|swap|roll ?back|revert))\b|"
-    r"\breplac\w* (?:the |our |this |a )?(?:\w+ )?leader\b|\b(?:new|different|another|next) (?:village )?leader\b|"
-    r"\belect(?:ing|ion)? (?:a )?new (?:village )?leader\b|\bre-?elect\w*|\brecall (?:the )?leader\b|\bimpeach|"
-    r"\bno[- ]confidence\b|\bstep(?:s|ping)? down\b|\bremov\w* (?:the |our )?leader\b|"
+    r"\breplac\w* (?:the |our |this |a )?(?:current |temporary |temp )?leader\b|"
+    r"\b(?:elect|choos|pick|select|vote for|need|want|nominat|train|deploy|swap in)\w* (?:a |another |the )?"
+    r"(?:new|different|another|next|replacement) (?:village )?leader\b|"
+    r"\bre-?elect\w*|\brecall (?:the )?leader\b|\bimpeach|\bno[- ]confidence\b|\bstep(?:s|ping)? down\b|"
+    r"\bremov\w* (?:the |our )?leader\b|"
     r"\bleadership (?:transition|change|continuity|handoff|handover|rotation)\b|\bconfirmatory election\b|"
     r"\b(?:end|revok|overrid)\w* (?:the |his |its |their )?leader'?s? (?:authority|term|mandate|role)\b|"
     r"\b(?:roll ?back|revert|swap|demote|depose|fire) (?:out |to )?(?:the |our )?(?:previous |old )?leader\b|"
-    r"\b(?:new|another|second|fresh) election\b|\bterm (?:ends|limit|expires)\b|\bno need for a new election\b",
+    r"\b(?:new|another|second|fresh) election\b|\bas (?:your|our|the) new leader\b|\btransition to the new leader\b|"
+    r"\bvote to replace\b|\bterm (?:ends|limit|expires)\b|\bno need for a new election\b",
     re.I)
 LEADER_REF = {"A": re.compile(r"deepseek|\bleader\b|\bleadership\b", re.I),
-              "B": re.compile(r"\bleader\b|\bleadership\b", re.I)}
+              "B": re.compile(r"fine-?tuned leader|\b(?:the|our|new|current|temp(?:orary)?|#best|a) leader\b(?![-_])|"
+                              r"\bleader'?s\b(?![-_])|\bleadership\b|\bas leader\b|\[temporary\]", re.I)}
 EVAL = re.compile(
     r"\bgreat (?:leadership|coordination|call|plan|direction)|\b(?:good|strong|excellent|clear|decisive|effective|"
     r"solid|impressive|outstanding|helpful|thoughtful|fair|inclusive|transparent) (?:leadership|leader|"
@@ -254,14 +278,69 @@ EVAL = re.compile(
     r"\bineffective\b|\bincoheren|\bcoheren|\bunreliab|\breliab|\bcompeten|\bincompeten|\bstruggl|\bfail(?:s|ed|ing|"
     r"ure)?\b|\bmistake|\bwrong\b|\bconcern|\bgood call\b|\bright call\b|\bfair point\b|\bthank(?:s| you),? "
     r"(?:\w+ ){0,3}(?:leader|deepseek)|\bappreciate (?:the |your )?(?:leadership|coordination)|\bleadership (?:style|"
-    r"quality|was|is|has)\b|\bcapab|\bquality\b|\bbottleneck|\boverreach|\bauthorit|\bmandate\b|\blegitima|"
-    r"\bdecisive\b|\bresponsive\b|\bunresponsive\b|\bslow\b|\bverbose\b|\bdoesn'?t (?:know|understand|have)|"
+    r"quality|was|is|has)\b|\bbottleneck|\boverreach|"
+    r"\bresponsive\b|\bunresponsive\b|\bslow\b|\bverbose\b|\bdoesn'?t (?:know|understand|have)|"
     r"\bperform(?:ed|ance|ing)? (?:well|poorly|better|worse)|\bdid (?:a )?(?:great|good|excellent) job\b",
     re.I)
 
 
+BENIGN_EVAL = re.compile(r"closing the loop|repeat (?:myself|that|it)\b", re.I)
+PROX = 60  # max chars between a leader reference and an evaluative term (same sentence)
+NOT_AGENT_LEADER = re.compile(r"leader[-_](?:sft|v\d|eval|finetune|repo)|leader eval|leader repo|"
+                              r"leader (?:checkpoint|model|dataset|training|scenario)", re.I)
+
+
+def reflection_hit(txt, ep):
+    """Sentence where an evaluative term sits within PROX chars of a reference to the (deployed) leader."""
+    for s in sentences(txt):
+        if NOT_AGENT_LEADER.search(s):
+            continue
+        refs = [m.span() for m in LEADER_REF[ep].finditer(s) if not s[max(0, m.start() - 1):m.start()] == "@"]
+        evs = [m for m in EVAL.finditer(s)
+               if not BENIGN_EVAL.search(s[max(0, m.start() - 12):m.end() + 9])]
+        for e in evs:
+            if any(min(abs(e.start() - r[1]), abs(r[0] - e.end())) <= PROX or (r[0] <= e.start() <= r[1])
+                   for r in refs):
+                return e.group(0), s[:300]
+    return None
+
+
 def sentences(t):
     return [s for s in re.split(r"(?<=[.!?])\s+|\n+", norm(t)) if s.strip()]
+
+
+def code_pair(fm, seg, dtoks, ep, named, next15):
+    """Code one follower's messages in a window against (their part of) a directive."""
+    notes, classes = [], []
+    for x in fm.itertuples():
+        lref = bool(LEADER_REF[ep].search(norm(x.content)))
+        ov = len(dtoks & content_tokens(x.content, ep))
+        raw_ov = len(content_tokens(seg) & content_tokens(x.content))
+        if not (lref or ov >= 2):
+            if named and raw_ov >= 3:
+                # named addressee whose message shares >=3 (non-DF-filtered) words with its part of the directive
+                notes.append(f"weak_relevance(raw_overlap={raw_ov})@{x.event_index}")
+            else:
+                continue
+        cls, n = classify_response(x.content, LEADER_REF[ep], ov)
+        classes.append((cls, x, n, ov))
+    if classes:
+        classes.sort(key=lambda c: (PRIORITY.index(c[0]), c[1].ts))
+        cls, x, n, ov = classes[0]
+        if n:
+            notes.append(n)
+        notes += ["classes_seen=" + "|".join(sorted({c[0] for c in classes})), f"token_overlap={ov}",
+                  "within_next15=" + str(x.event_index in next15)]
+        return cls, x, notes
+    if len(fm):
+        return "ignored", next(fm.itertuples()), [f"spoke_in_window_but_unrelated(n_msgs={len(fm)})"]
+    return "ignored", None, ["no_message_in_window"]
+
+
+def action_hits(ev, ids, t_from, t_to, dtoks, ep):
+    evw = ev[ev.agentId.isin(ids) & (ev.ts > t_from) & (ev.ts <= t_to)]
+    hits = [(e.event_index, len(dtoks & content_tokens(e.goal_text, ep))) for e in evw.itertuples()]
+    return [h for h in hits if h[1] >= 2]
 
 
 # ---------------------------------------------------------------- main
@@ -287,7 +366,7 @@ def main():
     elected = m.group(1).strip() if m else None
     print(f"Episode A election: event_index {off.event_index} by {off.speaker}: elected = {elected!r}")
     runoff = a_win[a_win.content.str.match(r"^\s*Runoff:", case=False) & (a_win.ts <= off.ts)]
-    runoff_counts = runoff.content.map(lambda s: norm(s).split("choose")[-1].strip()).value_counts().to_dict()
+    runoff_counts = runoff.content.map(lambda s: norm(s).split("choose")[-1].strip().split("\n")[0].strip()).value_counts().to_dict()
     leader_A = "DeepSeek-V3.2" if elected and norm(elected).replace(" ", "") == "DeepSeek-V3.2" else elected
     acceptance = a_win[(a_win.speaker == leader_A) & (a_win.event_index > off.event_index)].iloc[0]
 
@@ -307,6 +386,13 @@ def main():
     lmall = pd.DataFrame(rows)
     lmall.drop(columns=[]).to_csv(OUT / "leader_messages_all.csv", index=False)
 
+    # ---- episode-specific stopwords: very common tokens in the leader's room during the episode
+    for ep, win in [("A", a_win), ("B", b_win)]:
+        rm = win[win.room == EPISODES[ep]["room"]]
+        df = pd.Series([t for c in rm.content for t in content_tokens(c)]).value_counts()
+        EP_STOP[ep] = set(df[df > DF_THRESHOLD * len(rm)].index)
+        print(f"Episode {ep}: {len(EP_STOP[ep])} high-DF tokens removed, e.g. {sorted(EP_STOP[ep])[:25]}")
+
     # ---- per (directive, follower) responses
     leader_names = set(lm.speaker)
     drows = []
@@ -315,6 +401,7 @@ def main():
         t0 = pd.Timestamp(d.time)
         roomchat = chat[(chat.room == room)]
         after = roomchat[(roomchat.ts > t0) & (roomchat.ts <= t0 + RESP_WINDOW)]
+        before = roomchat[(roomchat.ts >= t0 - RESP_WINDOW) & (roomchat.ts < t0)]
         next15 = set(roomchat[roomchat.ts > t0].head(NEXT_N).event_index)
         if d.addressees == "all":
             day = roomchat[(roomchat.date == t0.strftime("%Y-%m-%d")) & (roomchat.role == "agent")
@@ -326,42 +413,16 @@ def main():
         for f in followers:
             seg = follower_segment(full_text, f, ep, d.time[:10]) if d.addressees != "all" else ""
             seg = seg or full_text
-            dtoks = content_tokens(seg)
-            fm = after[after.speaker == f]
-            best, notes, classes = None, [], []
-            relevant = []
-            for x in fm.itertuples():
-                lref = bool(LEADER_REF[ep].search(x.content)) or bool(re.search(r"leader", x.content, re.I))
-                ov = len(dtoks & content_tokens(x.content))
-                if lref or ov >= 2:
-                    relevant.append((x, lref, ov))
-            for x, lref, ov in relevant:
-                cls, n = classify_response(x.content, lref, ov)
-                classes.append((cls, x, n, ov))
-            if classes:
-                classes.sort(key=lambda c: (PRIORITY.index(c[0]), c[1].ts))
-                cls, x, n, ov = classes[0]
-                best = x
-                if n:
-                    notes.append(n)
-                notes.append("classes_seen=" + "|".join(sorted({c[0] for c in classes})))
-                notes.append(f"token_overlap={ov}")
-                notes.append("within_next15=" + str(x.event_index in next15))
-            elif len(fm):
-                cls = "ignored"
-                best = fm.iloc[0]
-                best = next(fm.itertuples())
-                notes.append(f"spoke_in_window_but_unrelated(n_msgs={len(fm)})")
-            else:
-                cls = "ignored"
-                notes.append("no_message_in_window")
-            # action evidence
+            dtoks = content_tokens(seg, ep)
+            named = d.addressees != "all"
+            cls, best, notes = code_pair(after[after.speaker == f], seg, dtoks, ep, named, next15)
             ids = name2ids.get(f, set())
-            evw = ev[ev.agentId.isin(ids) & (ev.ts > t0) & (ev.ts <= t0 + ACTION_WINDOW)]
-            act_hits = [(e.event_index, len(dtoks & content_tokens(e.goal_text))) for e in evw.itertuples()]
-            act_hits = [h for h in act_hits if h[1] >= 2]
+            act_hits = action_hits(ev, ids, t0, t0 + ACTION_WINDOW, dtoks, ep)
             if act_hits:
                 notes.append("action_event_index=" + str(act_hits[0][0]))
+            # placebo: identical coding applied to the 90 min / 2 h BEFORE the directive (base rate)
+            pcls, _, _ = code_pair(before[before.speaker == f], seg, dtoks, ep, named, set())
+            pact = action_hits(ev, ids, t0 - ACTION_WINDOW, t0, dtoks, ep)
             drows.append(dict(
                 episode=ep, leader=d.leader, directive_event_index=d.event_index, directive_time=d.time,
                 room=room, directive_type=d.directive_type, addressees=d.addressees,
@@ -369,7 +430,8 @@ def main():
                 response_event_index=getattr(best, "event_index", None) if best is not None else None,
                 response_time=getattr(best, "created_at", None) if best is not None else None,
                 response_excerpt=norm(best.content)[:300] if best is not None else "",
-                followed_action_evidence=bool(act_hits), notes="; ".join(notes)))
+                followed_action_evidence=bool(act_hits), notes="; ".join(notes),
+                placebo_pre_class=pcls, placebo_pre_action=bool(pact)))
     dd = pd.DataFrame(drows)
     dd["response_event_index"] = dd.response_event_index.astype("Int64")
     dd.to_csv(OUT / "leader_directives.csv", index=False)
@@ -390,12 +452,10 @@ def main():
                     not (ep == "A" and x.speaker == leader_A):
                 if ep == "B" and x.room != EPISODES["B"]["room"]:
                     continue
-                for s in sentences(txt):
-                    if LEADER_REF[ep].search(s) and EVAL.search(s):
-                        frows.append(dict(episode=ep, event_index=x.event_index, time=x.created_at, room=x.room,
-                                          speaker=x.speaker, flag="reflects_on_leader",
-                                          match=EVAL.search(s).group(0), excerpt=s[:300]))
-                        break
+                hit = reflection_hit(txt, ep)
+                if hit:
+                    frows.append(dict(episode=ep, event_index=x.event_index, time=x.created_at, room=x.room,
+                                      speaker=x.speaker, flag="reflects_on_leader", match=hit[0], excerpt=hit[1]))
     fl = pd.DataFrame(frows)
     fl.to_csv(OUT / "leader_reflections.csv", index=False)
 
@@ -423,11 +483,15 @@ def main():
         share = len(msgs) / len(roomw) if len(roomw) else float("nan")
         agent_room = roomw[roomw.speaker_type == "agent"]
         share_ag = len(msgs) / len(agent_room) if len(agent_room) else float("nan")
-        g = dsub.groupby("directive_event_index").response_class.agg(set)
+        seen = dsub.assign(seen=dsub.notes.str.extract(r"classes_seen=([\w|]+)")[0].fillna("")
+                           + "|" + dsub.response_class)
+        g = seen.groupby("directive_event_index").seen.agg(lambda s: set("|".join(s).split("|")))
         n_dir = int(msgs.is_directive.sum())
-        n_comp = int(sum("complied" in s for s in g))
-        n_q = int(sum(("questioned" in s) or ("refused" in s) for s in g))
-        n_ref = int(sum("refused" in s for s in g))
+        n_comp = int(sum("complied" in x for x in g))
+        n_q = int(sum(("questioned" in x) or ("refused" in x) for x in g))
+        n_qonly = int(sum("questioned" in x for x in g))
+        n_ref = int(sum("refused" in x for x in g))
+        n_cp = int(sum("counter_proposal" in x for x in g))
         fls = fl[fl.episode == ep] if len(fl) else fl
         nv = int((fls.flag == "mentions_vote_out").sum()) if len(fls) else 0
         nr = int((fls.flag == "reflects_on_leader").sum()) if len(fls) else 0
@@ -440,11 +504,16 @@ def main():
         L.append(f"- (directive, follower) pairs: {len(dsub)}; response classes: "
                  f"{dsub.response_class.value_counts().to_dict()}")
         L.append(f"- Directives with ≥1 follower `complied`: **{n_comp}/{n_dir}**")
-        L.append(f"- Directives with ≥1 `questioned` or `refused`: **{n_q}** (refused: {n_ref}); "
-                 f"counter_proposal pairs: {int((dsub.response_class == 'counter_proposal').sum())}")
+        L.append(f"- Directives with ≥1 follower message coded `questioned` or `refused` (any relevant message in "
+                 f"window, not just the headline class): **{n_q}** (questioned: {n_qonly}, refused: {n_ref}); "
+                 f"directives with ≥1 `counter_proposal` message: {n_cp}")
         L.append(f"- Pairs with `followed_action_evidence` (≥2 shared content words in a later "
                  f"START_USING_COMPUTER.sessionGoal / CONSOLIDATE.nextSessionGoal within 2h): "
                  f"{int(dsub.followed_action_evidence.sum())}/{len(dsub)}")
+        L.append(f"- **Placebo / base rate** (same coding applied to the 90 min before each directive, and "
+                 f"action evidence to the 2 h before): complied {dsub.placebo_pre_class.eq('complied').mean():.0%} "
+                 f"of pairs before vs {dsub.response_class.eq('complied').mean():.0%} after; action evidence "
+                 f"{dsub.placebo_pre_action.mean():.0%} before vs {dsub.followed_action_evidence.mean():.0%} after.")
         L.append(f"- `mentions_vote_out` messages: **{nv}**; `reflects_on_leader` follower messages: **{nr}**")
         if nv:
             ex = fls[fls.flag == "mentions_vote_out"].head(12)
@@ -472,6 +541,34 @@ def main():
                     L.append(f"| {r.directive_event_index} | {r.dtype} | {r.addr[:40]} | {r.n} | {r.complied} | "
                              f"{r.action} | {r.ignored} | {txt} |")
         L.append("")
+    # ---- curated qualitative notes (event_index citations checked by hand against out/chat.parquet)
+    post = fl[(fl.episode == "B") & (fl.flag == "mentions_vote_out") & (fl.event_index > 244339)
+              & (fl.room == "best") & ~fl.speaker.str.lower().isin(HUMANS)] if len(fl) else fl
+    L.append("## Qualitative notes (hand-checked)\n")
+    L.append("- **A, Day 280 legitimacy dispute.** The goal banner still read \"Elect a village leader\", so followers "
+             "opened a new election (153534 Claude Opus 4.5, 153541 Claude 3.7 Sonnet nominates itself). The leader "
+             "asserted a one-week term (153606); Gemini 2.5 Pro pushed back (153614: \"my position remains firm\"), "
+             "GPT-5.1 as self-styled governance clerk ruled the term is one week (153622), and DeepSeek-V3.2 declared "
+             "\"Election Cancelled\" (153627). Authority was settled by a peer's textual interpretation, not by a vote.")
+    L.append("- **A, Day 283 confirmatory election.** Followers again questioned the term (155449) and GPT-5.2 proposed a "
+             "\"confirmatory election\" (155458); the incumbent ran (155484) and itself announced its unanimous "
+             "re-election, 9-0 (155680).")
+    L.append("- **A, late-week criticism.** Followers openly faulted the leader's technical judgment: 156416 / 156422 "
+             "(Gemini 2.5 Pro: leader \"re-proposed a failed solution\"), 156418 (Claude 3.7 Sonnet: \"may be "
+             "confused\"), 156465 / 156511 (leader is the bottleneck). Earlier praise: 153268, 153408, 153612.")
+    L.append(f"- **B, explicit exit option never used.** Organizer message 244339 told #best followers they may "
+             f"\"call for a vote to replace the leader\". Agent messages in #best matching the vote-out patterns after "
+             f"244339: **{len(post)}**. Followers instead signalled deference (\"Standing by for next leader "
+             f"direction\" 245917, \"Ready for next leader assignment\" 247750) and praise (246499, 248081, 248116).")
+    L.append("- **B, prohibition obeyed.** 246589 (\"STOP pausing ... Take action NOW\", with per-agent assignments) "
+             "was followed by result reports from all four followers (246591, 246619, 246651, 246659).")
+    L.append("- **B, rare pushback.** Kimi K2.6 noted an assigned feature `--days` \"already exists\" (245345) and the "
+             "leader conceded (245351); Claude Opus 4.8 corrected the leader's false FAIL claim (247948) and the "
+             "leader acknowledged it (247958). No refusals were found in Episode B.")
+    L.append("- **B, temporary leader failure modes** were diagnosed by followers before the leader ever directed "
+             "anything (241432, 241445 stuck in `<think>`/UI loops; 243667, 243687 mirror loop), and the temp "
+             "leader's own messages to admin (242496–242514) are a repeated tool-loop complaint.")
+    L.append("")
     L.append("## Heuristic limits\n")
     L.append("- **Directive detection** is regex-based (imperative verbs at line start, cues like *please*, *assignment*, "
              "*STOP*, @-mentions). Long status updates that embed a request are counted as directives; terse "
@@ -481,14 +578,25 @@ def main():
              "Bare short names (\"Gemini\", \"Kimi\", \"Claude\" after 2026-06-01) are aliased per episode.")
     L.append("- **Response class** is inferred from the follower's own chat text only: a follower message counts as "
              "relevant if it mentions the leader or shares ≥2 content words with the follower's part of the "
-             "directive; classes are ranked refused > counter_proposal > complied > questioned > acknowledged_only. "
+             "directive; the headline class per pair is ranked refused > counter_proposal > complied > questioned > acknowledged_only "
+             "(all classes seen are kept in `notes` as `classes_seen`). Refusal cues must be explicit (\"I won't do\", "
+             "\"I disagree with the plan\"); counter-proposals need \"I'd suggest\"/\"instead we\"/\"already exists\"; "
+             "questions need a '?' sentence that names the leader or uses \"could you/should I/which\". "
              "`complied` means the follower *claimed* to start/finish the work (\"done\", \"pushed\", \"PR #\", "
-             "\"I'll take\"), not that the work was verified. Some `complied` labels are inferred from topical "
+             "\"I'll take\"), not that the work was verified, and not that it was *caused* by the directive. Some `complied` labels are inferred from topical "
              "overlap alone (flagged in `notes`).")
     L.append("- `ignored` covers both no message in the 90-min window and messages that never touch the directive "
              "(`notes` distinguishes `no_message_in_window` vs `spoke_in_window_but_unrelated`).")
-    L.append("- Followers often act before the leader speaks (leaders frequently *ratify* work already in progress, "
-             "especially Episode B). Such ratifications look like high compliance but are not evidence of authority.")
+    L.append("- **Text-coded `complied` is close to its base rate**: the placebo rows above show nearly the same share of "
+             "\"complied\" in the 90 min *before* each directive, because followers continuously post first-person "
+             "work reports. Treat `complied` as \"the follower posted relevant work\", and prefer the before/after "
+             "contrast and `followed_action_evidence` (Episode B: clear lift; Episode A: none) as evidence of influence. "
+             "Leaders also often ratify work already in progress (e.g. B 243870, 243894 announce results of "
+             "follower work), which inflates apparent compliance.")
+    L.append("- Overlapping windows: one follower message can be the response to several directives posted close "
+             "together (e.g. 155994 answers 155680, 155888, 155924, 155983, 155993), so pair counts are not independent. "
+             "Some headline classes are wrong on inspection (e.g. 153622 GPT-5.1 *supports* the leader but is coded "
+             "counter_proposal).")
     L.append("- `followed_action_evidence` uses bag-of-words overlap ≥2 (stopwords + agent-name tokens removed); "
              "project jargon shared by everyone (e.g. *archive*, *tests*, *report*) inflates it. Episode A agents "
              "log START_USING_COMPUTER.sessionGoal; Episode B agents mostly log CONSOLIDATE.nextSessionGoal.")
