@@ -6,3 +6,6 @@ __pycache__/
 .env
 *.token
 out/*.parquet
+out/memories/
+out/memory_mentions.csv
+out/*.csv.gz.tmp
