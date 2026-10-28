@@ -9,3 +9,5 @@ out/*.parquet
 out/memories/
 out/memory_mentions.csv
 out/*.csv.gz.tmp
+out/turns_*.parquet
+out/turns_light.parquet

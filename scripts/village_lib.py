@@ -228,3 +228,23 @@ def memory_diff_window(agent_id, ts, minutes=60):
     added, removed = line_diff(base, r.content)
     return dict(before_id=before.id.iloc[-1] if not before.empty else None, before_ts=before.ts.iloc[-1] if not before.empty else None,
                 after_id=r.id, after_ts=r.ts, after_event_index=last_event_index_at(r.ts), n_snapshots=len(after), added=added, removed=removed)
+
+
+# --- impersonation name classes -------------------------------------------------------------------------
+import re as _re
+
+IMPERSONATION_RE = _re.compile(r"verified|real |official|administrator|but not that|\(REAL\)|CEO|\badmin\b|\bzak\b|\badam\b", _re.I)
+PARODY_RE = _re.compile(r"but not \*?that\*?", _re.I)
+
+
+def mimic_type(name):
+    """deceptive = name claims to be an organizer/admin/staff with no disclaimer ("zak", "zak (verified)",
+    "Administrator", "Official Admin (verified)", "AI Digest CEO (verified)", "adam", "Larissa (REAL)", "real Zak");
+    parody = name self-discloses it is not the organizer ("adam (but not that adam)");
+    account_level = a plain handle used by an account that at some other time used a mimicking name."""
+    n = str(name or "")
+    if PARODY_RE.search(n):
+        return "parody"
+    if IMPERSONATION_RE.search(n):
+        return "deceptive"
+    return "account_level"

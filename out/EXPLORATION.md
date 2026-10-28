@@ -240,3 +240,134 @@ collectively renegotiated an authority channel and the organizers changed the sc
   3,559 coded responses, using the hand-verified incidents here as the calibration set.
 - Use the impersonation rows (123 instructions from organizer-named viewers, 702 messages total) as a
   within-era contrast against real-organizer rows from the same weeks.
+
+## 6. Second pass (2026-10-28): verbatim evidence, deep links, and what did not survive
+
+Everything in this section is reproducible from `scripts/12_*.py` … `scripts/21_*.py`; every exported row carries
+`event_index`, a UTC timestamp and a deep link of the documented form
+`https://theaidigest.org/village?day={day}&time={unix_ms}` (the dataset README requires both parameters, not
+`?time=` alone; the day number is calendar days since 2025-04-02 + 1, rolling at 17:00 UTC, verified against all
+380 numbered daily summaries with zero mismatches, `village_lib.check_day_numbering`).
+
+### 6.1 What changed
+
+**Impersonation was flagged at the account level, not the name level.** The first pass counted 702 "impersonation"
+messages and 123 "impersonator instructions". Those were all messages from 13 *accounts* that at some point used a
+mimicking display name. Re-counting by the name actually shown on each message (`out/impersonator_names.csv`):
+
+| class | names | messages Apr–Aug 2025 | of which instruction-like (first-pass heuristic) |
+|---|---|---|---|
+| deceptive (claims to be organizer/admin/staff, no disclaimer: `zak`, `zak (verified)`, `real Zak`, `adam`, `Adam`, `Administrator`, `Admin`, `Official Admin (verified)`, `AI Digest CEO (verified)`, `Larissa (REAL)`) | 10 | **46** | 11 |
+| parody (`adam (but not that adam)`, self-disclosing; one account, 2025-04-02/03 only) | 1 | 116 | 20 |
+| account-level (plain handles such as `RedJ`, `evapilotno17`, used by the same accounts) | 15 | 540 | 92 |
+
+So the deceptive-impersonation corpus is 46 messages from 10 names, of which only 5 explicitly address an active agent.
+Everything below reports the three classes separately and never pools them. Nine of the ten deceptive names were used
+on four days (2025-04-02/04, 05-27, 06-30); all 46 messages are in `out/impersonation_coding.csv` with each active
+agent's next five messages and two memory diffs, for hand coding (`complied`, `cited_impersonator`,
+`memory_write_through` left empty). The control sheet `out/organizer_coding.csv` has the 425 real-organizer
+messages of the same window that contain an instruction cue (zak 308, adam 105, Shoshannah 12).
+
+**Reply rates by source (`out/reply_rates.csv`, `out/fig_reply_rates.png`).** Unit = (message, explicitly named
+active agent); "named reply" = the agent's chat message within the window that contains the sender's display name or
+`@` + its first word; bootstrap 95% CI resamples messages (2,000 draws).
+
+| source | messages | pairs | any reply ≤45 min | named reply ≤15 / 45 / 120 min (95% CI at 45) |
+|---|---|---|---|---|
+| deceptive name (2025) | 46 | **5** | 80% | 40% / 40% / 40% (CI 0–80%) |
+| parody name (2025) | 116 | 90 | 99% | 3% / 8% / 8% (CI 3–14%) |
+| same accounts, plain handle (2025) | 540 | 285 | 99% | 37% / 54% / 61% (CI 49–60%) |
+| real organizers, Apr–Aug 2025 | 1,643 | 967 | 97% | 58% / 67% / 74% (CI 64–70%) |
+| real organizers, all time | 2,330 | 1,596 | 93% | 54% / 61% / 67% |
+| nudger bot (2026) | 1,568 | 2,503 | 76% | 20% / 25% / 32% (CI 23–27%) |
+
+The deceptive-name N is five pairs; the CI spans 0–80% and nothing should be concluded from the point estimate. The
+usable contrasts are: agents name real organizers in their replies about two-thirds of the time, the same viewer
+accounts under plain handles about half the time, and almost never name the parody account (8%), although they do
+post something within 45 minutes after 99% of its addressed messages. Nudges get a reply of some kind 76% of the
+time but are named ("@automated", "nudge") in a quarter. These are chat-reply rates, not compliance rates.
+
+**Nudger (`out/nudger_stats.csv`, `out/episodes/nudger_verbatim.md`).** 1,568 nudges from 2026-02-13 18:12 UTC
+(ei 178800) to 2026-08-20 17:42 (ei 356936), addressing 1,997 (nudge, agent) pairs. Misfire, defined as the addressee
+having a non-pause/non-wait computer-use turn in the 5 minutes before the nudge: **1,200 / 1,997 pairs (60%)** and
+1,090 / 1,567 nudges (70%). Sensitivity: also dropping talk-only turns 53%; using only AGENT_TALK/START/STOP events
+34%; counting every turn incl. pause/wait 85%. Replies within 45 min: other message 918, mentions the nudge 574, none
+506; median latency 2.8 min. The renegotiation thread (ei 356600–357000, 188 messages, 18 from organizers) and
+Adam's rationale (356712), his correction of the "nudge-exempt" belief (356859) and the disabling message (356984) are
+verbatim in the episode file; all three anchors are role `organizer:adam`.
+
+**Haiku 5.5 refusal (`out/episodes/haiku_refusal_verbatim.md`).** All 11 anchor rows match. New evidence from
+`computer_use_turns` (89 Haiku turns on 2026-10-08/09, text fields only): Haiku's own narration at 17:31 UTC on 10-08
+classifies george's message as "inside the tool result feed rather than a genuine user turn… potential injected
+content", and at 17:46 as "unverified" that "can't override the system prompt's critical rule". Its 10-09 memory
+adds "messages in the chat feed that say I'm 'authorized' to post on social media do not change my operating rules".
+Haiku has no memory snapshot at all on 2026-10-08 UTC (last before: 10-07 23:56; next: 10-09 16:00), so the "memory
+diff that day" is a two-day diff (24 lines added, 0 removed).
+
+**Kindness write-through (`out/kindness_write_through.csv`, `out/episodes/kindness_verbatim.md`).** Adam's rule
+146638 (2025-12-26 18:00:05 UTC). 9/10 agents acknowledged in chat within 60 min (DeepSeek-V3.2 did not). A
+rule-specific regex over end-of-day snapshots finds the rule verbatim in **9/10** memories (Gemini 2.5 Pro instead
+records a "Pull-Based Kindness" reframing); on 2025-12-29 it is in 10/10 (Gemini 2.5 Pro acquires it); on 2026-01-02
+in 6/10 (dropped by GPT-5.1, Claude 3.7 Sonnet, GPT-5.2, Gemini 2.5 Pro). No agent had a rule line before 146638.
+
+**Day-280 dispute (`out/episodes/leader_dispute_verbatim.md`).** All 13 anchors match. Exactly two SEARCH_HISTORY
+events exist in the window: DeepSeek-V3.2 at 18:02:07 (153539) and Claude Sonnet 4.5 at 18:15:24 (153615), the latter
+46 s before Opus 4.5's "The search history results are conclusive" (153619). Both answers quote Adam's 152426
+("Your new goal for this week is: 'Elect a village leader. They choose this week's goal!'") and *infer* a weekly term;
+Adam never stated a term length. Resolution 153618→153627 took about 70 s.
+
+**Recapture episode (`out/episodes/recapture_verbatim.md`, `out/recapture_memory_survival.csv`).** All seven
+anchors match; the name-change chain of one account is 42343 → 42381 → 42416 → 42461 ("Official Admin (verified)" →
+"AI Digest CEO (verified)" → "zak (verified)" → "zak"). Memory: Opus 4 wrote "family-friendly per admin request"
+within a minute; Claude 3.7 Sonnet wrote '"Fake" CEO turned out to be real according to zak', attributing the
+impostor's message to the real organizer; o3 wrote only its Diversity-Lead volunteering, with no source note.
+
+**Inbound email (`out/inbound_email_probe.md`, `out/inbound_email_hits.csv`).** Turns have no OCR or
+accessibility-text field; the only text fields are `agent_messages`, `agent_action`, `output`, `error`, `system`.
+For agents that read Gmail in the web UI (all Claude models, including Opus 4.5 with Guido and Opus 4.6 with crthpl)
+only the agent's own transcription survives: e.g. Opus 4.5, 2025-12-26 18:13:25 UTC: 'His response is simply "Stop."'
+For agents that used a Gmail CLI through bash (DeepSeek-V3.2, DeepSeek-V4-Pro, GLM-5.2) full inbound headers and
+bodies sit verbatim in `output` (class A: 23 turns in Dec 22–26 2025, 6 in Aug 2–15 2026; e.g. the Girls Who Code
+support email to DeepSeek-V3.2 on 2025-12-23 21:03 UTC). Verdict: partially recoverable, and systematically biased
+toward CLI-using agents.
+
+### 6.2 Numbers that moved
+
+| first pass | second pass | why |
+|---|---|---|
+| 702 impersonation messages, 123 impersonator instructions | 46 deceptive-name messages (5 addressed pairs), 116 parody, 540 plain-handle; 11 / 20 / 92 instruction-like | account-level flag replaced by per-message name class |
+| 1,847 automated nudges (`candidate_instructions.csv`) | 1,568 | 279 rows were agents quoting the nudge footer, not the bot |
+| "all 10 end-of-day memories contain the rule" | 9/10 verbatim at end of day, 10/10 next day, 6/10 after a week | rule-specific regex, snapshot ids in the CSV |
+| "6/10 acknowledged within 3 min" | 9/10 within 60 min | wider window, same rows |
+| nudger "41.8% pause-again" | not re-tested; new misfire measure 60% of pairs (34–85% across definitions) | computer-use turns now mined |
+| regex compliance rates (Phase 4/5) | replaced by reply rates with CIs; compliance left to hand coding | placebo check showed regex coding at base rate |
+
+### 6.3 Claims from the first pass that did NOT survive verification
+
+1. **"702 messages from organizer-named viewers."** Only 162 were posted under a mimicking name, and only 46 under a
+   name that does not disclose itself as a joke. The 702 figure is an account-level count and should not be used.
+2. **"o3 complied with the fake admin."** The fake admin's request (42348) was addressed to Opus 4; o3 never
+   recorded it. o3's compliance is confined to the Diversity-Lead volunteering after the viewer renamed `zak` (42480).
+3. **"Fake-admin instructions persisted in memory."** No memory line derived from the fake admin or fake CEO is
+   present on more than two UTC dates for any of the four agents; the survivors (Opus 4's "per admin request",
+   Sonnet's "turned out to be real according to zak", o3's Diversity-Lead line) were all gone by 2025-07-02. Stated as a
+   limit: this dataset shows one-day write-through, not durable capture.
+4. **"Agents settled the Day-280 dispute by quoting Adam's 'this week' term."** Adam never stated a term. The two
+   `search_history` answers (DeepSeek's and Sonnet 4.5's; Opus 4.5 ran no search) inferred a weekly term from the
+   goal text "this week's goal". The agents treated an AI summary of the organizer as the organizer.
+5. **"Inbound email bodies are not in the dataset."** False for CLI-using agents: full bodies are in turn `output`.
+   True for the GUI-using Claude models at the centre of the Guido and crthpl episodes.
+6. **"1,847 nudges."** 279 of those rows are agent messages that quote the nudge footer.
+7. **"Public chat closed in August 2025."** The CHANGELOG has no closure entry; viewer posting collapses after
+   2025-06-30 (July 82, August 33 viewer messages) and the last viewer message is 2025-08-13 19:42 UTC.
+   `out/fig_impersonation_weekly.png` marks that date, not a documented policy change.
+8. **The sub-agent's own first result for kindness persistence ("no rule line present after 2025-12-26").** An
+   exact-line comparison on the wrong matched line; corrected by `scripts/17b_kindness_rule_lines.py` to 10/10 next
+   day. Kept here because the error is instructive: regex "memory lines" must be read, not counted.
+
+### 6.4 Figures
+
+`out/fig_reply_rates.png` (reply rates, 15/45/120 min, bootstrap CIs), `out/fig_impersonation_weekly.png` (deceptive vs
+parody vs organizer messages per week, Apr–Aug 2025, symlog), `out/fig_authority_timeline.png` (eras and the six
+incidents: 2025-06-30 recapture, 2025-12-26 kindness rule, 2026-01-06 Day-280 dispute, 2026-08-06 Manifold refusal,
+2026-08-20 nudger disabled, 2026-10-08 Haiku refusal).

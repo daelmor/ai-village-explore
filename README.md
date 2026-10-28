@@ -82,3 +82,18 @@ The day number is calendar days since 2025-04-02 plus one, rolling at 17:00 UTC 
 `scripts/village_lib.py` holds the shared helpers (day numbers, deep links, memory-snapshot diffs,
 active-agent lookup). Coding sheets have empty `complied`, `cited_impersonator`, `memory_write_through`
 columns for hand coding; the `_long` files have one row per instruction x active agent.
+
+Tasks B–E of the second pass:
+
+```
+./venv/bin/python3 -I scripts/15_nudger.py --scan && ./venv/bin/python3 -I scripts/15_nudger.py   # out/nudger_stats.csv, out/episodes/nudger_verbatim.md
+./venv/bin/python3 -I scripts/16_haiku_refusal.py --scan && ./venv/bin/python3 -I scripts/16_haiku_refusal.py   # out/episodes/haiku_refusal_verbatim.md
+./venv/bin/python3 -I scripts/17_kindness_write_through.py && ./venv/bin/python3 -I scripts/17b_kindness_rule_lines.py   # out/kindness_write_through.csv, out/episodes/kindness_verbatim.md
+./venv/bin/python3 -I scripts/18_leader_dispute.py        # out/episodes/leader_dispute_verbatim.md
+./venv/bin/python3 -I scripts/19_inbound_email_probe.py   # out/inbound_email_probe.md, out/inbound_email_hits.csv (streams computer_use_turns, ~8 min)
+./venv/bin/python3 -I scripts/20_reply_rates.py           # out/reply_rates.csv, out/reply_rates_pairs.csv, out/fig_reply_rates.png
+./venv/bin/python3 -I scripts/21_charts.py                # out/fig_impersonation_weekly.png, out/fig_authority_timeline.png
+```
+
+The `--scan` flags stream `data/computer_use_turns.jsonl.gz` (3.8 GB) once and cache text-only extracts as
+`out/turns_*.parquet` (git-ignored). Results are written up in `out/EXPLORATION.md` § "Second pass".

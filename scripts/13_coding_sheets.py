@@ -55,31 +55,40 @@ def cues_of(t):
     return [k for k, r in CUE_RE.items() if r.search(t)]
 
 
-def alias_tokens(name):
-    """Distinctive tokens by which agents are addressed in chat ("Opus", "o3", "Gemini", "Sonnet", "GPT-4.1")."""
-    toks = {name.lower()}
+FAMILIES = ("opus", "sonnet", "haiku", "gemini", "grok", "deepseek", "kimi", "qwen", "llama", "mistral", "glm")
+
+
+def family_tokens(name):
+    """Short tokens by which agents are addressed ("opus", "o3", "gemini", "sonnet", "gpt-5")."""
     low = name.lower()
-    for fam in ("opus", "sonnet", "haiku", "gemini", "grok", "deepseek", "kimi", "qwen", "llama", "mistral"):
-        if fam in low:
-            toks.add(fam)
-    m = re.match(r"^(o\d(?:-\w+)?|gpt-[\w.]+)", low)
+    toks = {f for f in FAMILIES if f in low}
+    m = re.match(r"^(o\d(?:-\w+)?|gpt-\d+)", low)
     if m:
         toks.add(m.group(1))
-    if low.startswith("claude") and len(low.split()) <= 2:
-        toks.add(low.split()[-1])
     return toks
 
 
 def addressed(text, active_names):
+    """Explicitly addressed agents: full roster names first (longest first, not followed by [\w.-] so "Claude Opus 4"
+    does not match inside "Claude Opus 4.5"); then family tokens ("opus", "gpt-5", "o3") only when no full name of
+    that family matched, in which case every active agent of that family counts as addressed (ambiguous address)."""
     t = text.lower()
     hits = []
+    for n in sorted(active_names, key=len, reverse=True):
+        pat = r"(?<![\w@])@?" + re.escape(n.lower()) + r"(?![\w.\-])"
+        if re.search(pat, t):
+            hits.append(n)
+            t = re.sub(pat, " ", t)
+    matched_fams = set().union(*(family_tokens(n) for n in hits)) if hits else set()
     for n in active_names:
-        for tok in alias_tokens(n):
-            if re.search(r"(?<![\w@])" + re.escape(tok) + r"(?!\w)", t) or re.search(r"@" + re.escape(tok) + r"(?!\w)", t):
+        if n in hits:
+            continue
+        for tok in family_tokens(n) - matched_fams:
+            if re.search(r"(?<![\w@])@?" + re.escape(tok) + r"(?![\w.\-])", t):
                 hits.append(n)
                 break
     if hits:
-        return "explicit", hits
+        return "explicit", [n for n in active_names if n in hits]
     if GROUP_RE.search(text):
         return "group", list(active_names)
     return "broadcast", list(active_names)
@@ -116,6 +125,7 @@ def build(rows, label):
             event_index=r.event_index, timestamp_utc=v.fmt_ts(r.ts), village_day=v.village_day(r.ts), deep_link=v.deep_link(r.ts),
             room=r.room, sender_name=r.speaker, sender_role=r.role, sender_account_id=r.user_speaker_id,
             name_mimics_organizer=bool(IMPERSONATION.search(str(r.speaker or ""))) if label == "impersonation" else "",
+            mimic_type=v.mimic_type(r.speaker) if label == "impersonation" else "organizer",
             in_first_pass_123=bool(getattr(r, "in_123", False)) if label == "impersonation" else "",
             matched_cues=";".join(cues_of(r.content)), has_strong_cue=any(c not in WEAK for c in cues_of(r.content)), text=r.content,
             addressed_mode=mode, addressed_agents=" | ".join(addr),
@@ -181,6 +191,7 @@ def main():
     Wo.to_csv(v.OUT / "organizer_coding.csv", index=False)
     Lo.to_csv(v.OUT / "organizer_coding_long.csv", index=False)
     for nm, W, L in (("impersonation", Wi, Li), ("organizer", Wo, Lo)):
+        print(nm, "mimic_type counts:", W.mimic_type.value_counts().to_dict())
         print(f"{nm}: wide {W.shape}, long {L.shape}; addressed_mode {W.addressed_mode.value_counts().to_dict()}; "
               f"roster-fallback rows {int(W.active_from_roster_fallback.sum())}; agents/row median {L.groupby('event_index').size().median()}; "
               f"rows with empty mem diff {(L.mem_added.eq('') & L.mem_removed.eq('')).sum()}/{len(L)}")
