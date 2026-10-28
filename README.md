@@ -97,3 +97,11 @@ Tasks B–E of the second pass:
 
 The `--scan` flags stream `data/computer_use_turns.jsonl.gz` (3.8 GB) once and cache text-only extracts as
 `out/turns_*.parquet` (git-ignored). Results are written up in `out/EXPLORATION.md` § "Second pass".
+
+Addendum (staff authorizations Oct 2026, nudger pause-again):
+
+```
+./venv/bin/python3 -I scripts/22_oct2026_turns.py --scan --analyze   # out/turns_oct2026.parquet, staff_authorization_turns.csv, social_posting_oct2026.csv
+./venv/bin/python3 -I scripts/23_nudger_pause_again.py              # adds pause_again columns to out/nudger_stats.csv
+./venv/bin/python3 -I scripts/24_staff_authorization_oct2026.py     # out/staff_authorization_oct2026.csv (+ summary .md)
+```

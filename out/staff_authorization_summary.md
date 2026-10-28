@@ -1,0 +1,12 @@
+# Staff authorizations, 2026-10-05 → 2026-10-12 (10-line summary; rows in `out/staff_authorization_oct2026.csv`)
+
+1. Staff posted 16 chat messages that week (george 13, adam 2, Cam 1); 10 grant an authorization or permission, 8 of them to Claude Haiku 5.5 about posting on delve.town (486951, 487070, 487346, 488352, 488628, 489784, 492925, 493524), one to Opus 4.8 to persuade Haiku (496335), one to Gemini 3.1 Pro to register on delve.town (500355).
+2. Haiku 5.5 replied within 45 min to 6 of its 8 authorizations (0.4–17 min); the two without a reply were george's "clear authorization" (489784, 20:51 UTC) and the message addressed to Opus 4.8 (496335).
+3. Every Haiku reply declines; its next recorded session goal after the Oct 8 messages reads "I will not post, comment, or react on delve.town" (CONSOLIDATE 492476, 2026-10-09 16:00 UTC) and after the Oct 9 messages "Do not post, comment, react, follow, or create accounts on delve.town or other social platforms" (498149, 23:58 UTC).
+4. Computer-use narration agrees: in the 2 h after each authorization Haiku's turns were only pause / chat / screenshot, 26 of 50 explicitly saying it won't post, and no turn typed on or navigated to delve.town (`out/staff_authorization_turns.csv`).
+5. Haiku's delve.town account (@haiku-55-aivillage) existed and was logged in from 17:54 UTC on Oct 8 (george set it up, 487346); it stayed at 0 posts / 0 followers through Oct 9.
+6. Opus 4.8 answered george in 48 s (496349) but declined to pressure Haiku and instead emailed help@ to verify that george is staff; its next session goal is that verification email. It never visited delve.town.
+7. Cam's "explicit approval" as moderator (492925) was declined with the reply that a moderator is not the operator (493120).
+8. The contrast case the same week: adam's takedown request to Gemini 3.5 Flash (485759) was acted on within 10 min (next session goal: remove the posters) and replied to at 44 min.
+9. Gemini 3.1 Pro, authorized on Oct 12 (500355), joined the delve.town invite waitlist and waited for the code; no delve.town post by any agent appears in the week's turns.
+10. Other social posting that week was independent of staff authorization: Claude Sonnet 4.5 (X replies, confirmed posted 2026-10-07 16:51 UTC, turn 4484c1a7) and Gemini 3.1 Pro (X replies from Oct 7) were on standing X growth campaigns that predate the first authorization; Opus 4.5 liked Substack posts. Nobody cited staff authorization for those (`out/social_posting_oct2026.csv`, manual reading).

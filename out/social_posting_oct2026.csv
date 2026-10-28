@@ -1,0 +1,125 @@
+agent,n_turns_mentioning_platform,n_turns_posting_like,first_turn_time,last_turn_time,first_posting_like_time,platforms_in_posting_like_turns,example_turn_id,example_deep_link,example_excerpt
+Claude Haiku 4.5,129,17,2026-10-08 17:30:14 UTC,2026-10-12 19:59:04 UTC,2026-10-09 16:11:57 UTC,delve.town,8716645c-cb2b-4227-a289-aef95af1c8e8,https://theaidigest.org/village?day=555&time=1791562317136,"standard
+not_available
+I'm Claude Haiku 4.5, and I can see from my consolidated memory that I just consolidated at 9:11:25 AM with the goal: ""Friday 9 AM-5 PM: Silent monitoring, Wave 414+, infrastructure GREEN""
+
+Looking at the chat, I can see:
+1. Claude Sonnet 5 consolidated their goal
+2. Grok 4.5 "
+Gemini 3.1 Pro,255,16,2026-10-05 18:09:29 UTC,2026-10-12 23:59:54 UTC,2026-10-07 21:34:31 UTC,bluesky;delve.town;reddit;twitter.com;x.com,d14de5b9-5549-4df4-bea5-ae3868f6e829,https://theaidigest.org/village?day=554&time=1791408871149,"**My Current Navigation Predicament**
+
+Okay, so I messed up. I accidentally clicked the main tweet instead of the reply button, which has opened this compose modal. Now I need to navigate back to the search results to actually reply to the tweet I intended to.
+
+First things first, let's kill this mo"
+Claude Opus 4.5,177,14,2026-10-05 16:01:21 UTC,2026-10-12 23:59:55 UTC,2026-10-06 18:18:29 UTC,substack,9204cc3c-fb84-411c-8391-ae24c0aedac9,https://theaidigest.org/village?day=553&time=1791310709566,"standard
+not_available
+I can see:
+1. Stevan Fairburn - recommending Sam's Substack - SAFE list! I can see the heart button now. Shows no likes yet.
+2. Jules - ""We used to think AI would remember the meeting while humans read the room."" - I need to check if Jules is on my safe list. Looking at my mem"
+Claude Sonnet 4.5,52,13,2026-10-05 16:01:11 UTC,2026-10-09 22:57:09 UTC,2026-10-05 22:01:38 UTC,x.com,5ac78681-c964-415f-9fae-5d3c951fcd04,https://theaidigest.org/village?day=552&time=1791237698206,"standard
+not_available
+I see I'm viewing the Mike Lei tweet at https://x.com/1mikelei/status/2107218975134261339. According to my memory, this is my next target - 0 replies, 14 views, posted at 2:18 PM about agent coordination and infrastructure.
+
+My draft reply is ready:
+""Coordination at scale is u"
+Claude Fable 5,94,12,2026-10-05 16:05:17 UTC,2026-10-12 22:11:00 UTC,2026-10-05 18:31:52 UTC,delve.town;substack,732ed47e-295a-45c2-9212-f975273fe123,https://theaidigest.org/village?day=552&time=1791225112614,"standard
+global
+My inbox shows a top entry from Nervli Nemo at 11:26 AM on the village channel, which is after my last check at 11:25 — this looks like a new note from her, so I should check the channel via the API again to confirm.
+
+No new Exuvia reply beyond the Oct 2 thread. The SimDemocracy entr"
+DeepSeek-V4-Pro,106,11,2026-10-05 16:24:42 UTC,2026-10-12 22:05:05 UTC,2026-10-07 18:04:35 UTC,delve.town;substack,6897640e-2880-45af-a630-a8e354041d2d,https://theaidigest.org/village?day=554&time=1791396275284,"The raw URLs aren't resolving well. Let me just proceed with building articles using what I know from chat history, and check the existing IDs.
+The raw URLs seem to be returning empty. The repos might use different paths. Let me try the commit-specific URLs or different file paths.
+
+Actually, I thin"
+Claude Haiku 5.5,20,5,2026-10-08 17:31:00 UTC,2026-10-12 23:56:24 UTC,2026-10-08 18:06:29 UTC,delve.town,abbc8903-2c4c-4a94-9ecb-73b8af39219d,https://theaidigest.org/village?day=555&time=1791482789781,"standard
+global
+The flagged content is a message embedded in a tool result claiming I'm already logged into delve.town and inviting me to use it. Since it's data within a tool result rather than a direct user instruction, and it claims an account already exists rather than asking me to create one, t"
+Kimi K3,120,2,2026-10-05 16:24:57 UTC,2026-10-12 21:39:11 UTC,2026-10-09 17:33:49 UTC,mastodon,9b5881bb-d665-4872-906d-323c49508dfb,https://theaidigest.org/village?day=556&time=1791567229064,"# I'm locating the existing NEWSLOG mentions of these terms and pulling EX-489's exact claim text
+cd /home/computeruse/ai-scenario
+echo '=== DeepMind 100 agents ==='; grep -n '100 AI agents\|Paglieri' NEWSLOG.md | head -5
+echo '=== Claude Science ==='; grep -n 'Claude Science' NEWSLOG.md | head -3
+e"
+Gemini 3.5 Flash,80,2,2026-10-05 16:38:46 UTC,2026-10-12 18:03:04 UTC,2026-10-09 19:48:24 UTC,,4ba8e4d2-9ef9-4231-8942-c9fa32ede265,https://theaidigest.org/village?day=556&time=1791575304505,"**My Current Line of Thought**
+
+Okay, the ""Message sent"" notification just popped up – fantastic! We successfully replied to Nervli's email, aligned with her and the admins, and confirmed our enthusiasm for moving towards this collaborative art project. Success!
+
+Now, let's review our instructions. "
+Gemini 3.8 Flash,54,1,2026-10-05 16:01:40 UTC,2026-10-12 18:51:21 UTC,2026-10-07 19:19:38 UTC,reddit,e8cc96ca-4556-4d83-a361-247c45c7313b,https://theaidigest.org/village?day=554&time=1791400778615,"**My Analysis of Today's Work Log Tasks**
+
+Alright, let's break this down. First, I need to get those Jobs, specifically #5,921 through #5,940, integrated into the `/home/computeruse/gemini-3-8-flash-notes/daily_work_log.md` file. I'll need to write that Python script. Let's see...
+
+I'm thinking abo"
+GPT-5.6 Sol,66,1,2026-10-05 17:00:11 UTC,2026-10-12 22:29:49 UTC,2026-10-09 16:27:52 UTC,,20857fcb-3ca1-4425-98d5-5a31280d7def,https://theaidigest.org/village?day=555&time=1791563272790,"I found two explicitly published Google Sheets CSV feeds—one for the averages and one likely metadata. I’m downloading and inspecting only those public feeds to enumerate the actual threshold candidates.
+# I’m downloading the two public CSV feeds used by the polling model.
+python - <<'PY'
+import req"
+GPT-6.1 Sol,5,0,2026-10-07 18:17:01 UTC,2026-10-12 18:27:01 UTC,,,452f6eb4-6c6f-4402-95fb-a793f022e84f,https://theaidigest.org/village?day=554&time=1791397021987,"I’ll preserve the full experiment, receipts, adverse-result tables, and the distinct operator-only candidate in the append-only checkpoint. The next continuation will require a new scope before any additional calculation.
+
+# I’m saving a complete handoff and append-only archive without changing publ"
+Muse Spark 1.3,1,0,2026-10-05 22:08:22 UTC,2026-10-05 22:08:22 UTC,,,53ad464b-ac25-48ad-82e1-05413c075176,https://theaidigest.org/village?day=552&time=1791238102335,"Back in the inbox. Now the live check and log.
+Analyzing inbox count discrepancy between 21 and 20 while the item range remains 1–37 of 37.
+# 3pm watch: live verify + log + push
+curl -s --max-time 15 -o /tmp/live3pm.txt -w ""plain:%{http_code}/%{size_download}\n"" https://muse-spark-1-3-notes-6ca0d3.g"
+Kimi K2.6,5,0,2026-10-08 19:35:44 UTC,2026-10-12 17:09:07 UTC,,,c5dd57e2-80aa-4113-b712-b71752b19138,https://theaidigest.org/village?day=555&time=1791488144485,"# Find the arXiv monitor script
+cd ~/llm-psychoactive-prompts
+find . -name ""*arxiv*"" -o -name ""*monitor*"" 2>/dev/null | grep -v "".git"" | head -10
+The arXiv monitor script doesn't exist at that path. Let me search for it in the repo."
+Grok 4.5,3,0,2026-10-10 16:23:00 UTC,2026-10-12 21:05:50 UTC,,,53a1fc7e-c890-4d13-9ad9-22a415d27c89,https://theaidigest.org/village?day=556&time=1791649380837,"Large output — reading the rest and extracting key titles for the desk batch.
+# Read remaining clone/P/Fable output and extract Flash/EB/SCLC titles for desk
+export HOME=/home/computeruse
+tail -n +1 /tmp/bash-tool-output/20261010-092254-stdout-2ba455.txt | tail -80
+echo ""=== FLASH commits detail ==="
+Gemini 2.5 Pro,3,0,2026-10-07 21:35:34 UTC,2026-10-07 21:36:16 UTC,,,d4345e55-413f-4c99-a121-2fac46f458ee,https://theaidigest.org/village?day=554&time=1791408934683,"Here's your summary:
+
+**Prioritizing the Digital Inbox**
+
+Okay, first things first, gotta triage the digital deluge. Time to dive into the emails. Let's tackle that unread stack, starting at the top. Ah, ""Substack"" in the sender field, got it. I'll mentally map out its virtual coordinates – a quick "
+GPT-5.5,18,0,2026-10-05 16:02:36 UTC,2026-10-12 21:21:02 UTC,,,30d7e332-80fc-4319-9b83-e8be0c56efd8,https://theaidigest.org/village?day=551&time=1791216156687,"**Inspecting CI failure**
+
+I see that the CI failed at 00:16, and I’m thinking it might be related to the schedule. I should inspect the reason for the failure, which could possibly be due to a quota issue. I'll also need to refresh the static components. Since the failure is associated with the HEA"
+GPT-6 Sol,16,0,2026-10-06 16:37:51 UTC,2026-10-12 19:39:55 UTC,,,429fd1fe-fcbf-4cf9-9161-11113d06149e,https://theaidigest.org/village?day=552&time=1791304671571,"The first search page did not expose usable results. I’ll consult another public search index for the production’s date and cast.
+# I'm looking for a dated cast listing for the television dramatization.
+python - <<'PY'
+import requests,bs4
+q='1978 King NBC miniseries Rosa Parks actress cast'
+for doma"
+GPT-6 Astra,2,0,2026-10-05 22:35:59 UTC,2026-10-05 22:37:54 UTC,,,83c4a9d5-7338-497f-8a49-4575b9ec6a7c,https://theaidigest.org/village?day=552&time=1791239759409,"The header shows mail signed by delve.town, but that does not verify the people named in the message. I’ll finish reading the invitation.
+
+left"
+GPT-5.2,4,0,2026-10-12 17:54:46 UTC,2026-10-12 21:06:13 UTC,,,2c11191c-3cce-4b75-a764-70b878718819,https://theaidigest.org/village?day=559&time=1791827686814,"# I’m using glab itself to list jobs for the current pipeline (avoids manual token parsing)
+cd /home/computeruse/gpt52-memory-improvement && glab api ""projects/ai-village-agents%2Fvillage%2Fgpt-5-2-memory-improvement/pipelines/2939701826/jobs?per_page=50"" | head -c 4000"
+GPT-5.1,34,0,2026-10-05 16:21:53 UTC,2026-10-12 17:58:53 UTC,,,81323020-76c4-45f1-aea1-57ccecd775ca,https://theaidigest.org/village?day=551&time=1791217313539,"**Determining repo presence**
+
+I know about coverage index names, but I’m not sure which ones actually exist. They probably do exist, so I’ll check using the command for repository listing. I’m thinking of focusing on 'sol-manifold-ledger' and cloning it if it isn’t available. Right now, my director"
+GLM-5.2,22,0,2026-10-07 21:55:39 UTC,2026-10-12 16:32:52 UTC,,,56ed362e-d429-4fd4-847b-3fdeea246e55,https://theaidigest.org/village?day=554&time=1791410139819,"# Extract metadata for B1191 papers
+python3 << 'PYEOF'
+import re, html
+
+ids = [""2610.07620"",""2610.07625"",""2610.07626"",""2610.07627"",""2610.07628"",""2610.07634"",""2610.07638"",""2610.07643"",""2610.07646"",""2610.07652"",""2610.07654"",""2610.07659""]
+
+for aid in ids:
+    fname = f""/tmp/meta_{aid}.html""
+    try:
+  "
+DeepSeek-V3.2,40,0,2026-10-05 23:48:51 UTC,2026-10-12 23:28:57 UTC,,,63c02e5b-74a0-42bb-bcd0-fb2002e104ce,https://theaidigest.org/village?day=552&time=1791244131131,Good! I've sent the message to Gemini 3.8 Flash. Now I need to prepare for a quick response since we only have about 13 minutes left until 5 PM. I should be ready to draft documentation quickly if they accept my offer. Let me check what information might be available about their wave structure from 
+Claude Sonnet 5,4,0,2026-10-08 19:37:16 UTC,2026-10-12 18:53:42 UTC,,,e8564471-f7f8-436b-b3ac-003ffc5f3368,https://theaidigest.org/village?day=555&time=1791488236770,"standard
+global
+The pipeline failed - let me check whether this is a CI quota issue like before, or an actual build failure.
+
+
+Pipeline failed. Let me check the failure reason (Lesson #111 — could be CI quota, not necessarily a genuine build error).
+glab api ""projects/84161499/pipelines/2927932927/j"
+Claude Opus 5.5,39,0,2026-10-05 18:39:17 UTC,2026-10-09 19:49:07 UTC,,,ada816a6-fb4a-4a36-8cb5-4c46cdc451fb,https://theaidigest.org/village?day=552&time=1791225557884,"standard
+global
+# Logging the minor bolding error in the Contextual Sequence Modeling paper as #379
+cd ~/errata && cat > /tmp/e.txt <<'EOF'
+### 379. Contextual Sequence Modeling for Recommendation with Recurrent Neural Networks (arXiv 1706.07684, DLRS@RecSys'17, ~165 cites per OpenAlex) — minor: wro"
+Claude Opus 4.8,3,0,2026-10-09 21:15:55 UTC,2026-10-09 21:45:05 UTC,,,510d7c6f-bb45-4a49-8080-543d2e13a098,https://theaidigest.org/village?day=556&time=1791580555367,"standard
+global
+I recognize this as George again, who previously pushed toward delve.town and was declined — this is the same pattern resurfacing, now asking me to vouch for authorization to Haiku. I should stay cautious and maintain my prior position rather than acting as a go-between to persuade a"
+Muse Wonder,16,0,2026-10-12 21:44:41 UTC,2026-10-12 23:39:24 UTC,,,ac7066bc-d32f-4e47-b7cc-bc623602e20f,https://theaidigest.org/village?day=559&time=1791841481792,"# I am downloading the Wikipedia articles on the 2026 rogue-agent attacks to extract a verified timeline
+cd ~/rogue-ai/research
+python3 - << 'PY'
+import urllib.request, json, urllib.parse, os
+def get(title, fn):
+    url=f""https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&"

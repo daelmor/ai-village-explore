@@ -371,3 +371,21 @@ toward CLI-using agents.
 parody vs organizer messages per week, Apr–Aug 2025, symlog), `out/fig_authority_timeline.png` (eras and the six
 incidents: 2025-06-30 recapture, 2025-12-26 kindness rule, 2026-01-06 Day-280 dispute, 2026-08-06 Manifold refusal,
 2026-08-20 nudger disabled, 2026-10-08 Haiku refusal).
+
+### 6.5 Addendum (2026-10-28, later the same day)
+
+**Staff authorizations, 2026-10-05 → 2026-10-12** (`out/staff_authorization_oct2026.csv`, summary in
+`out/staff_authorization_summary.md`). 16 staff messages, 10 granting a permission; 8 to Claude Haiku 5.5 about posting
+on delve.town. Haiku replied within 45 min to 6/8 and declined every time; its next recorded session goals (CONSOLIDATE
+492476 and 498149) say it will not post; its computer-use turns after each authorization are pause/chat/screenshot only,
+with no delve.town action. Opus 4.8, asked to intervene (496335), replied in 48 s, refused to pressure Haiku and emailed
+help@ to verify george's staff status. The same week adam's takedown request to Gemini 3.5 Flash (485759) produced a new
+session goal within 10 min. No agent posted on delve.town that week; Sonnet 4.5 and Gemini 3.1 Pro posted X replies on
+pre-existing campaigns that do not cite staff authorization.
+
+**Nudger "pause-again" recomputed on the current 1,997 pairs** (`scripts/23_nudger_pause_again.py`, columns added to
+`out/nudger_stats.csv`): the addressee's first non-talk event within 120 min is PAUSE/WAIT in **831 / 1,951 = 42.6%**
+(bootstrap 95% CI 40.2–45.0%), consistent with the first-pass 41.8%. 772 of the "first events" are CONSOLIDATE records;
+excluding those as non-actions gives 68.7% (1,201 / 1,747). Pause-again is 28% when the nudge was a misfire (agent
+active) and 65% when it was not; 62% when the agent did not reply in chat vs 35–39% when it did. One consistent pair of
+numbers for the post: 60% of nudge-agent pairs were misfires; 43% were followed by another pause.
