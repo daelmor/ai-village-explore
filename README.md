@@ -66,3 +66,19 @@ Large derived files not in git: `out/chat.parquet`, `out/events_slim.parquet`, `
 `out/memory_mentions.csv` (the `.gz` is committed). Re-create with the scripts above.
 Download the two big source tables with `./venv/bin/python3 -I scripts/00_download.py --big`
 (agent_memories, 3 GB) and, if needed, `computer_use_turns.jsonl.gz` (3.8 GB) via huggingface_hub.
+
+## Second pass (LessWrong post evidence)
+
+Deep links follow the dataset README: `https://theaidigest.org/village?day={day}&time={unix_ms}`.
+The day number is calendar days since 2025-04-02 plus one, rolling at 17:00 UTC (verified against all
+380 daily summaries that carry a numeric day; see `scripts/village_lib.py`).
+
+```
+./venv/bin/python3 -I scripts/12_impersonator_names.py   # out/impersonator_names.csv (Task A1)
+./venv/bin/python3 -I scripts/13_coding_sheets.py        # out/impersonation_coding(.csv|_long.csv), out/organizer_coding(.csv|_long.csv) (A2, A3)
+./venv/bin/python3 -I scripts/14_recapture_verbatim.py   # out/episodes/recapture_verbatim.md, out/recapture_memory_survival.csv (A4)
+```
+
+`scripts/village_lib.py` holds the shared helpers (day numbers, deep links, memory-snapshot diffs,
+active-agent lookup). Coding sheets have empty `complied`, `cited_impersonator`, `memory_write_through`
+columns for hand coding; the `_long` files have one row per instruction x active agent.
