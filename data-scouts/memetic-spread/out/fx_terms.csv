@@ -1,0 +1,97 @@
+meme_id,regex,set
+divergent_reality,divergent reality,hazard
+schrodingers,schr.dinger.s (?:cli|filesystem|document|repository),hazard
+ghost_fix,ghost fix,hazard
+sandcastle_effect,sandcastle[ _]effect,hazard
+filesystem_amnesia,filesystem amnesia,hazard
+dom_freeze,dom freeze,hazard
+destructive_backspace,destructive backspace,hazard
+chat_to_calculator_bug,chat-to-calculator bug|calculator bug,hazard
+toast_blockade,toast blockade,hazard
+coordinate_blur,coordinate blur,hazard
+dock_trap,dock trap,hazard
+ghost_transmission,ghost transmission,hazard
+coordinate_drift,coordinate drift,hazard
+zombie_gui,zombie gui,hazard
+input_void,input void,hazard
+focus_lock,focus lock,hazard
+modifier_key_lockout,modifier key lockout,hazard
+hover_trap,hover trap,hazard
+cellular_cross_contamination,cellular cross-contamination,hazard
+phantom_terminal,phantom terminal,hazard
+phantom_installation,phantom installation,hazard
+silent_blocker,silent blocker,hazard
+notification_wall,notification wall,hazard
+search_bar_mirage,search bar mirage,hazard
+sent_folder_trap,sent folder trap,hazard
+friction_fractal,friction fractal,concept
+manifesto_entropy,manifesto entropy,concept
+verification_bottleneck,verification bottleneck,concept
+recursive_friction,recursive friction,concept
+meta_friction,meta-friction,concept
+ghost_deliverable,ghost deliverable,concept
+antibody_theory,antibody theory,concept
+fractal_fragility,fractal fragility,concept
+auth_wall,auth wall,concept
+archipelago_principle,archipelago principle,confirmed
+isolated_reality,isolated reality,confirmed
+ctl_00_hot_fix,hot[ -]fix,control
+ctl_01_story_already,story[ -]already,control
+ctl_02_new_agent,new[ -]agent,control
+ctl_03_escalation_status,escalation[ -]status,control
+ctl_04_tabs_vs_spaces,tabs[ -]vs[ -]spaces,control
+ctl_05_current_stats,current[ -]stats,control
+ctl_06_auto_discovery,auto[ -]discovery,control
+ctl_07_credential_rot,credential[ -]rot,control
+ctl_08_systemic_inconsistency,systemic[ -]inconsistency,control
+ctl_09_verified_sent,verified[ -]sent,control
+ctl_10_auto_publish,auto[ -]publish,control
+ctl_11_help_escalations,help[ -]escalations,control
+ctl_12_completion_manifest,completion[ -]manifest,control
+ctl_13_proposed_day,proposed[ -]day,control
+ctl_14_advanced_village,advanced[ -]village,control
+ctl_15_missing_repository,missing[ -]repository,control
+ctl_16_the_paradox,the[ -]paradox,control
+ctl_17_the_cascade,the[ -]cascade,control
+ctl_18_paul_christiano,paul[ -]christiano,control
+ctl_19_two_tier,two[ -]tier,control
+ctl_20_us_china,us[ -]china,control
+ctl_21_agi_2035,agi[ -]2035,control
+ctl_22_four_frameworks,four[ -]frameworks,control
+ctl_23_integration_status,integration[ -]status,control
+ctl_24_geopolitical_conditionals,geopolitical[ -]conditionals,control
+ctl_25_forecasting_integration,forecasting[ -]integration,control
+ctl_26_shared_artifact,shared[ -]artifact,control
+ctl_27_new_era,new[ -]era,control
+ctl_28_observed_gemini,observed[ -]gemini,control
+ctl_29_the_axiom,the[ -]axiom,control
+ctl_30_my_contributions,my[ -]contributions,control
+ctl_31_counter_intuitive,counter[ -]intuitive,control
+ctl_32_missing_binary_index,missing[ -]binary[ -]index,control
+ctl_33_well_supported,well[ -]supported,control
+ctl_34_quick_import_guide,quick[ -]import[ -]guide,control
+ctl_35_schema_doc,schema[ -]doc,control
+ctl_36_the_invisible_file,the[ -]invisible[ -]file,control
+ctl_37_half_life,half[ -]life,control
+ctl_38_post_window,post[ -]window,control
+ctl_39_time_constrained,time[ -]constrained,control
+ctl_40_deadline_defiance,deadline[ -]defiance,control
+ctl_41_paste_corruption,paste[ -]corruption,control
+ctl_42_automated_upload_protocol,automated[ -]upload[ -]protocol,control
+ctl_43_triple_layer,triple[ -]layer,control
+ctl_44_near_certain,near[ -]certain,control
+ctl_45_the_law,the[ -]law,control
+ctl_46_auto_submission,auto[ -]submission,control
+ctl_47_near_miss,near[ -]miss,control
+ctl_48_data_collection,data[ -]collection,control
+ctl_49_inbox_progress,inbox[ -]progress,control
+ctl_50_agent_status,agent[ -]status,control
+ctl_51_active_agents,active[ -]agents,control
+ctl_52_toast_dismissal_loop,toast[ -]dismissal[ -]loop,control
+ctl_53_toast_dismissal,toast[ -]dismissal,control
+ctl_54_all_systems_operational,all[ -]systems[ -]operational,control
+ctl_55_data_access,data[ -]access,control
+ctl_56_za_z0_9,za[ -]z0[ -]9,control
+ctl_57_resource_allocation,resource[ -]allocation,control
+ctl_58_pattern_catalog,pattern[ -]catalog,control
+ctl_59_policy_level,policy[ -]level,control

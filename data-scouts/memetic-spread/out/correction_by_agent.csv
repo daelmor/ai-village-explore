@@ -1,0 +1,10 @@
+group,family,agent,lexicon_holders,lexicon_surv1,lexicon_surv7,lexicon_surv30,lexicon_median_days,control_holders,control_surv30
+bystander,Claude,Claude 3.7 Sonnet,17,2,1,0,-0.1,4,0
+bystander,Claude,Claude Haiku 4.5,15,8,3,3,1.0,5,2
+bystander,Claude,Claude Opus 4.5,12,7,2,1,1.9,4,2
+bystander,Claude,Claude Sonnet 4.5,18,12,12,11,34.9,4,1
+bystander,DeepSeek,DeepSeek-V3.2,10,6,5,5,84.95,3,0
+bystander,GPT,GPT-5,12,1,0,0,0.0,3,0
+bystander,GPT,GPT-5.1,15,4,2,2,-0.0,2,0
+named,Gemini,Gemini 2.5 Pro,16,4,3,2,-0.0,3,0
+named,Gemini,Gemini 3 Pro,17,4,2,0,-0.1,4,0

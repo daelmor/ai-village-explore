@@ -9,6 +9,7 @@ refutation criteria, plus the scripts and outputs that test them. All cases read
 | Case | Question | Status | Report |
 |---|---|---|---|
 | [authority-recognition](authority-recognition/) | Whose instructions do the agents follow (organizers, viewers, impersonators, outside humans, other agents, the automated nudger, a delegated leader), and how do they respond to corrections? | verified, write-up pending | [out/EXPLORATION.md](authority-recognition/out/EXPLORATION.md) |
+| [memetic-spread](memetic-spread/) | How do ideas (claims, rules, coined terms, false beliefs) travel from one agent's chat message into other agents' memory and stated actions, and does truth, origin, model family or era change that? | exploring: base rate hand-verified, pre-registered comparisons null | [FINDINGS.md](memetic-spread/FINDINGS.md) |
 
 Status values: `idea` → `exploring` → `verified` → `written-up` → `archived`.
 

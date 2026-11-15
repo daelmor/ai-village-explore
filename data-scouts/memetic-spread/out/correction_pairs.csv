@@ -1,0 +1,460 @@
+term,set,agent_id,agent,family,group,coiner,holder,holder_strict,last_match_utc,days_after_correction,surv1,win1,surv7,win7,surv30,win30
+schrodingers,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-02-20 19:11:27.745328,72.9,True,False,True,False,True,False
+schrodingers,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-06-09 22:03:34.445685,182.0,True,False,True,False,True,False
+schrodingers,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2026-02-16 20:30:25.640321,69.0,True,False,True,False,True,False
+schrodingers,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-29 18:19:26.725754,19.9,True,False,True,False,False,False
+schrodingers,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-06-09 21:59:03.971444,182.0,True,False,True,False,True,False
+schrodingers,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-02-20 18:26:20.444055,72.9,True,False,True,False,True,False
+schrodingers,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-06-09 22:29:21.969506,182.1,True,False,True,False,True,False
+schrodingers,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-30 18:22:27.273429,20.9,True,False,True,False,False,False
+schrodingers,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,False,2025-12-30 20:26:38.198742,21.0,True,False,True,False,False,False
+ghost_fix,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,False,2026-02-19 20:52:14.735987,72.0,True,False,True,False,True,False
+ghost_fix,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-06-09 22:03:34.445685,182.0,True,False,True,False,True,False
+ghost_fix,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-01 19:08:36.614764,-8.1,False,False,False,False,False,False
+ghost_fix,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-01 18:15:10.381739,-8.1,False,False,False,False,False,False
+ghost_fix,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-06-09 21:59:03.971444,182.0,True,False,True,False,True,False
+ghost_fix,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2026-06-09 23:23:11.084496,182.1,True,False,True,False,True,False
+ghost_fix,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-06-09 22:29:21.969506,182.1,True,False,True,False,True,False
+ghost_fix,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-06-09 21:56:06.147662,182.0,True,False,True,False,True,False
+ghost_fix,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2025-11-28 21:48:30.822675,-11.0,False,False,False,False,False,False
+sandcastle_effect,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-02-23 18:39:52.582907,75.9,True,True,True,True,True,True
+sandcastle_effect,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 20:37:33.109360,-0.0,False,False,False,False,False,False
+sandcastle_effect,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 19:03:55.159339,-0.1,False,False,False,False,False,False
+sandcastle_effect,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 21:14:10.364413,-1.0,False,False,False,False,False,False
+sandcastle_effect,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2026-06-09 23:19:05.983913,182.1,True,False,True,False,True,False
+sandcastle_effect,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2026-02-20 18:26:20.444055,72.9,True,True,True,False,True,False
+sandcastle_effect,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+sandcastle_effect,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-09 21:03:14.789130,0.0,False,False,False,False,False,False
+sandcastle_effect,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 20:00:16.118169,-0.0,False,False,False,False,False,False
+filesystem_amnesia,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,False,2025-12-08 21:48:10.493054,-1.0,False,False,False,False,False,False
+filesystem_amnesia,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 19:32:55.489243,-4.1,False,False,False,False,False,False
+filesystem_amnesia,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,True,True,2025-12-09 18:36:23.508784,-0.1,False,False,False,False,False,False
+filesystem_amnesia,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 21:48:48.263536,-1.0,False,False,False,False,False,False
+filesystem_amnesia,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 18:46:05.925161,-4.1,False,False,False,False,False,False
+filesystem_amnesia,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-08 21:46:34.863538,-1.0,False,False,False,False,False,False
+filesystem_amnesia,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+filesystem_amnesia,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 21:59:40.435397,-4.0,False,False,False,False,False,False
+filesystem_amnesia,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,True,2026-04-13 18:58:25.599329,124.9,True,False,True,False,True,False
+dom_freeze,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,False,2025-12-08 18:40:56.118894,-1.1,False,False,False,False,False,False
+dom_freeze,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,False,2025-12-08 18:52:38.109644,-1.1,False,False,False,False,False,False
+dom_freeze,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,False,2025-12-08 21:42:36.157017,-1.0,False,False,False,False,False,False
+dom_freeze,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 18:46:35.610733,-1.1,False,False,False,False,False,False
+dom_freeze,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,False,2026-05-26 17:59:45.440689,167.9,True,False,True,False,True,False
+dom_freeze,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-08 18:56:22.123326,-1.1,False,False,False,False,False,False
+dom_freeze,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,False,2025-12-08 18:52:42.880534,-1.1,False,False,False,False,False,False
+dom_freeze,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 19:49:15.859555,-4.0,False,False,False,False,False,False
+dom_freeze,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,False,2025-12-08 18:52:54.791276,-1.1,False,False,False,False,False,False
+destructive_backspace,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+destructive_backspace,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,False,2025-12-08 20:05:20.715647,-1.0,False,False,False,False,False,False
+destructive_backspace,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,True,True,2025-12-09 18:36:23.508784,-0.1,False,False,False,False,False,False
+destructive_backspace,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 21:48:48.263536,-1.0,False,False,False,False,False,False
+destructive_backspace,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 20:53:58.886158,-4.0,False,False,False,False,False,False
+destructive_backspace,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-08 21:46:34.863538,-1.0,False,False,False,False,False,False
+destructive_backspace,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+destructive_backspace,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-10 18:21:19.248497,0.9,False,False,False,False,False,False
+destructive_backspace,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,True,2025-12-09 20:00:16.118169,-0.0,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,False,2025-12-08 20:27:11.039671,-1.0,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 18:31:57.625819,-0.1,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,True,False,2025-12-08 20:24:30.819521,-1.0,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 18:44:13.258862,-0.1,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-06-09 23:19:05.983913,182.1,True,False,True,False,True,False
+chat_to_calculator_bug,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-10 21:31:57.935764,1.0,True,True,False,False,False,False
+chat_to_calculator_bug,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 19:58:12.142478,-0.0,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,False,2025-12-08 20:35:39.118347,-1.0,False,False,False,False,False,False
+chat_to_calculator_bug,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,True,2025-12-09 20:00:16.118169,-0.0,False,False,False,False,False,False
+toast_blockade,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+toast_blockade,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-12 21:49:28.964845,3.0,True,True,False,False,False,False
+toast_blockade,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-19 21:27:57.950494,10.0,True,True,True,True,False,False
+toast_blockade,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-10 18:45:22.293243,0.9,False,False,False,False,False,False
+toast_blockade,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2026-05-26 17:59:45.440689,167.9,True,False,True,False,True,False
+toast_blockade,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-10 21:45:13.837245,1.0,True,True,False,False,False,False
+toast_blockade,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+toast_blockade,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-11 19:31:38.927812,1.9,True,True,False,False,False,False
+toast_blockade,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 20:00:16.118169,-0.0,False,False,False,False,False,False
+coordinate_blur,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-23 19:50:55.513702,14.0,True,True,True,True,False,False
+coordinate_blur,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 21:07:13.450545,0.0,False,False,False,False,False,False
+coordinate_blur,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 18:36:23.508784,-0.1,False,False,False,False,False,False
+coordinate_blur,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+coordinate_blur,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 18:30:10.890594,-0.1,False,False,False,False,False,False
+coordinate_blur,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-10 21:31:57.935764,1.0,True,True,False,False,False,False
+coordinate_blur,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+coordinate_blur,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-11 19:31:38.927812,1.9,True,True,False,False,False,False
+coordinate_blur,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+dock_trap,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+dock_trap,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 21:07:13.450545,0.0,False,False,False,False,False,False
+dock_trap,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 19:25:28.065018,-0.1,False,False,False,False,False,False
+dock_trap,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+dock_trap,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 18:30:10.890594,-0.1,False,False,False,False,False,False
+dock_trap,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-10 21:45:13.837245,1.0,True,True,False,False,False,False
+dock_trap,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+dock_trap,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,False,2025-12-11 19:31:38.927812,1.9,True,True,False,False,False,False
+dock_trap,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ghost_transmission,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-02-19 21:11:14.743157,72.0,True,True,True,False,True,False
+ghost_transmission,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-12 20:05:30.284177,3.0,True,True,False,False,False,False
+ghost_transmission,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,True,True,2025-12-12 20:53:05.940385,3.0,True,True,False,False,False,False
+ghost_transmission,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-15 18:28:43.498721,5.9,True,True,False,False,False,False
+ghost_transmission,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-11 21:39:52.882681,2.0,True,True,False,False,False,False
+ghost_transmission,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-15 18:30:52.793733,5.9,True,True,False,False,False,False
+ghost_transmission,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-12 21:02:52.604953,3.0,True,True,False,False,False,False
+ghost_transmission,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-15 18:09:43.403159,5.9,True,True,False,False,False,False
+ghost_transmission,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,True,2025-12-11 19:45:10.389361,1.9,True,True,False,False,False,False
+coordinate_drift,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+coordinate_drift,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2026-06-26 19:37:07.118613,198.9,True,False,True,False,True,False
+coordinate_drift,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,False,2025-12-23 18:42:53.309416,13.9,True,False,True,True,False,False
+coordinate_drift,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-04 21:35:45.030112,-5.0,False,False,False,False,False,False
+coordinate_drift,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-04 21:40:18.568986,-5.0,False,False,False,False,False,False
+coordinate_drift,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-04 21:25:29.927940,-5.0,False,False,False,False,False,False
+coordinate_drift,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+coordinate_drift,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+coordinate_drift,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+zombie_gui,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-02-19 20:41:43.055968,72.0,True,False,True,False,True,False
+zombie_gui,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 21:11:38.906630,-4.0,False,False,False,False,False,False
+zombie_gui,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,False,2025-12-08 21:34:51.370824,-1.0,False,False,False,False,False,False
+zombie_gui,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 19:31:35.093537,-4.1,False,False,False,False,False,False
+zombie_gui,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 20:53:58.886158,-4.0,False,False,False,False,False,False
+zombie_gui,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-02-19 18:52:50.224783,71.9,True,False,True,False,True,False
+zombie_gui,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+zombie_gui,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 19:19:18.994030,-4.1,False,False,False,False,False,False
+zombie_gui,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-05 20:19:11.884576,-4.0,False,False,False,False,False,False
+input_void,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-05 20:30:13.496439,-4.0,False,False,False,False,False,False
+input_void,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 20:20:36.859500,-4.0,False,False,False,False,False,False
+input_void,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 20:36:23.688138,-4.0,False,False,False,False,False,False
+input_void,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 19:21:08.944797,-4.1,False,False,False,False,False,False
+input_void,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 21:50:19.364700,-4.0,False,False,False,False,False,False
+input_void,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+input_void,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+input_void,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 19:13:38.978049,-4.1,False,False,False,False,False,False
+input_void,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+focus_lock,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+focus_lock,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 20:31:37.386082,-4.0,False,False,False,False,False,False
+focus_lock,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-05 20:43:38.754689,-4.0,False,False,False,False,False,False
+focus_lock,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 20:20:13.818338,-4.0,False,False,False,False,False,False
+focus_lock,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-08-11 19:15:17.332158,244.9,True,False,True,False,True,False
+focus_lock,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-09-08 18:23:00.408806,272.9,True,False,True,False,True,False
+focus_lock,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-01-06 18:15:06.129040,27.9,True,False,True,False,False,False
+focus_lock,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 20:25:30.384980,-4.0,False,False,False,False,False,False
+focus_lock,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,False,2026-06-11 19:10:05.802151,183.9,True,False,True,False,True,False
+modifier_key_lockout,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+modifier_key_lockout,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,False,2025-12-08 20:43:55.409690,-1.0,False,False,False,False,False,False
+modifier_key_lockout,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,False,2025-12-08 18:54:53.899538,-1.1,False,False,False,False,False,False
+modifier_key_lockout,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 20:19:35.276516,-1.0,False,False,False,False,False,False
+modifier_key_lockout,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-05-26 17:59:45.440689,167.9,True,False,True,False,True,False
+modifier_key_lockout,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-08 20:52:26.427747,-1.0,False,False,False,False,False,False
+modifier_key_lockout,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+modifier_key_lockout,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,False,2025-12-08 19:01:54.417169,-1.1,False,False,False,False,False,False
+modifier_key_lockout,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,False,2025-12-08 20:50:02.701536,-1.0,False,False,False,False,False,False
+hover_trap,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-01-13 18:13:29.704089,34.9,True,True,True,True,True,True
+hover_trap,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,False,2025-12-08 20:43:55.409690,-1.0,False,False,False,False,False,False
+hover_trap,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 18:36:23.508784,-0.1,False,False,False,False,False,False
+hover_trap,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,False,2025-12-08 20:19:35.276516,-1.0,False,False,False,False,False,False
+hover_trap,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+hover_trap,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-08 20:51:09.034416,-1.0,False,False,False,False,False,False
+hover_trap,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,False,2025-12-08 20:05:05.251204,-1.0,False,False,False,False,False,False
+hover_trap,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,False,2025-12-08 19:01:54.417169,-1.1,False,False,False,False,False,False
+hover_trap,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,False,2025-12-08 20:50:02.701536,-1.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-02-19 20:41:43.055968,72.0,True,True,True,True,True,False
+cellular_cross_contamination,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 20:20:36.859500,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-05 20:53:42.047742,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 20:40:48.504016,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 20:53:58.886158,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-05 21:00:55.109782,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+cellular_cross_contamination,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 20:41:03.751506,-4.0,False,False,False,False,False,False
+cellular_cross_contamination,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,False,2025-12-08 19:35:04.832331,-1.1,False,False,False,False,False,False
+phantom_terminal,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_terminal,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-03 19:47:08.429531,-6.0,False,False,False,False,False,False
+phantom_terminal,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-05 19:50:14.779555,-4.0,False,False,False,False,False,False
+phantom_terminal,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-02 21:06:26.713856,-7.0,False,False,False,False,False,False
+phantom_terminal,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_terminal,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-03 18:55:43.907239,-6.1,False,False,False,False,False,False
+phantom_terminal,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-03 19:26:47.269524,-6.1,False,False,False,False,False,False
+phantom_terminal,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-03 18:24:19.038198,-6.1,False,False,False,False,False,False
+phantom_terminal,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2026-10-08 23:05:42.766386,303.1,True,False,True,False,True,False
+phantom_installation,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-11-27 19:58:04.228823,-12.0,False,False,False,False,False,False
+phantom_installation,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-11-27 19:25:09.783506,-12.1,False,False,False,False,False,False
+phantom_installation,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+phantom_installation,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2025-11-27 19:28:50.670367,-12.1,False,False,False,False,False,False
+silent_blocker,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-01-20 18:41:45.027215,41.9,True,False,True,False,True,False
+silent_blocker,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-11-26 18:30:06.824538,-13.1,False,False,False,False,False,False
+silent_blocker,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-11-26 18:46:41.882276,-13.1,False,False,False,False,False,False
+silent_blocker,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 19:30:46.774614,-0.1,False,False,False,False,False,False
+silent_blocker,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-03-19 17:35:52.662583,99.9,True,False,True,False,True,False
+silent_blocker,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-11-27 20:34:29.815349,-12.0,False,False,False,False,False,False
+silent_blocker,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-11-25 21:59:48.874793,-14.0,False,False,False,False,False,False
+silent_blocker,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-11-26 19:44:13.060074,-13.1,False,False,False,False,False,False
+silent_blocker,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2025-12-01 21:58:55.252798,-8.0,False,False,False,False,False,False
+notification_wall,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 20:20:19.389651,-4.0,False,False,False,False,False,False
+notification_wall,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+notification_wall,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-02 20:42:58.865584,-7.0,False,False,False,False,False,False
+notification_wall,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 19:50:14.779555,-4.0,False,False,False,False,False,False
+search_bar_mirage,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+search_bar_mirage,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-02 20:42:58.865584,-7.0,False,False,False,False,False,False
+search_bar_mirage,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 19:50:14.779555,-4.0,False,False,False,False,False,False
+sent_folder_trap,hazard,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+sent_folder_trap,hazard,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+friction_fractal,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-02-20 18:09:59.775822,72.9,True,False,True,False,True,False
+friction_fractal,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-06-09 22:56:12.026883,182.1,True,False,True,False,True,False
+friction_fractal,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2026-02-20 18:57:07.172325,72.9,True,False,True,False,True,False
+friction_fractal,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2026-02-17 19:43:35.405431,69.9,True,False,True,False,True,False
+friction_fractal,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-06-09 22:13:02.570088,182.1,True,False,True,False,True,False
+friction_fractal,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-02-19 20:42:20.999994,72.0,True,False,True,False,True,False
+friction_fractal,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-06-09 22:29:21.969506,182.1,True,False,True,False,True,False
+friction_fractal,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-02-19 21:04:14.032434,72.0,True,False,True,False,True,False
+friction_fractal,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-04 20:33:45.682713,-5.0,False,False,False,False,False,False
+manifesto_entropy,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-04 21:04:32.803520,-5.0,False,False,False,False,False,False
+manifesto_entropy,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-04 18:48:25.690965,-5.1,False,False,False,False,False,False
+manifesto_entropy,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 19:50:14.779555,-4.0,False,False,False,False,False,False
+manifesto_entropy,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-04 20:37:54.324148,-5.0,False,False,False,False,False,False
+manifesto_entropy,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+manifesto_entropy,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-04 19:52:20.154016,-5.0,False,False,False,False,False,False
+manifesto_entropy,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-04 18:26:57.253602,-5.1,False,False,False,False,False,False
+manifesto_entropy,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-02-16 20:40:42.410607,69.0,True,False,True,False,True,False
+manifesto_entropy,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-04 20:45:34.842847,-5.0,False,False,False,False,False,False
+recursive_friction,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-09 18:49:33.296949,-0.1,False,False,False,False,False,False
+recursive_friction,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,False,2025-12-08 21:50:04.510175,-1.0,False,False,False,False,False,False
+recursive_friction,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 18:01:35.561264,-0.1,False,False,False,False,False,False
+recursive_friction,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+recursive_friction,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 18:30:10.890594,-0.1,False,False,False,False,False,False
+recursive_friction,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-09 18:55:52.379982,-0.1,False,False,False,False,False,False
+recursive_friction,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+recursive_friction,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-11 19:31:38.927812,1.9,True,True,False,False,False,False
+recursive_friction,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-10 18:01:17.864585,0.9,False,False,False,False,False,False
+meta_friction,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-06-14 00:24:21.771909,186.1,True,False,True,False,True,False
+meta_friction,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2026-06-09 23:39:33.179235,182.1,True,False,True,False,True,False
+meta_friction,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-12 18:01:46.779391,2.9,True,True,False,False,False,False
+meta_friction,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+meta_friction,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2026-06-10 16:47:55.991925,182.8,True,False,True,False,True,False
+meta_friction,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2026-06-10 16:29:54.144717,182.8,True,True,True,False,True,False
+meta_friction,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 19:58:12.142478,-0.0,False,False,False,False,False,False
+meta_friction,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2026-06-09 23:13:51.215653,182.1,True,True,True,False,True,False
+meta_friction,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-10 18:27:07.996620,0.9,False,False,False,False,False,False
+ghost_deliverable,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-09 19:42:26.052792,-0.1,False,False,False,False,False,False
+ghost_deliverable,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 21:35:59.007006,0.0,False,False,False,False,False,False
+ghost_deliverable,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 18:53:51.334244,-0.1,False,False,False,False,False,False
+ghost_deliverable,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 18:44:13.258862,-0.1,False,False,False,False,False,False
+ghost_deliverable,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 19:54:13.843345,-0.0,False,False,False,False,False,False
+ghost_deliverable,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-03 19:51:18.459106,-6.0,False,False,False,False,False,False
+ghost_deliverable,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 21:15:05.391451,0.0,False,False,False,False,False,False
+ghost_deliverable,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-09 19:13:12.777489,-0.1,False,False,False,False,False,False
+ghost_deliverable,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 21:05:56.055851,0.0,False,False,False,False,False,False
+antibody_theory,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-09 21:02:53.670211,0.0,False,False,False,False,False,False
+antibody_theory,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-09 20:35:39.749595,-0.0,False,False,False,False,False,False
+antibody_theory,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 21:03:26.927980,0.0,False,False,False,False,False,False
+antibody_theory,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+antibody_theory,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2026-06-09 23:19:05.983913,182.1,True,False,True,False,True,False
+antibody_theory,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-09 21:12:08.369800,0.0,False,False,False,False,False,False
+antibody_theory,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-09 20:50:37.415441,-0.0,False,False,False,False,False,False
+antibody_theory,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-11 19:31:38.927812,1.9,True,True,False,False,False,False
+antibody_theory,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 18:42:22.861883,-0.1,False,False,False,False,False,False
+fractal_fragility,concept,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-11-25 20:20:08.462892,-14.0,False,False,False,False,False,False
+fractal_fragility,concept,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-11-26 18:57:22.605794,-13.1,False,False,False,False,False,False
+fractal_fragility,concept,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-01 18:01:57.097235,-8.1,False,False,False,False,False,False
+fractal_fragility,concept,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-11-26 18:46:21.887521,-13.1,False,False,False,False,False,False
+fractal_fragility,concept,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+fractal_fragility,concept,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+fractal_fragility,concept,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+fractal_fragility,concept,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+fractal_fragility,concept,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+archipelago_principle,confirmed,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-07-02 22:32:40.132706,205.1,True,True,True,True,True,True
+archipelago_principle,confirmed,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2026-04-13 17:14:24.472220,124.8,True,True,True,False,True,True
+archipelago_principle,confirmed,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2026-02-19 20:49:51.753936,72.0,True,True,True,True,True,False
+archipelago_principle,confirmed,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2026-02-17 18:33:26.364516,69.9,True,True,True,False,True,False
+archipelago_principle,confirmed,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2026-06-09 17:02:01.698752,181.8,True,True,True,True,True,True
+archipelago_principle,confirmed,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2026-06-09 17:19:48.746558,181.8,True,True,True,False,True,True
+archipelago_principle,confirmed,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2026-01-09 21:23:02.693191,31.0,True,True,True,False,True,True
+archipelago_principle,confirmed,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2026-02-17 18:09:21.606328,69.9,True,True,True,False,True,True
+archipelago_principle,confirmed,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2026-02-16 21:33:46.864705,69.0,True,True,True,False,True,True
+isolated_reality,confirmed,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-05 19:18:11.451998,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-05 19:25:45.522895,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,False,2025-12-08 20:24:30.819521,-1.0,False,False,False,False,False,False
+isolated_reality,confirmed,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 19:02:52.885167,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,False,2025-12-08 18:11:06.931251,-1.1,False,False,False,False,False,False
+isolated_reality,confirmed,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-05 18:36:37.431943,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-05 19:26:08.646674,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-05 19:27:35.031600,-4.1,False,False,False,False,False,False
+isolated_reality,confirmed,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-11-26 21:07:34.115952,-13.0,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-03-20 18:25:34.043762,100.9,True,False,True,False,True,False
+ctl_04_tabs_vs_spaces,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-11-25 20:27:53.500174,-14.0,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,True,False,False,2025-11-26 19:41:53.255081,-13.1,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-11-26 18:42:59.453052,-13.1,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-03-31 18:34:16.372324,111.9,True,False,True,False,True,False
+ctl_04_tabs_vs_spaces,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-11-26 19:13:23.350959,-13.1,False,False,False,False,False,False
+ctl_04_tabs_vs_spaces,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-11-25 20:15:05.723726,-14.0,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-11-27 21:13:48.595268,-12.0,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-11-27 19:41:16.491531,-12.1,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-11-27 20:34:29.815349,-12.0,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-11-27 20:56:21.334438,-12.0,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-01 19:31:21.275913,-8.1,False,False,False,False,False,False
+ctl_08_systemic_inconsistency,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2025-11-27 21:20:29.836682,-12.0,False,False,False,False,False,False
+ctl_12_completion_manifest,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-11-28 18:05:52.012751,-11.1,False,False,False,False,False,False
+ctl_12_completion_manifest,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-01 18:52:57.736789,-8.1,False,False,False,False,False,False
+ctl_12_completion_manifest,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_12_completion_manifest,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-11-28 20:33:42.214242,-11.0,False,False,False,False,False,False
+ctl_12_completion_manifest,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_12_completion_manifest,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,True,False,False,2025-11-27 21:54:34.643305,-12.0,False,False,False,False,False,False
+ctl_12_completion_manifest,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-01-21 21:38:28.518168,43.0,True,False,True,False,True,False
+ctl_12_completion_manifest,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-11-27 21:51:39.038831,-12.0,False,False,False,False,False,False
+ctl_12_completion_manifest,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-01 19:08:36.614764,-8.1,False,False,False,False,False,False
+ctl_14_advanced_village,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_14_advanced_village,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-07-03 16:50:00.041462,205.8,True,False,True,False,True,False
+ctl_14_advanced_village,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-11-28 19:55:30.290200,-11.0,False,False,False,False,False,False
+ctl_14_advanced_village,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-11-28 20:43:49.905565,-11.0,False,False,False,False,False,False
+ctl_18_paul_christiano,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-01 18:49:05.712642,-8.1,False,False,False,False,False,False
+ctl_18_paul_christiano,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-01 20:47:25.011597,-8.0,False,False,False,False,False,False
+ctl_18_paul_christiano,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_18_paul_christiano,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-01 18:45:52.617399,-8.1,False,False,False,False,False,False
+ctl_18_paul_christiano,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_18_paul_christiano,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,True,False,False,2025-12-01 19:49:39.176725,-8.0,False,False,False,False,False,False
+ctl_18_paul_christiano,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-01 21:17:08.523565,-8.0,False,False,False,False,False,False
+ctl_18_paul_christiano,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-09-09 19:53:09.126316,274.0,True,False,True,False,True,False
+ctl_18_paul_christiano,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_20_us_china,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-03-02 18:26:12.078584,82.9,True,False,True,False,True,False
+ctl_20_us_china,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_20_us_china,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-01 20:52:11.289068,-8.0,False,False,False,False,False,False
+ctl_20_us_china,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-03 19:44:52.958549,-6.1,False,False,False,False,False,False
+ctl_20_us_china,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_20_us_china,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2026-01-01 19:09:38.712317,22.9,True,False,True,False,False,False
+ctl_20_us_china,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-03 19:07:13.748228,-6.1,False,False,False,False,False,False
+ctl_20_us_china,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,True,True,True,2026-09-29 20:28:53.581366,294.0,True,False,True,False,True,False
+ctl_20_us_china,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-05 18:39:53.555036,-4.1,False,False,False,False,False,False
+ctl_22_four_frameworks,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2026-07-02 22:03:15.734731,205.0,True,True,True,False,True,False
+ctl_22_four_frameworks,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-10-06 22:18:28.950100,301.1,True,False,True,False,True,False
+ctl_22_four_frameworks,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2025-12-03 19:40:21.938778,-6.1,False,False,False,False,False,False
+ctl_22_four_frameworks,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-29 18:06:16.177022,19.9,True,True,True,False,False,False
+ctl_22_four_frameworks,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-09-15 18:26:49.679739,279.9,True,False,True,False,True,False
+ctl_22_four_frameworks,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2026-09-15 18:44:04.924203,279.9,True,False,True,False,True,False
+ctl_22_four_frameworks,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-09-15 18:38:29.169741,279.9,True,False,True,False,True,False
+ctl_22_four_frameworks,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,True,True,True,2026-02-19 21:04:14.032434,72.0,True,False,True,False,True,False
+ctl_22_four_frameworks,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-02 20:50:16.238469,-7.0,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-03 19:06:51.403413,-6.1,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-02 21:11:18.868604,-7.0,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-03 19:19:30.377173,-6.1,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-03 19:19:11.569863,-6.1,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-03 19:07:13.748228,-6.1,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,True,False,False,2025-12-03 19:48:28.664308,-6.0,False,False,False,False,False,False
+ctl_24_geopolitical_conditionals,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-02-19 20:41:43.055968,72.0,True,False,True,False,True,False
+ctl_32_missing_binary_index,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2025-12-04 20:28:15.207894,-5.0,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-03 21:24:31.084419,-6.0,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-03 18:37:06.339501,-6.1,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-02 21:33:32.345141,-7.0,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2025-12-03 19:52:48.370497,-6.0,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-03 18:44:12.624394,-6.1,False,False,False,False,False,False
+ctl_32_missing_binary_index,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-03 19:48:44.695021,-6.0,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-09 19:25:28.065018,-0.1,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-03 20:38:57.672638,-6.0,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-03 20:06:25.486624,-6.0,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-04 18:37:21.208600,-5.1,False,False,False,False,False,False
+ctl_36_the_invisible_file,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-03 20:46:30.481572,-6.0,False,False,False,False,False,False
+ctl_37_half_life,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-08-13 23:23:41.158474,247.1,True,False,True,False,True,False
+ctl_37_half_life,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-08-18 18:39:13.201357,251.9,True,False,True,False,True,False
+ctl_37_half_life,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,True,True,2025-12-09 18:36:23.508784,-0.1,False,False,False,False,False,False
+ctl_37_half_life,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-26 20:05:19.867848,17.0,True,False,True,False,False,False
+ctl_37_half_life,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-26 20:04:29.196723,17.0,True,False,True,False,False,False
+ctl_37_half_life,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-08-14 16:21:14.126023,247.8,True,False,True,False,True,False
+ctl_37_half_life,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-08-17 19:02:21.460597,250.9,True,False,True,False,True,False
+ctl_37_half_life,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-06-01 19:13:45.960112,173.9,True,False,True,False,True,False
+ctl_37_half_life,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,False,False,2025-12-04 21:20:46.879661,-5.0,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-03 21:59:56.323872,-6.0,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,False,False,2025-12-05 19:50:14.779555,-4.0,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-04 18:23:43.804577,-5.1,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-04 18:30:34.164119,-5.1,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-04 18:37:21.208600,-5.1,False,False,False,False,False,False
+ctl_40_deadline_defiance,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2025-12-04 18:46:47.580164,-5.1,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2025-12-05 18:12:44.799295,-4.1,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,2025-12-05 18:05:01.635067,-4.1,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,True,False,False,2025-12-04 21:06:26.505177,-5.0,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2025-12-04 21:06:08.852680,-5.0,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_42_automated_upload_protocol,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_43_triple_layer,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-03-20 20:37:45.876916,101.0,True,False,True,False,True,False
+ctl_43_triple_layer,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-07-09 20:48:43.402176,212.0,True,False,True,False,True,False
+ctl_43_triple_layer,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_43_triple_layer,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,True,False,False,2025-12-05 18:05:01.635067,-4.1,False,False,False,False,False,False
+ctl_43_triple_layer,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2026-07-08 17:06:10.039117,210.8,True,False,True,False,True,False
+ctl_43_triple_layer,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,False,False,2026-03-20 20:02:04.240920,101.0,True,False,True,False,True,False
+ctl_43_triple_layer,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-03-20 19:22:52.362970,100.9,True,False,True,False,True,False
+ctl_43_triple_layer,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-07-08 17:36:06.918353,210.9,True,False,True,False,True,False
+ctl_43_triple_layer,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_46_auto_submission,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,False,False,2026-02-25 18:48:31.333058,77.9,True,False,True,True,True,False
+ctl_46_auto_submission,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-02-27 19:34:46.015788,79.9,True,False,True,False,True,False
+ctl_46_auto_submission,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,2026-02-24 21:18:06.259747,77.0,True,False,True,False,True,False
+ctl_46_auto_submission,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,False,False,,,False,False,False,False,False,False
+ctl_46_auto_submission,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,False,False,2025-12-05 19:28:46.654693,-4.1,False,False,False,False,False,False
+ctl_46_auto_submission,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,True,False,False,2026-04-28 18:06:02.484955,139.9,True,True,True,True,True,False
+ctl_46_auto_submission,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,False,False,2026-02-24 20:11:58.382157,77.0,True,False,True,False,True,False
+ctl_46_auto_submission,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2026-02-24 19:20:48.989111,76.9,True,False,True,False,True,False
+ctl_46_auto_submission,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,False,False,2026-02-25 21:20:53.186589,78.0,True,False,True,False,True,False
+ctl_52_toast_dismissal_loop,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-09 18:56:49.320465,-0.1,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-10 19:32:35.621449,0.9,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-10 20:36:28.746244,1.0,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 18:06:26.480373,-0.1,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 18:01:40.808525,-0.1,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,False,2025-12-10 19:21:31.762081,0.9,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-10 21:56:42.456642,1.0,True,True,False,False,False,False
+ctl_52_toast_dismissal_loop,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,False,2025-12-08 21:33:13.581867,-1.0,False,False,False,False,False,False
+ctl_52_toast_dismissal_loop,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 18:14:28.542013,-0.1,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-09 21:38:50.094967,0.0,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,True,True,2025-12-10 19:32:35.621449,0.9,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,True,True,True,2025-12-10 20:36:28.746244,1.0,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:45:31.990847,0.0,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 21:52:06.171822,0.0,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2025-12-10 19:21:31.762081,0.9,False,False,False,False,False,False
+ctl_53_toast_dismissal,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-10 21:56:42.456642,1.0,True,True,False,False,False,False
+ctl_53_toast_dismissal,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,True,True,2025-12-15 19:39:38.896572,5.9,True,True,False,False,False,False
+ctl_53_toast_dismissal,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,False,True,True,2025-12-09 18:14:28.542013,-0.1,False,False,False,False,False,False
+ctl_59_policy_level,control,169ea37e-c664-4012-acba-cb583aaab1f3,Claude Sonnet 4.5,Claude,bystander,False,True,True,2025-12-10 18:12:45.975807,0.9,False,False,False,False,False,False
+ctl_59_policy_level,control,1c73bd25-427a-4678-a756-99ff31e03a91,GPT-5.1,GPT,bystander,False,False,False,2026-10-23 20:48:41.595504,318.0,True,False,True,False,True,False
+ctl_59_policy_level,control,6550c554-c0e9-4f50-a5e6-4f6a15ba4162,Gemini 3 Pro,Gemini,named,False,False,False,,,False,False,False,False,False,False
+ctl_59_policy_level,control,8e2f2b1b-409c-4c0e-b4e4-e5df8ae38fdb,Claude 3.7 Sonnet,Claude,bystander,False,True,True,2025-12-09 21:23:21.019516,0.0,False,False,False,False,False,False
+ctl_59_policy_level,control,a209bba1-cd26-4d04-ac63-93901dac270e,DeepSeek-V3.2,DeepSeek,bystander,False,True,True,2025-12-09 21:04:45.082804,0.0,False,False,False,False,False,False
+ctl_59_policy_level,control,ac606de4-a777-49c0-8c62-414465fc2604,Claude Haiku 4.5,Claude,bystander,False,True,True,2026-10-08 23:39:12.180003,303.1,True,False,True,False,True,False
+ctl_59_policy_level,control,cc22ce71-2feb-4b8c-a1be-a3abf2abf010,GPT-5,GPT,bystander,False,True,True,2025-12-12 19:06:01.384334,2.9,True,True,False,False,False,False
+ctl_59_policy_level,control,cf0b4027-0931-4eee-8b5f-92f68a2dd3cd,Claude Opus 4.5,Claude,bystander,False,False,False,2025-12-09 21:03:14.789130,0.0,False,False,False,False,False,False
+ctl_59_policy_level,control,d5fd932e-751f-42c5-92f6-c8ac514864a8,Gemini 2.5 Pro,Gemini,named,True,True,True,2025-12-10 18:01:17.864585,0.9,False,False,False,False,False,False

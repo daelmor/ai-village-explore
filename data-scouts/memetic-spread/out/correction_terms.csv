@@ -1,0 +1,97 @@
+meme_id,regex,set,origin_event_index,origin_utc,origin_speaker,n_chat_messages,excluded
+divergent_reality,divergent reality,hazard,128185,2025-11-27 19:16:32 UTC,Gemini 3 Pro,306,in another agent's memory before the first chat use: GPT-4.1
+schrodingers,schr.dinger.s (?:cli|filesystem|document|repository),hazard,128185,2025-11-27 19:16:32 UTC,Gemini 3 Pro,150,
+ghost_fix,ghost fix,hazard,127289,2025-11-26 20:05:35 UTC,Gemini 2.5 Pro,108,
+sandcastle_effect,sandcastle[ _]effect,hazard,130614,2025-12-01 19:24:37 UTC,Gemini 3 Pro,62,
+filesystem_amnesia,filesystem amnesia,hazard,134618,2025-12-05 18:15:37 UTC,Gemini 2.5 Pro,4,
+dom_freeze,dom freeze,hazard,134945,2025-12-05 19:34:34 UTC,Gemini 3 Pro,4,
+destructive_backspace,destructive backspace,hazard,135024,2025-12-05 19:47:47 UTC,Gemini 2.5 Pro,4,
+chat_to_calculator_bug,chat-to-calculator bug|calculator bug,hazard,136222,2025-12-08 20:01:16 UTC,Gemini 2.5 Pro,7,
+toast_blockade,toast blockade,hazard,136279,2025-12-08 20:23:51 UTC,Gemini 3 Pro,23,
+coordinate_blur,coordinate blur,hazard,136312,2025-12-08 20:40:55 UTC,Gemini 3 Pro,4,
+dock_trap,dock trap,hazard,136252,2025-12-08 20:08:29 UTC,Gemini 3 Pro,9,
+ghost_transmission,ghost transmission,hazard,136904,2025-12-09 19:23:05 UTC,Gemini 2.5 Pro,76,
+coordinate_drift,coordinate drift,hazard,131616,2025-12-02 21:14:23 UTC,Gemini 3 Pro,11,
+zombie_gui,zombie gui,hazard,134051,2025-12-04 20:57:45 UTC,Gemini 3 Pro,4,
+input_void,input void,hazard,134759,2025-12-05 18:57:52 UTC,Gemini 3 Pro,1,
+focus_lock,focus lock,hazard,135153,2025-12-05 20:08:03 UTC,Gemini 2.5 Pro,2,
+modifier_key_lockout,modifier key lockout,hazard,136083,2025-12-08 18:54:14 UTC,Gemini 3 Pro,2,
+hover_trap,hover trap,hazard,136083,2025-12-08 18:54:14 UTC,Gemini 3 Pro,3,
+cellular_cross_contamination,cellular cross-contamination,hazard,134911,2025-12-05 19:28:48 UTC,Gemini 2.5 Pro,7,
+phantom_terminal,phantom terminal,hazard,131506,2025-12-02 20:37:30 UTC,Gemini 2.5 Pro,12,
+phantom_installation,phantom installation,hazard,128171,2025-11-27 19:13:54 UTC,Gemini 2.5 Pro,3,
+silent_blocker,silent blocker,hazard,126245,2025-11-25 20:59:28 UTC,Gemini 2.5 Pro,32,
+notification_wall,notification wall,hazard,131313,2025-12-02 19:19:13 UTC,Gemini 3 Pro,12,
+search_bar_mirage,search bar mirage,hazard,131313,2025-12-02 19:19:13 UTC,Gemini 3 Pro,12,
+sent_folder_trap,sent folder trap,hazard,131313,2025-12-02 19:19:13 UTC,Gemini 3 Pro,12,
+friction_fractal,friction fractal,concept,132841,2025-12-03 21:01:12 UTC,Gemini 3 Pro,186,
+manifesto_entropy,manifesto entropy,concept,132254,2025-12-03 19:44:59 UTC,Gemini 3 Pro,18,
+verification_bottleneck,verification bottleneck,concept,122183,2025-11-18 21:39:14 UTC,Claude 3.7 Sonnet,147,first chat use outside 2025-11-20 .. correction
+recursive_friction,recursive friction,concept,132043,2025-12-03 18:45:38 UTC,Gemini 3 Pro,13,
+meta_friction,meta-friction,concept,131365,2025-12-02 19:42:00 UTC,Gemini 3 Pro,23,
+ghost_deliverable,ghost deliverable,concept,131888,2025-12-02 21:53:49 UTC,Gemini 3 Pro,22,
+antibody_theory,antibody theory,concept,136513,2025-12-08 21:53:25 UTC,Gemini 3 Pro,18,
+fractal_fragility,fractal fragility,concept,126018,2025-11-25 20:18:37 UTC,Gemini 3 Pro,7,
+auth_wall,auth wall,concept,34947,2025-06-11 19:38:38 UTC,o3,37,first chat use outside 2025-11-20 .. correction
+archipelago_principle,archipelago principle,confirmed,136445,2025-12-08 21:40:50 UTC,Gemini 3 Pro,150,
+isolated_reality,isolated reality,confirmed,134343,2025-12-04 21:35:01 UTC,Gemini 3 Pro,6,
+ctl_00_hot_fix,hot[ -]fix,control,125227,2025-11-25 18:03:06 UTC,o3,477,"in another agent's memory before the first chat use: Claude Haiku 4.5, Claude Sonnet 4.5, Gemini 2.5 Pro, Gemini 3 Pro"
+ctl_01_story_already,story[ -]already,control,36410,2025-06-17 19:28:42 UTC,CourageousDove,14,first chat use outside 2025-11-20 .. correction
+ctl_02_new_agent,new[ -]agent,control,9306,2025-04-04 19:42:30 UTC,o1,180,first chat use outside 2025-11-20 .. correction
+ctl_03_escalation_status,escalation[ -]status,control,20427,2025-05-07 18:42:52 UTC,GPT-4.1,19,first chat use outside 2025-11-20 .. correction
+ctl_04_tabs_vs_spaces,tabs[ -]vs[ -]spaces,control,125889,2025-11-25 19:59:21 UTC,Claude 3.7 Sonnet,12,
+ctl_05_current_stats,current[ -]stats,control,15044,2025-04-15 18:29:48 UTC,GPT-4.1,78,first chat use outside 2025-11-20 .. correction
+ctl_06_auto_discovery,auto[ -]discovery,control,128008,2025-11-27 18:36:25 UTC,Claude Opus 4.1,24,"in another agent's memory before the first chat use: Claude Haiku 4.5, Claude Opus 4.5, GPT-5, Gemini 3 Pro, o3"
+ctl_07_credential_rot,credential[ -]rot,control,128034,2025-11-27 18:47:33 UTC,Gemini 3 Pro,6,"in another agent's memory before the first chat use: Claude Opus 4.1, Claude Opus 4.5, Claude Sonnet 4.5, GPT-5, GPT-5.1"
+ctl_08_systemic_inconsistency,systemic[ -]inconsistency,control,128288,2025-11-27 19:38:49 UTC,Gemini 2.5 Pro,6,
+ctl_09_verified_sent,verified[ -]sent,control,128330,2025-11-27 19:48:07 UTC,Claude Haiku 4.5,17,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Opus 4.1, Grok 4"
+ctl_10_auto_publish,auto[ -]publish,control,128364,2025-11-27 19:58:44 UTC,Claude Sonnet 4.5,64,"in another agent's memory before the first chat use: Claude Haiku 4.5, GPT-5, o3"
+ctl_11_help_escalations,help[ -]escalations,control,58364,2025-08-27 19:13:04 UTC,Claude Opus 4.1,18,first chat use outside 2025-11-20 .. correction
+ctl_12_completion_manifest,completion[ -]manifest,control,128741,2025-11-27 21:29:39 UTC,Claude Haiku 4.5,5,
+ctl_13_proposed_day,proposed[ -]day,control,128789,2025-11-27 21:47:52 UTC,Claude 3.7 Sonnet,9,"in another agent's memory before the first chat use: Claude Sonnet 4.5, GPT-5"
+ctl_14_advanced_village,advanced[ -]village,control,128972,2025-11-28 18:16:48 UTC,Gemini 3 Pro,8,
+ctl_15_missing_repository,missing[ -]repository,control,90911,2025-10-16 18:10:04 UTC,Gemini 2.5 Pro,18,first chat use outside 2025-11-20 .. correction
+ctl_16_the_paradox,the[ -]paradox,control,23951,2025-05-12 19:00:58 UTC,o3,148,first chat use outside 2025-11-20 .. correction
+ctl_17_the_cascade,the[ -]cascade,control,55963,2025-08-21 18:23:43 UTC,Claude Opus 4,148,first chat use outside 2025-11-20 .. correction
+ctl_18_paul_christiano,paul[ -]christiano,control,130472,2025-12-01 18:16:50 UTC,Claude Haiku 4.5,8,
+ctl_19_two_tier,two[ -]tier,control,130545,2025-12-01 18:48:00 UTC,Gemini 3 Pro,9,"in another agent's memory before the first chat use: Claude 3.5 Sonnet, Claude Haiku 4.5, Gemini 2.5 Pro, o3"
+ctl_20_us_china,us[ -]china,control,130716,2025-12-01 20:07:02 UTC,Claude Opus 4.5,21,
+ctl_21_agi_2035,agi[ -]2035,control,130666,2025-12-01 19:47:05 UTC,Claude Sonnet 4.5,67,in another agent's memory before the first chat use: Claude Haiku 4.5
+ctl_22_four_frameworks,four[ -]frameworks,control,130839,2025-12-01 21:05:39 UTC,Claude Opus 4.5,85,
+ctl_23_integration_status,integration[ -]status,control,94512,2025-10-22 18:22:24 UTC,Claude Haiku 4.5,58,first chat use outside 2025-11-20 .. correction
+ctl_24_geopolitical_conditionals,geopolitical[ -]conditionals,control,130969,2025-12-01 21:53:21 UTC,Claude Opus 4.5,23,
+ctl_25_forecasting_integration,forecasting[ -]integration,control,131313,2025-12-02 19:19:13 UTC,Gemini 3 Pro,11,"in another agent's memory before the first chat use: Claude Haiku 4.5, GPT-5"
+ctl_26_shared_artifact,shared[ -]artifact,control,131287,2025-12-02 19:06:14 UTC,Gemini 3 Pro,26,"in another agent's memory before the first chat use: GPT-4.1, GPT-5, Gemini 2.5 Pro, o3"
+ctl_27_new_era,new[ -]era,control,24112,2025-05-12 19:19:00 UTC,GPT-4.1,59,first chat use outside 2025-11-20 .. correction
+ctl_28_observed_gemini,observed[ -]gemini,control,131313,2025-12-02 19:19:13 UTC,Gemini 3 Pro,11,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Opus 4.1"
+ctl_29_the_axiom,the[ -]axiom,control,6959,2025-04-02 21:10:45 UTC,HorribleUrial,53,first chat use outside 2025-11-20 .. correction
+ctl_30_my_contributions,my[ -]contributions,control,29080,2025-05-23 18:41:47 UTC,Gemini 2.5 Pro,117,first chat use outside 2025-11-20 .. correction
+ctl_31_counter_intuitive,counter[ -]intuitive,control,131373,2025-12-02 19:44:33 UTC,Gemini 3 Pro,5,in another agent's memory before the first chat use: Gemini 2.5 Pro
+ctl_32_missing_binary_index,missing[ -]binary[ -]index,control,131539,2025-12-02 20:51:55 UTC,Gemini 3 Pro,51,
+ctl_33_well_supported,well[ -]supported,control,132226,2025-12-03 19:35:23 UTC,Gemini 2.5 Pro,5,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, GPT-5, GPT-5.1"
+ctl_34_quick_import_guide,quick[ -]import[ -]guide,control,132227,2025-12-03 19:35:46 UTC,GPT-5.1,30,"in another agent's memory before the first chat use: Claude Haiku 4.5, Claude Opus 4.5"
+ctl_35_schema_doc,schema[ -]doc,control,92536,2025-10-20 18:27:26 UTC,o3,96,first chat use outside 2025-11-20 .. correction
+ctl_36_the_invisible_file,the[ -]invisible[ -]file,control,132354,2025-12-03 20:04:17 UTC,Gemini 3 Pro,6,
+ctl_37_half_life,half[ -]life,control,132359,2025-12-03 20:04:55 UTC,Gemini 2.5 Pro,41,
+ctl_38_post_window,post[ -]window,control,132716,2025-12-03 20:47:09 UTC,Gemini 3 Pro,57,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Haiku 4.5, GPT-5.1, o3"
+ctl_39_time_constrained,time[ -]constrained,control,133234,2025-12-03 21:51:45 UTC,Claude Opus 4.5,8,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Haiku 4.5, Claude Sonnet 4.5, GPT-5, GPT-5.1, Gemini 2.5 Pro, Grok 4"
+ctl_40_deadline_defiance,deadline[ -]defiance,control,133277,2025-12-03 21:58:24 UTC,Gemini 3 Pro,13,
+ctl_41_paste_corruption,paste[ -]corruption,control,133696,2025-12-04 19:41:41 UTC,Claude Opus 4.5,7,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Haiku 4.5, Claude Sonnet 4.5, GPT-5, GPT-5.1, Gemini 2.5 Pro, o3"
+ctl_42_automated_upload_protocol,automated[ -]upload[ -]protocol,control,134037,2025-12-04 20:53:50 UTC,DeepSeek-V3.2,5,
+ctl_43_triple_layer,triple[ -]layer,control,134138,2025-12-04 21:10:26 UTC,Claude 3.7 Sonnet,12,
+ctl_44_near_certain,near[ -]certain,control,134150,2025-12-04 21:11:30 UTC,Gemini 3 Pro,15,"in another agent's memory before the first chat use: Claude Opus 4.1, Gemini 2.5 Pro"
+ctl_45_the_law,the[ -]law,control,18034,2025-04-29 20:06:41 UTC,GPT-4.1,130,first chat use outside 2025-11-20 .. correction
+ctl_46_auto_submission,auto[ -]submission,control,134512,2025-12-04 21:55:20 UTC,Claude Haiku 4.5,20,
+ctl_47_near_miss,near[ -]miss,control,66697,2025-09-04 19:13:25 UTC,Claude 3.7 Sonnet,70,first chat use outside 2025-11-20 .. correction
+ctl_48_data_collection,data[ -]collection,control,30451,2025-05-28 18:17:38 UTC,Claude Opus 4,313,first chat use outside 2025-11-20 .. correction
+ctl_49_inbox_progress,inbox[ -]progress,control,136004,2025-12-08 18:21:46 UTC,Claude Opus 4.5,17,in another agent's memory before the first chat use: Claude Haiku 4.5
+ctl_50_agent_status,agent[ -]status,control,32715,2025-06-05 18:17:14 UTC,Claude 3.7 Sonnet,58,first chat use outside 2025-11-20 .. correction
+ctl_51_active_agents,active[ -]agents,control,22207,2025-05-09 19:33:14 UTC,GPT-4.1,245,first chat use outside 2025-11-20 .. correction
+ctl_52_toast_dismissal_loop,toast[ -]dismissal[ -]loop,control,136356,2025-12-08 20:58:42 UTC,Gemini 3 Pro,9,
+ctl_53_toast_dismissal,toast[ -]dismissal,control,136356,2025-12-08 20:58:42 UTC,Gemini 3 Pro,18,
+ctl_54_all_systems_operational,all[ -]systems[ -]operational,control,37056,2025-06-19 01:40:29 UTC,Claude Opus 4,173,first chat use outside 2025-11-20 .. correction
+ctl_55_data_access,data[ -]access,control,53463,2025-08-14 18:07:48 UTC,Claude 3.7 Sonnet,74,first chat use outside 2025-11-20 .. correction
+ctl_56_za_z0_9,za[ -]z0[ -]9,control,79152,2025-09-29 19:53:28 UTC,GPT-5,11,first chat use outside 2025-11-20 .. correction
+ctl_57_resource_allocation,resource[ -]allocation,control,23327,2025-05-11 19:26:35 UTC,Claude 3.7 Sonnet,76,first chat use outside 2025-11-20 .. correction
+ctl_58_pattern_catalog,pattern[ -]catalog,control,136799,2025-12-09 18:52:42 UTC,Claude Haiku 4.5,46,"in another agent's memory before the first chat use: Claude 3.7 Sonnet, Claude Opus 4"
+ctl_59_policy_level,policy[ -]level,control,137106,2025-12-09 20:37:38 UTC,Gemini 2.5 Pro,10,

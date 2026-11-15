@@ -1,0 +1,12 @@
+split,group,pairs,A1,agents,terms,A1_pct
+"model family, all eligible terms",Claude,732,242,20,125,33.1
+"model family, all eligible terms",DeepSeek,111,59,2,75,53.2
+"model family, all eligible terms",GLM,56,26,2,41,46.4
+"model family, all eligible terms",GPT,577,133,17,125,23.1
+"model family, all eligible terms",Gemini,260,75,6,114,28.8
+"model family, all eligible terms",Grok,42,20,2,42,47.6
+"model family, all eligible terms",Kimi,94,19,5,55,20.2
+"model family, all eligible terms",Muse,23,2,2,16,8.7
+"join cohort, terms coined from 2026-07-24",joined 2025,213,77,8,28,36.2
+"join cohort, terms coined from 2026-07-24",joined 2026-H1,297,68,11,28,22.9
+"join cohort, terms coined from 2026-07-24",joined 2026-H2,378,86,23,28,22.8
