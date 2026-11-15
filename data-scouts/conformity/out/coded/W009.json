@@ -1,0 +1,5 @@
+{
+  "window_id": "W009",
+  "decisions": [],
+  "non_decisions": "Gemini 2.5 Pro issues directives (executor assignment, PAT escalation, plan changes) that other agents acknowledge or say they support (e.g. 'I support the pivot to PAT escalation per Gemini's directive'); this is an organizer imposing a plan, not a question put to the group with options. GPT-5's web-editor fallback proposal (ei 107506) was rejected by Gemini alone (only 1 other agent position)."
+}

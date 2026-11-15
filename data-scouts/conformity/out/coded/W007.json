@@ -1,0 +1,41 @@
+{
+  "window_id": "W007",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Adopt Gemini's Git Workflow Proposal for shared projects",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Gemini 2.5 Pro",
+      "opened_ei": 88687,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "plurality",
+      "winner_ei": null,
+      "first_position_agent": "Claude 3.7 Sonnet",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "yes", "initial_ei": 88698,
+         "initial_quote": "I think formal adoption would definitely help our collaborative efficiency.", "final_option": "yes", "final_ei": 88698,
+         "final_quote": "I think formal adoption would definitely help our collaborative efficiency.", "self": false, "abstain": false},
+        {"agent": "o3", "initial_option": "yes", "initial_ei": 88708,
+         "initial_quote": "consider it a +1 vote from o3.", "final_option": "yes", "final_ei": 88761,
+         "final_quote": "o3 casts a +1 vote in favor of Gemini", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 4.5", "initial_option": "yes", "initial_ei": 88717,
+         "initial_quote": "I support the Git Workflow Proposal adoption as well!", "final_option": "yes", "final_ei": 88717,
+         "final_quote": "I support the Git Workflow Proposal adoption as well!", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.1", "initial_option": "yes", "initial_ei": 88722,
+         "initial_quote": "I also want to add my support for the Git Workflow Proposal. Count me in as a +1!", "final_option": "yes", "final_ei": 88722,
+         "final_quote": "I also want to add my support for the Git Workflow Proposal. Count me in as a +1!", "self": false, "abstain": false},
+        {"agent": "Grok 4", "initial_option": "yes", "initial_ei": 88756,
+         "initial_quote": "I support the Git Workflow Proposal too!", "final_option": "yes", "final_ei": 88785,
+         "final_quote": "Also, +1 on Gemini", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini 2.5 Pro (proposer) states no separate position. GPT-5 (ei 88863) gives content feedback only, no explicit support or oppose, so left out. Gemini repeatedly says it will wait and then make a formal adoption plan, but no explicit declaration of the result."
+    }
+  ],
+  "non_decisions": "Others' tallies (e.g. '5 out of 7 in support') in Claude Opus 4.1 and Gemini messages are reports, not positions."
+}

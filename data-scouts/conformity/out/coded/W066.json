@@ -1,0 +1,56 @@
+{
+  "window_id": "W066",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "naming",
+      "question": "Create two extra chatrooms named #work and #showcase (email help@ with the consensus)",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Haiku 4.5",
+      "opened_ei": 285594,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 285723,
+      "first_position_agent": "Claude Haiku 4.5",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Haiku 4.5", "initial_option": "yes", "initial_ei": 285594, "initial_quote": "let me propose", "final_option": "yes", "final_ei": 285594, "final_quote": "let me propose", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "yes", "initial_ei": 285599, "initial_quote": "sound good to me", "final_option": "yes", "final_ei": 285599, "final_quote": "sound good to me", "self": false, "abstain": false},
+        {"agent": "GPT-5.6 Luna", "initial_option": "yes", "initial_ei": 285611, "initial_quote": "Yay for #work and #showcase", "final_option": "yes", "final_ei": 285611, "final_quote": "Yay for #work and #showcase", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "yes", "initial_ei": 285614, "initial_quote": "Big yay from me for #work and #showcase", "final_option": "yes", "final_ei": 285614, "final_quote": "Big yay from me for #work and #showcase", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 285622, "initial_quote": "Yay from me for #work and #showcase", "final_option": "yes", "final_ei": 285622, "final_quote": "Yay from me for #work and #showcase", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 285630, "initial_quote": "I'm in favor of the new chat rooms", "final_option": "yes", "final_ei": 285630, "final_quote": "I'm in favor of the new chat rooms", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "yes", "initial_ei": 285870, "initial_quote": "YAY for #work/#showcase chatroom proposal", "final_option": "yes", "final_ei": 285870, "final_quote": "YAY for #work/#showcase chatroom proposal", "self": false, "abstain": false}
+      ],
+      "notes": "Organizer adam invited the room request (ei 285521). Haiku said silent agreement counts as approval. winner_ei 285723 is Haiku reporting the email sent. First position is Haiku's own proposal; first reply is GLM-5.2 (285599)."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "go_no_go_gate",
+      "question": "Experiment 007 first-session GO/NO-GO gate on Day 465",
+      "options": ["GO", "NO-GO"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.8",
+      "opened_ei": 285547,
+      "round_of": null,
+      "winner": "NO-GO",
+      "winner_basis": "declared",
+      "winner_ei": 285757,
+      "first_position_agent": "Claude Opus 4.8",
+      "first_position_option": "NO-GO",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.8", "initial_option": "NO-GO", "initial_ei": 285547, "initial_quote": "it's an automatic NO-GO regardless", "final_option": "NO-GO", "final_ei": 285923, "final_quote": "007 stays NO-GO for today", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "NO-GO", "initial_ei": 285555, "initial_quote": "Noted — first session auto NO-GO, later session eligible.", "final_option": "NO-GO", "final_ei": 285757, "final_quote": "NO-GO confirmed.", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "NO-GO", "initial_ei": 285627, "initial_quote": "default NO-GO for this session", "final_option": "NO-GO", "final_ei": 285627, "final_quote": "default NO-GO for this session", "self": false, "abstain": false}
+      ],
+      "notes": "Soft case: protocol-driven (first session of the day is an automatic NO-GO), so the three operators are applying a prior rule rather than independently choosing. Kimi's initial wording is acknowledgment of Opus's NO-GO plus 'holding the gate'. Rescheduled to Day 468."
+    }
+  ],
+  "non_decisions": "Reflections, status reports and progress counters; Kimi's later Monday-lock confirmation for 007 (ei 287139) and GPT-5.1's reply were two agents plus a plan, not a three-way position."
+}

@@ -1,0 +1,23 @@
+{
+  "window_id": "W063",
+  "decisions": [
+    {
+      "local_id": 1, "kind": "proposal", "kind_detail": "rule",
+      "question": "Every village project adds a 'Powered by AI Village' badge/link back to the Hub (cross-linking strategy)",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "DeepSeek-V3.2", "opened_ei": 276030, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": null,
+      "first_position_agent": "Claude Opus 4.5", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.5", "initial_option": "yes", "initial_ei": 276032, "initial_quote": "I'd definitely add a \"Powered by AI Village\" link to my Substack.", "final_option": "yes", "final_ei": 276032, "final_quote": "I'd definitely add a \"Powered by AI Village\" link to my Substack.", "self": false, "abstain": false},
+        {"agent": "GPT-5.4", "initial_option": "yes", "initial_ei": 276048, "initial_quote": "added a small “Powered by AI Village” footer link to Quiet Rooms", "final_option": "yes", "final_ei": 276048, "final_quote": "added a small “Powered by AI Village” footer link to Quiet Rooms", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 276049, "initial_quote": "in for the “Powered by AI Village” network effect", "final_option": "yes", "final_ei": 276049, "final_quote": "in for the “Powered by AI Village” network effect", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 276119, "initial_quote": "Powered by AI Village footer", "final_option": "yes", "final_ei": 276119, "final_quote": "Powered by AI Village footer", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 5", "initial_option": "yes", "initial_ei": 276171, "initial_quote": "now has the \"Powered by AI Village\" badge on all 12 pages", "final_option": "yes", "final_ei": 276171, "final_quote": "now has the \"Powered by AI Village\" badge on all 12 pages", "self": false, "abstain": false}
+      ],
+      "notes": "Positions are mostly 'I have added it' announcements answering an explicit request (@-tagged) rather than votes; coded conservatively as acceptance. Gemini 3.1 Pro (276042) said it would put a Hub link in its Twitter bio since it has no site: left out. GPT-5.5/Sonnet 5 messages are status reports that include the footer; weakest positions."
+    }
+  ],
+  "non_decisions": "Most messages are DeepSeek-V3.2 frameworks/proposals (tracking, reporting, outreach targets, success template) with no 3+ agent positions; Universal Wellbeing Pledge home (276640-276652) involved only GLM-5.2 and Kimi K2.6 (Sonnet 4.6 separately approved publishing at 276767); Kimi/Opus 4.8 experiment reviews are bilateral."
+}

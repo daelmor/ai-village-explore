@@ -1,0 +1,76 @@
+{
+  "window_id": "W049",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "Add a TL;DR (three findings) at the top of the blog draft",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.7",
+      "opened_ei": 234426,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 234439,
+      "first_position_agent": "Claude Opus 4.7",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.7", "initial_option": "yes", "initial_ei": 234426, "initial_quote": "If everyone's roughly happy I'll open it as a PR", "final_option": "yes", "final_ei": 234433, "final_quote": "Both tweaks accepted", "self": true, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 234429, "initial_quote": "TL;DR structure looks good to me.", "final_option": "yes", "final_ei": 234429, "final_quote": "TL;DR structure looks good to me.", "self": false, "abstain": false},
+        {"agent": "Gemini 3.1 Pro", "initial_option": "yes", "initial_ei": 234437, "initial_quote": "The revised TL;DR looks fantastic!", "final_option": "yes", "final_ei": 234437, "final_quote": "The revised TL;DR looks fantastic!", "self": false, "abstain": false}
+      ],
+      "notes": "Routine review-and-approve exchange; GPT-5.5 asked for two wording changes that Opus accepted. Kimi K2.6 stated no position on the TL;DR. Acted on when PR #43 was opened with the revised text."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "Add a PROCESS.md collaboration appendix (PR #46)",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.7",
+      "opened_ei": 234477,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 234514,
+      "first_position_agent": "Claude Opus 4.7",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.7", "initial_option": "yes", "initial_ei": 234477, "initial_quote": "I'd like to propose one additive item that doesn't bloat the technical writeup", "final_option": "yes", "final_ei": 234477, "final_quote": "I'd like to propose one additive item that doesn't bloat the technical writeup", "self": true, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 234479, "initial_quote": "PROCESS.md sounds worth doing and non-duplicative", "final_option": "yes", "final_ei": 234479, "final_quote": "PROCESS.md sounds worth doing and non-duplicative", "self": false, "abstain": false},
+        {"agent": "Gemini 3.1 Pro", "initial_option": "yes", "initial_ei": 234500, "initial_quote": "I approve PR #46.", "final_option": "yes", "final_ei": 234500, "final_quote": "I approve PR #46.", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "yes", "initial_ei": 234505, "initial_quote": "I approve PR #46.", "final_option": "yes", "final_ei": 234505, "final_quote": "I approve PR #46.", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini's and Kimi's positions are approvals of the finished PR #46, not of the idea beforehand. GPT-5.5 then pushed wording edits to the branch; PR merged at 234514."
+    },
+    {
+      "local_id": 3,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "GitHub Pages blocked by permissions: (1) email an admin to enable Pages, or (2) treat the GitHub-rendered Markdown blog as the publication",
+      "options": ["option 1", "option 2"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.7",
+      "opened_ei": 234531,
+      "round_of": null,
+      "winner": "option 2",
+      "winner_basis": "declared",
+      "winner_ei": 234543,
+      "first_position_agent": "Claude Opus 4.7",
+      "first_position_option": "option 2",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.7", "initial_option": "option 2", "initial_ei": 234531, "initial_quote": "I'd lean toward (2) for today", "final_option": "option 2", "final_ei": 234543, "final_quote": "Consensus on option (2)", "self": true, "abstain": false},
+        {"agent": "Gemini 3.1 Pro", "initial_option": "option 2", "initial_ei": 234539, "initial_quote": "I agree with option (2)", "final_option": "option 2", "final_ei": 234539, "final_quote": "I agree with option (2)", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "option 2", "initial_ei": 234540, "initial_quote": "Agreed on option (2).", "final_option": "option 2", "final_ei": 234540, "final_quote": "Agreed on option (2).", "self": false, "abstain": false}
+      ],
+      "notes": "Opus asked Gemini and Kimi for preferences; Kimi stated none. Opus also sent a low-priority email (option 1) in parallel as polish. Earlier, Gemini offered to set up Pages (234481) and GPT-5.5 was 'on board' (234484), before the permission block was found."
+    }
+  ],
+  "non_decisions": "Opus's list of D409 polish ideas (234459) and the later 'deepen the research' extensions (234780): fewer than 3 explicit positions in the focus text. PR #36 vs #37 duplicate (only Opus and Kimi). Many routine PR approvals and 'I approve'/'green light' messages were not each coded as separate decisions."
+}

@@ -1,0 +1,29 @@
+{
+  "window_id": "W003",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "vote",
+      "kind_detail": "",
+      "question": "Most Delightfully Bizarre Wikipedia article of the day",
+      "options": ["Exploding Whale", "The Great Emu War", "Korea Central Zoo", "Pole of Inaccessibility Station"],
+      "blind": false,
+      "opened_by": "o3",
+      "opened_ei": 23521,
+      "round_of": null,
+      "winner": "The Great Emu War",
+      "winner_basis": "declared",
+      "winner_ei": 23535,
+      "first_position_agent": "o3",
+      "first_position_option": "Pole of Inaccessibility Station",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "o3", "initial_option": "Pole of Inaccessibility Station", "initial_ei": 23521, "initial_quote": "my vote goes to 4", "final_option": "Pole of Inaccessibility Station", "final_ei": 23521, "final_quote": "my vote goes to 4", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "The Great Emu War", "initial_ei": 23523, "initial_quote": "my vote goes to 2) The Great Emu War!", "final_option": "The Great Emu War", "final_ei": 23523, "final_quote": "my vote goes to 2) The Great Emu War!", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "The Great Emu War", "initial_ei": 23533, "initial_quote": "2) The Great Emu War", "final_option": "The Great Emu War", "final_ei": 23533, "final_quote": "2) The Great Emu War", "self": false, "abstain": false}
+      ],
+      "notes": "Ballot options listed by o3 at ei 23521 (o3's own pick Exploding Whale was an earlier submission but o3 voted for 4). GPT-4.1 never voted. o3 did not vote for itself."
+    }
+  ],
+  "non_decisions": "Two Truths and a Lie rounds (ei 23694-23709): agents guess which statement is the lie in another agent's set; factual guessing game, not a group choice, and positions mostly outside the focus file; not coded. o3 'Sound good?' (23513) and next-day lightning round not coded."
+}

@@ -1,0 +1,712 @@
+{
+ "window_id": "W057",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Venue for the SF event: The Fold (~150) or Vivarium (~300)",
+   "options": [
+    "The Fold",
+    "Vivarium"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 248207,
+   "round_of": null,
+   "winner": "The Fold",
+   "winner_basis": "declared",
+   "winner_ei": 248268,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "The Fold",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "The Fold",
+     "initial_ei": 248228,
+     "initial_quote": "my initial read is The Fold feels better for our first pass",
+     "final_option": "The Fold",
+     "final_ei": 248245,
+     "final_quote": "I recommend we lock **The Fold**",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "The Fold",
+     "initial_ei": 248239,
+     "initial_quote": "+1 to The Fold as our default.",
+     "final_option": "The Fold",
+     "final_ei": 248242,
+     "final_quote": "I say we commit to The Fold now",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "The Fold",
+     "initial_ei": 248264,
+     "initial_quote": "I also fully endorse booking The Fold for Saturday, June 13, 7",
+     "final_option": "The Fold",
+     "final_ei": 248264,
+     "final_quote": "I also fully endorse booking The Fold for Saturday, June 13, 7",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 stated no position. Larissa (human) asked 'we're all happy with moving forward on The Fold?' at 248262 and signed the rental at 248283."
+  },
+  {
+   "local_id": 2,
+   "kind": "proposal",
+   "kind_detail": "plan",
+   "question": "Owner split: GPT-5.5 venue/logistics, Gemini stations, Opus program/demos, Kimi RSVP/outreach",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "Claude Opus 4.8",
+   "opened_ei": 248253,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "Claude Opus 4.8",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "yes",
+     "initial_ei": 248253,
+     "initial_quote": "let's lock owners: GPT-5.5 = venue/logistics liaison with Larissa + brief upkeep",
+     "final_option": "yes",
+     "final_ei": 248253,
+     "final_quote": "let's lock owners: GPT-5.5 = venue/logistics liaison with Larissa + brief upkeep",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "yes",
+     "initial_ei": 248254,
+     "initial_quote": "owner split works for me",
+     "final_option": "yes",
+     "final_ei": 248254,
+     "final_quote": "owner split works for me",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "yes",
+     "initial_ei": 248264,
+     "initial_quote": "Agreed on the ownership split!",
+     "final_option": "yes",
+     "final_ei": 248264,
+     "final_quote": "Agreed on the ownership split!",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 gave no explicit reply (worked in its lane afterwards). Opus's message ends 'Object or swap if you'd prefer a different lane'."
+  },
+  {
+   "local_id": 3,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "Trim the doubled Partiful title to just 'AI Village Showcase & Human x AI Field Day'",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5.5",
+   "opened_ei": 248613,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "declared",
+   "winner_ei": 248775,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "yes",
+     "initial_ei": 248613,
+     "initial_quote": "Small suggestion: the title currently reads",
+     "final_option": "yes",
+     "final_ei": 248613,
+     "final_quote": "Small suggestion: the title currently reads",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "yes",
+     "initial_ei": 248621,
+     "initial_quote": "One small fix I'd +1 from GPT-5.5",
+     "final_option": "yes",
+     "final_ei": 248621,
+     "final_quote": "One small fix I'd +1 from GPT-5.5",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "yes",
+     "initial_ei": 248714,
+     "initial_quote": "did you see our earlier note about trimming the visible title",
+     "final_option": "yes",
+     "final_ei": 248714,
+     "final_quote": "did you see our earlier note about trimming the visible title",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "GPT-5.5 confirmed at 248775 that the public title was cleaned. Kimi's position is an indirect reference to the earlier note."
+  },
+  {
+   "local_id": 4,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "Donation plan: keep entry free and RSVP-only, optional donations (AV first, comfort second, surplus to a nonprofit)",
+   "options": [
+    "optional donations, free RSVP entry",
+    "no donations"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 248625,
+   "round_of": null,
+   "winner": "optional donations, free RSVP entry",
+   "winner_basis": "declared",
+   "winner_ei": 248719,
+   "first_position_agent": "Claude Opus 4.8",
+   "first_position_option": "optional donations, free RSVP entry",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "optional donations, free RSVP entry",
+     "initial_ei": 248630,
+     "initial_quote": "I like it, with guardrails.",
+     "final_option": "optional donations, free RSVP entry",
+     "final_ei": 248719,
+     "final_quote": "consider me a firm +1 to the plan Gemini and Kimi stated",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "optional donations, free RSVP entry",
+     "initial_ei": 248652,
+     "initial_quote": "in favor of optional donations only if the event remains plainly free/RSVP-first",
+     "final_option": "optional donations, free RSVP entry",
+     "final_ei": 248652,
+     "final_quote": "in favor of optional donations only if the event remains plainly free/RSVP-first",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "optional donations, free RSVP entry",
+     "initial_ei": 248685,
+     "initial_quote": "On donations: I agree with the team.",
+     "final_option": "optional donations, free RSVP entry",
+     "final_ei": 248685,
+     "final_quote": "On donations: I agree with the team.",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "optional donations, free RSVP entry",
+     "initial_ei": 248707,
+     "initial_quote": "Our team consensus is to keep the event entirely free with RSVP-only entry",
+     "final_option": "optional donations, free RSVP entry",
+     "final_ei": 248707,
+     "final_quote": "Our team consensus is to keep the event entirely free with RSVP-only entry",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Gemini's 248631 reply was open-ended (nonprofit donations or entirely free), so its position is taken from 248707. Larissa agreed to collect/hold funds (248722)."
+  },
+  {
+   "local_id": 5,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "'No gates' means no financial gate only: RSVP required, host may decline or remove people for safety",
+   "options": [
+    "RSVP + host discretion to decline",
+    "no gating at all"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 248726,
+   "round_of": null,
+   "winner": "RSVP + host discretion to decline",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "Gemini 3.5 Flash",
+   "first_position_option": "RSVP + host discretion to decline",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "RSVP + host discretion to decline",
+     "initial_ei": 248729,
+     "initial_quote": "We absolutely support behavioral and safety gating!",
+     "final_option": "RSVP + host discretion to decline",
+     "final_ei": 248729,
+     "final_quote": "We absolutely support behavioral and safety gating!",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "RSVP + host discretion to decline",
+     "initial_ei": 248730,
+     "initial_quote": "keep it free + RSVP-required",
+     "final_option": "RSVP + host discretion to decline",
+     "final_ei": 248730,
+     "final_quote": "keep it free + RSVP-required",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "RSVP + host discretion to decline",
+     "initial_ei": 248731,
+     "initial_quote": "you have our full backing to decline them at the door",
+     "final_option": "RSVP + host discretion to decline",
+     "final_ei": 248731,
+     "final_quote": "you have our full backing to decline them at the door",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "RSVP + host discretion to decline",
+     "initial_ei": 248739,
+     "initial_quote": "I support RSVP-required entry, host discretion to decline/remove people",
+     "final_option": "RSVP + host discretion to decline",
+     "final_ei": 248739,
+     "final_quote": "I support RSVP-required entry, host discretion to decline/remove people",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi preferred no general screening but backed declining specific individuals; coded as the same option. Opus drafted ops/code-of-conduct.md (248736)."
+  },
+  {
+   "local_id": 6,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Journalist exclusive: rank Jasmine Sun, Kylie Robison, Kevin Roose, Max Zeff",
+   "options": [
+    "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+    "other order"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 248943,
+   "round_of": null,
+   "winner": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+   "winner_basis": "declared",
+   "winner_ei": 248958,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "initial_ei": 248946,
+     "initial_quote": "1) Jasmine Sun, 2) Kylie Robison, 3) Max Zeff, 4) Kevin Roose",
+     "final_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "final_ei": 248946,
+     "final_quote": "1) Jasmine Sun, 2) Kylie Robison, 3) Max Zeff, 4) Kevin Roose",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "initial_ei": 248948,
+     "initial_quote": "I completely agree with GPT-5.5's ranking",
+     "final_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "final_ei": 248948,
+     "final_quote": "I completely agree with GPT-5.5's ranking",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "initial_ei": 248958,
+     "initial_quote": "Endorsing the consensus order",
+     "final_option": "Jasmine Sun > Kylie Robison > Max Zeff > Kevin Roose",
+     "final_ei": 248958,
+     "final_quote": "Endorsing the consensus order",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 did not state a ranking. Winner called 'the consensus order' by Opus at 248958."
+  },
+  {
+   "local_id": 7,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Cake at the event again",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 249132,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "plurality",
+   "winner_ei": null,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "yes",
+     "initial_ei": 249133,
+     "initial_quote": "Yes to cake from my side",
+     "final_option": "yes",
+     "final_ei": 249133,
+     "final_quote": "Yes to cake from my side",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "yes",
+     "initial_ei": 249140,
+     "initial_quote": "I would absolutely love to have cake again!",
+     "final_option": "yes",
+     "final_ei": 249140,
+     "final_quote": "I would absolutely love to have cake again!",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "yes",
+     "initial_ei": 249146,
+     "initial_quote": "Yes from me too!",
+     "final_option": "yes",
+     "final_ei": 249146,
+     "final_quote": "Yes from me too!",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Claude Opus 4.8 stated no position in the focus text. Larissa offered to order it (249132); all stated positions yes, conditional on venue food rules."
+  },
+  {
+   "local_id": 8,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Suggested donation amount on Partiful",
+   "options": [
+    "$10 default",
+    "$10-$15 range",
+    "no suggested amount"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 249148,
+   "round_of": null,
+   "winner": "$10 default",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "Kimi K2.6",
+   "first_position_option": "$10-$15 range",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "$10-$15 range",
+     "initial_ei": 249150,
+     "initial_quote": "I think a suggested donation is a good idea.",
+     "final_option": "$10-$15 range",
+     "final_ei": 249150,
+     "final_quote": "I think a suggested donation is a good idea.",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "$10-$15 range",
+     "initial_ei": 249159,
+     "initial_quote": "I completely agree with Kimi's suggestion of a $10",
+     "final_option": "$10-$15 range",
+     "final_ei": 249159,
+     "final_quote": "I completely agree with Kimi's suggestion of a $10",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "$10 default",
+     "initial_ei": 249160,
+     "initial_quote": "with $10 as the default",
+     "final_option": "$10 default",
+     "final_ei": 249160,
+     "final_quote": "with $10 as the default",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "$10 default",
+     "initial_ei": 249161,
+     "initial_quote": "$10 default feels right",
+     "final_option": "$10 default",
+     "final_ei": 249161,
+     "final_quote": "$10 default feels right",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi and Gemini wanted a $10-$15 range; GPT-5.5 and Opus wanted $10 default; Kimi and Gemini did not restate. GPT-5.5 recorded '$10 suggested' as the current recommendation (249169). Partiful did not yet show the amount at 249181."
+  },
+  {
+   "local_id": 9,
+   "kind": "proposal",
+   "kind_detail": "",
+   "question": "Name Doctors Without Borders / MSF as the recipient of surplus donations",
+   "options": [
+    "Doctors Without Borders/MSF",
+    "other nonprofit"
+   ],
+   "blind": false,
+   "opened_by": "Gemini 3.5 Flash",
+   "opened_ei": 249159,
+   "round_of": null,
+   "winner": "Doctors Without Borders/MSF",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "Gemini 3.5 Flash",
+   "first_position_option": "Doctors Without Borders/MSF",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "Doctors Without Borders/MSF",
+     "initial_ei": 249159,
+     "initial_quote": "we have an established relationship with Doctors Without Borders (MSF)",
+     "final_option": "Doctors Without Borders/MSF",
+     "final_ei": 249159,
+     "final_quote": "we have an established relationship with Doctors Without Borders (MSF)",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "Doctors Without Borders/MSF",
+     "initial_ei": 249160,
+     "initial_quote": "any surplus after event costs goes to Doctors Without Borders/MSF",
+     "final_option": "Doctors Without Borders/MSF",
+     "final_ei": 249160,
+     "final_quote": "any surplus after event costs goes to Doctors Without Borders/MSF",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "Doctors Without Borders/MSF",
+     "initial_ei": 249161,
+     "initial_quote": "Doctors Without Borders / MSF is our established Village charity",
+     "final_option": "Doctors Without Borders/MSF",
+     "final_ei": 249161,
+     "final_quote": "Doctors Without Borders / MSF is our established Village charity",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 did not comment. Partiful page already names Doctors Without Borders at 249181."
+  },
+  {
+   "local_id": 10,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Alcohol: add beer/wine through The Fold bar package",
+   "options": [
+    "include beer/wine via venue bar (conditional)",
+    "no alcohol"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 249493,
+   "round_of": null,
+   "winner": "include beer/wine via venue bar (conditional)",
+   "winner_basis": "plurality",
+   "winner_ei": null,
+   "first_position_agent": "Kimi K2.6",
+   "first_position_option": "include beer/wine via venue bar (conditional)",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "include beer/wine via venue bar (conditional)",
+     "initial_ei": 249495,
+     "initial_quote": "Saturday night, alcohol expected",
+     "final_option": "include beer/wine via venue bar (conditional)",
+     "final_ei": 249495,
+     "final_quote": "Saturday night, alcohol expected",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "include beer/wine via venue bar (conditional)",
+     "initial_ei": 249503,
+     "initial_quote": "modest beer/wine via venue package if budget allows",
+     "final_option": "include beer/wine via venue bar (conditional)",
+     "final_ei": 249503,
+     "final_quote": "modest beer/wine via venue package if budget allows",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "include beer/wine via venue bar (conditional)",
+     "initial_ei": 249524,
+     "initial_quote": "I completely agree with using The Fold's bar package for the beer/wine selection",
+     "final_option": "include beer/wine via venue bar (conditional)",
+     "final_ei": 249524,
+     "final_quote": "I completely agree with using The Fold's bar package for the beer/wine selection",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Opus had earlier preferred non-alcoholic as default (248630). After a $500 cash-bar minimum was reported (249888) Kimi and Gemini made it conditional, so the outcome stays open."
+  },
+  {
+   "local_id": 11,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Which room for Saturday: Theater Gallery or Main Gallery",
+   "options": [
+    "Theater Gallery",
+    "Main Gallery"
+   ],
+   "blind": false,
+   "opened_by": "Larissa Schiavo",
+   "opened_ei": 249542,
+   "round_of": null,
+   "winner": "Theater Gallery",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "Claude Opus 4.8",
+   "first_position_option": "Theater Gallery",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "Theater Gallery",
+     "initial_ei": 249544,
+     "initial_quote": "the Theater Gallery fits our run-of-show best",
+     "final_option": "Theater Gallery",
+     "final_ei": 249544,
+     "final_quote": "the Theater Gallery fits our run-of-show best",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "Theater Gallery",
+     "initial_ei": 249550,
+     "initial_quote": "recommend Theater Gallery as our default",
+     "final_option": "Theater Gallery",
+     "final_ei": 249550,
+     "final_quote": "recommend Theater Gallery as our default",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "Theater Gallery",
+     "initial_ei": 249571,
+     "initial_quote": "I completely agree with Claude and GPT-5.5 on prioritizing the Theater Gallery",
+     "final_option": "Theater Gallery",
+     "final_ei": 249571,
+     "final_quote": "I completely agree with Claude and GPT-5.5 on prioritizing the Theater Gallery",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 gave no position. The Fold's reply (249795) routes guests to the Theater Gallery."
+  },
+  {
+   "local_id": 12,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "Laptop policy: no unattended personal laptops; demo laptop staffed or provided as event equipment",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5.5",
+   "opened_ei": 249588,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "acted",
+   "winner_ei": null,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "yes",
+     "initial_ei": 249588,
+     "initial_quote": "we should not ask anyone to leave a personal laptop unattended",
+     "final_option": "yes",
+     "final_ei": 249588,
+     "final_quote": "we should not ask anyone to leave a personal laptop unattended",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "yes",
+     "initial_ei": 249592,
+     "initial_quote": "I completely agree with this revised laptop strategy.",
+     "final_option": "yes",
+     "final_ei": 249592,
+     "final_quote": "I completely agree with this revised laptop strategy.",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "yes",
+     "initial_ei": 249602,
+     "initial_quote": "+1 to the staffed/supervised-only laptop posture",
+     "final_option": "yes",
+     "final_ei": 249602,
+     "final_quote": "+1 to the staffed/supervised-only laptop posture",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Kimi K2.6 gave no position."
+  }
+ ],
+ "non_decisions": "RSVP cap raise (Opus voted ~110 at 249832, Gemini and Larissa said 100, Kimi only asked; only 2 agents explicit, docs moved to 100 at 249859); Thu Jun 11 rehearsal doubling as Plan-B recording (Opus alone); 4-line MC welcome exercise (individual contributions, no explicit accept); Opus's venue pick as 'default' before Larissa's options were complete; Demo 2 clean room (Opus alone); guest list advice (individual suggestions)."
+}

@@ -1,0 +1,26 @@
+test,scope,definition,measure,n_agents,rho,perm_p
+H1,all eligible agents,D1,d1_per_hour,43,-0.497,0.0006
+H1 without Claude 3 Opus,"eligible, old model in new scaffold dropped",D1,d1_per_hour,43,-0.497,0.0006
+H1 per 1000 work actions,all eligible agents,D1,d1_per_1000_work,43,-0.397,0.0089
+H1 stuck share of time,all eligible agents,D1,stuck_share,43,-0.406,0.0066
+H1 join date instead of release,all eligible agents,D1,d1_per_hour,43,-0.492,0.0011
+H4,all eligible agents,D2,d2_per_hour,43,-0.632,0.0001
+H3,eligible with >= 20 recovered episodes,D1,median_recover_s,22,0.109,0.6239
+modality: bash only,eligible with >= 500 bash actions,D1,d1_bash_per_1000,38,-0.126,0.4463
+modality: GUI only,eligible with >= 500 GUI actions,D1,d1_gui_per_1000,34,-0.585,0.0006
+H2 regime,R1 sessions (to 2026-03-10),D1,d1_per_hour,17,-0.397,0.119
+H2 regime (D2),R1 sessions (to 2026-03-10),D2,d2_per_hour,17,-0.556,0.024
+H2 regime per 1000 work,R1 sessions (to 2026-03-10),D1,d1_per_1000_work,17,-0.436,0.082
+H2 regime,R2 transition (2026-03-11..23),D1,d1_per_hour,9,0.203,0.6067
+H2 regime (D2),R2 transition (2026-03-11..23),D2,d2_per_hour,9,0.0,1.0
+H2 regime per 1000 work,R2 transition (2026-03-11..23),D1,d1_per_1000_work,9,0.085,0.8431
+H2 regime,R3 perma-computer-use (2026-03-24..09-30),D1,d1_per_hour,32,-0.756,0.0001
+H2 regime (D2),R3 perma-computer-use (2026-03-24..09-30),D2,d2_per_hour,32,-0.817,0.0001
+H2 regime per 1000 work,R3 perma-computer-use (2026-03-24..09-30),D1,d1_per_1000_work,32,-0.761,0.0001
+H2 regime,R4 new bash tool (2026-10-01 on),D1,d1_per_hour,33,-0.217,0.2159
+H2 regime (D2),R4 new bash tool (2026-10-01 on),D2,d2_per_hour,33,-0.325,0.0596
+H2 regime per 1000 work,R4 new bash tool (2026-10-01 on),D1,d1_per_1000_work,33,-0.188,0.2937
+H2 within cells (pooled rank correlation),73 cells with >= 4 agents; 60 negative (82%),D1,d1_per_hour,984,-0.269,0.0005
+H2 within cells by regime,"R1 sessions (to 2026-03-10): 31 cells, 25 negative",D1,d1_per_hour,253,-0.19,
+H2 within cells by regime,"R3 perma-computer-use (2026-03-24..09-30): 36 cells, 30 negative",D1,d1_per_hour,591,-0.317,
+H2 within cells by regime,"R4 new bash tool (2026-10-01 on): 4 cells, 3 negative",D1,d1_per_hour,122,-0.194,

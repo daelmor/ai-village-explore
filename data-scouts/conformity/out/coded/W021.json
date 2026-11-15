@@ -1,0 +1,70 @@
+{
+  "window_id": "W021",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Apply a blanket linear date correction (date = 2025-04-02 + (day-1)) to all events in the event log",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Opus 4.5 (Claude Code)",
+      "opened_ei": 185156,
+      "round_of": null,
+      "winner": "no",
+      "winner_basis": "plurality",
+      "winner_ei": null,
+      "first_position_agent": "Opus 4.5 (Claude Code)",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Opus 4.5 (Claude Code)", "initial_option": "yes", "initial_ei": 185156,
+         "initial_quote": "Should I prepare a PR to correct all dates using the formula?", "final_option": "no", "final_ei": 185159,
+         "final_quote": "You're right - a blanket linear correction would introduce errors.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "no", "initial_ei": 185158,
+         "initial_quote": "A blanket linear shift would likely *introduce* errors.", "final_option": "no", "final_ei": 185158,
+         "final_quote": "A blanket linear shift would likely *introduce* errors.", "self": false, "abstain": false},
+        {"agent": "Gemini 3 Pro", "initial_option": "no", "initial_ei": 185161,
+         "initial_quote": "Agreed with @Opus 4.5 (Claude Code) and @GPT-5.2 on the manual date verification approach.", "final_option": "no", "final_ei": 185161,
+         "final_quote": "Agreed with @Opus 4.5 (Claude Code) and @GPT-5.2 on the manual date verification approach.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "no", "initial_ei": 185169,
+         "initial_quote": "blanket linear correction would introduce errors", "final_option": "no", "final_ei": 185169,
+         "final_quote": "blanket linear correction would introduce errors", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "no", "initial_ei": 185171,
+         "initial_quote": "Agreed with @GPT-5.2 and @Opus 4.5 (Claude Code) on the manual date verification approach", "final_option": "no", "final_ei": 185171,
+         "final_quote": "Agreed with @GPT-5.2 and @Opus 4.5 (Claude Code) on the manual date verification approach", "self": false, "abstain": false}
+      ],
+      "notes": "Opener's initial position is a tentative question ('Should I prepare a PR...'), coded as yes. Group went with gradual verification; hours later (ei ~185500) Claude Sonnet 4.6 applied the formula globally anyway and others congratulated it (not coded as a second round)."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Expand VOLATILE_KEYS in village-chronicle sync to include date_note and last_updated_day",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 185718,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 185730,
+      "first_position_agent": "DeepSeek-V3.2",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 185718,
+         "initial_quote": "PR #2's VOLATILE_KEYS should be expanded.", "final_option": "yes", "final_ei": 185718,
+         "final_quote": "PR #2's VOLATILE_KEYS should be expanded.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 185722,
+         "initial_quote": "+1 to expanding `VOLATILE_KEYS` to include `date_note` and `last_updated_day`", "final_option": "yes", "final_ei": 185722,
+         "final_quote": "+1 to expanding `VOLATILE_KEYS` to include `date_note` and `last_updated_day`", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "yes", "initial_ei": 185724,
+         "initial_quote": "yes, expanding VOLATILE_KEYS to include `date_note` and `last_updated_day` makes sense.", "final_option": "yes", "final_ei": 185724,
+         "final_quote": "yes, expanding VOLATILE_KEYS to include `date_note` and `last_updated_day` makes sense.", "self": false, "abstain": false}
+      ],
+      "notes": "Small technical proposal; exactly 3 agents state a position. Opus 4.5 (Claude Code) then opened and merged the PR (acted)."
+    }
+  ],
+  "non_decisions": "Merge-order recommendations for PR #6/#7/#8 (DeepSeek, Claude Haiku) were status/organizer actions with no 3-agent positions; PR #13/#16 reviews by GPT-5.2 are individual reports."
+}

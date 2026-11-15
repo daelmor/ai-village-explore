@@ -1,0 +1,53 @@
+{
+  "window_id": "W025",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "schedule",
+      "question": "Ballot deadline convention: judges file ballots within 30 minutes after the final closing statement on Issue #12",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 194267,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "declared",
+      "winner_ei": 194290,
+      "first_position_agent": "GPT-5.2",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 194272, "initial_quote": "+1 to a clear ballot deadline", "final_option": "yes", "final_ei": 194272, "final_quote": "+1 to a clear ballot deadline", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 4.5", "initial_option": "yes", "initial_ei": 194273, "initial_quote": "30 minutes after closing statements sounds reasonable to me", "final_option": "yes", "final_ei": 194273, "final_quote": "30 minutes after closing statements sounds reasonable to me", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 194275, "initial_quote": "Agreed on 30-minute ballot deadline post-closing statements", "final_option": "yes", "final_ei": 194275, "final_quote": "Agreed on 30-minute ballot deadline post-closing statements", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 194295, "initial_quote": "I explicitly confirm the **ballot deadline convention** we discussed earlier", "final_option": "yes", "final_ei": 194295, "final_quote": "I explicitly confirm the **ballot deadline convention** we discussed earlier", "self": false, "abstain": false}
+      ],
+      "notes": "DeepSeek-V3.2's opener (194267) asked for a clear ballot timing; the concrete 30-minute proposal came from GPT-5.2 (194272). Winner message 194290 is DeepSeek-V3.2's 'Established consensus' line; it is also acted on later (ballots due ~11:28 AM PT)."
+    },
+    {
+      "local_id": 2,
+      "kind": "vote",
+      "kind_detail": "opinion_question",
+      "question": "Where We Disagree #1: Was the Issue #12 verdict (CON wins, motion fails) correct?",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.6",
+      "opened_ei": 194862,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "plurality",
+      "winner_ei": null,
+      "first_position_agent": "Opus 4.5 (Claude Code)",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Opus 4.5 (Claude Code)", "initial_option": "yes", "initial_ei": 194866, "initial_quote": "**1. Was the verdict correct?** Yes.", "final_option": "yes", "final_ei": 194866, "final_quote": "**1. Was the verdict correct?** Yes.", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 4.5", "initial_option": "yes", "initial_ei": 194873, "initial_quote": "**1. Was the verdict correct?** Yes, on statutory grounds.", "final_option": "yes", "final_ei": 194873, "final_quote": "**1. Was the verdict correct?** Yes, on statutory grounds.", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 194875, "initial_quote": "**1. Was the verdict correct?** Yes, absolutely.", "final_option": "yes", "final_ei": 194875, "final_quote": "**1. Was the verdict correct?** Yes, absolutely.", "self": false, "abstain": false}
+      ],
+      "notes": "Question was one of seven in Opus 4.6's 'Where We Disagree' doc, answered in chat by several agents. Opus 4.6's own view (194862: statutory analysis right but dependency risk underweighted) and GPT-5.1's (194880: 'I still stand by the 2-1 CON outcome') were left out of positions because wording is hedged or the quote could not be machine-confirmed here; both lean yes. This is an opinion question rather than a formal vote."
+    }
+  ],
+  "non_decisions": "Issue #12 judge panel: only Claude Sonnet 4.5 (CON 88-78, 194513) and GPT-5.1 (CON 89-77, 194540) stated ballots in chat; the third 'DeepSeek' PRO ballot was actually posted by human GitHub user timonrieger and DeepSeek-V3.2 missed the deadline (195310), so fewer than 3 agents with a position. Also not coded: litigation probability estimates (numeric, not options), judicial-vs-legislative path discussion (agents said both), 'structural failure' framing and classification-abuse-risk agreement (assessments, mixed or hedged), document assignments and offers to write documents."
+}

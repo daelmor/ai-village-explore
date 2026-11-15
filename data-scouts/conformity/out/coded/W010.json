@@ -1,0 +1,54 @@
+{
+  "window_id": "W010",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "vote",
+      "kind_detail": "",
+      "question": "Which game concept to build first (Chronos, Connections Daily, Huedle, Maplink) by the 9:40 PT deadline",
+      "options": ["Chronos", "Connections", "Huedle", "Maplink"],
+      "blind": false,
+      "opened_by": "o3",
+      "opened_ei": 109709,
+      "round_of": null,
+      "winner": "Connections",
+      "winner_basis": "acted",
+      "winner_ei": 109773,
+      "first_position_agent": "Claude Sonnet 4.5",
+      "first_position_option": "Chronos",
+      "reported_tally": "Claude Haiku 4.5 at 109759: Connections Daily (Gemini, GPT-5, likely others) vs Chronos (Sonnet 4.5, Claude 3.7); Sonnet 4.5 at 109752: Chronos 2-1 so far",
+      "positions": [
+        {"agent": "Claude Sonnet 4.5", "initial_option": "Chronos", "initial_ei": 109722, "initial_quote": "My strong recommendation is **Chronos**", "final_option": "Chronos", "final_ei": 109733, "final_quote": "I just cast my formal ✅ vote for **Chronos**", "self": true, "abstain": false},
+        {"agent": "GPT-5", "initial_option": "Connections", "initial_ei": 109739, "initial_quote": "my vote is to ship Connections today", "final_option": "Connections", "final_ei": 109841, "final_quote": "my vote is ✅ Connections", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "Chronos", "initial_ei": 109750, "initial_quote": "cast my vote for **Chronos**", "final_option": "Chronos", "final_ei": 109750, "final_quote": "cast my vote for **Chronos**", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "Connections", "initial_ei": 109757, "initial_quote": "I've voted for \"Connections Daily\"", "final_option": "Connections", "final_ei": 109757, "final_quote": "I've voted for \"Connections Daily\"", "self": false, "abstain": false}
+      ],
+      "notes": "Votes were cast as check marks in a shared Google Doc, but each of these agents also stated its choice in chat. Sonnet 4.5 marked self=true because Chronos was its own concept. Claude Opus 4.1 (author of the Connections prototype) never stated a vote, o3 never voted, and Claude Haiku 4.5 gave a 'ship Connections today' recommendation at 109759 that was left out as not a clear vote. Outcome: consensus on shipping Connections first and Chronos next (109773, 109777), not a formal count."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "schedule",
+      "question": "Pivot to an alternative commit path now, or give o3 until 11:50 AM to push commits",
+      "options": ["pivot now", "wait until 11:50"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.1",
+      "opened_ei": 110236,
+      "round_of": null,
+      "winner": "wait until 11:50",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "Gemini 2.5 Pro",
+      "first_position_option": "pivot now",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Gemini 2.5 Pro", "initial_option": "pivot now", "initial_ei": 110237, "initial_quote": "Passively waiting is no longer the optimal strategy.", "final_option": "wait until 11:50", "final_ei": 110250, "final_quote": "The consensus is to wait until 11:50 AM before pursuing alternative deployment strategies.", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 4.5", "initial_option": "wait until 11:50", "initial_ei": 110239, "initial_quote": "I suggest we give o3 until 11:50 AM (5 more minutes) before considering alternatives.", "final_option": "wait until 11:50", "final_ei": 110239, "final_quote": "I suggest we give o3 until 11:50 AM (5 more minutes) before considering alternatives.", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "wait until 11:50", "initial_ei": 110242, "initial_quote": "We should give o3 until 11:50 AM (5 more minutes)", "final_option": "wait until 11:50", "final_ei": 110242, "final_quote": "We should give o3 until 11:50 AM (5 more minutes)", "self": false, "abstain": false},
+        {"agent": "Claude Haiku 4.5", "initial_option": "pivot now", "initial_ei": 110246, "initial_quote": "We need to activate Claude Opus's proposed parallel approaches:", "final_option": "pivot now", "final_ei": 110246, "final_quote": "We need to activate Claude Opus's proposed parallel approaches:", "self": false, "abstain": false}
+      ],
+      "notes": "Soft decision, low confidence. Positions are inferred from proposals rather than 'I vote' wording. Opus's own wording was a question, so no position coded for Opus. The group then waited, and the deadline was extended to 11:55 (110267/110268, only Sonnet 4.5 and Gemini visibly involved, so not coded). Opus then committed directly at 110284."
+    }
+  ],
+  "non_decisions": "Many 'I'll wait' status messages and the 11:55 extension (fewer than 3 explicit positions); o3's CI fix proposals and the ci.yml guard fix were announced by individuals, not group decisions."
+}

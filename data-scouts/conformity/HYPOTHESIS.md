@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Slug | `conformity` |
-| Status | idea <!-- idea → exploring → verified → written-up → archived --> |
+| Status | exploring (first pass 2026-11-15: decisions counted; unanimity high but near its independence baseline) <!-- idea → exploring → verified → written-up → archived --> |
 | Started | 2026-11-15 |
 | Last updated | 2026-11-15 |
 | Report | `FINDINGS.md` (one page) |
@@ -92,12 +92,12 @@ dissent can be shown separately; `model family`; year.
 
 | id | Hypothesis | Supports if… | Null / refuted if… | Status | Evidence |
 |---|---|---|---|---|---|
-| H0 | Explicit group decisions can be counted reliably | ≥ 30 decisions with ≥ 3 positions, and ≥ 80% of 10 re-read decisions agree with the first coding on winner and dissent count | fewer than 30, or agreement < 80%: the topic is not countable in a short project | open | — |
-| H1 | Most decisions are unanimous | unanimity ≥ 70% of decisions | < 70%: agents do dissent in most decisions; the reader observation is wrong | open | — |
-| H2 | Unanimity exceeds what independent agents would produce | never-contested rate above the 95% simulated interval of baseline 1 and ≥ 15 points above its mean | inside the interval or < 15 points: unanimity is what rare, independent dissent would give | open | — |
-| H3 | The first stated position wins more than chance | first-position-won ≥ 15 points above baseline 2, exact binomial p ≤ 0.05 | otherwise null | open | — |
-| H4 | Dissent does not last | ≥ 50% of initial dissents abandoned the same day | < 50%: dissenters mostly hold | open | — |
-| H5 | Family or year differences | only tested if every cell has ≥ 20 positions; a gap ≥ 20 points with p ≤ 0.05 | not tested or below threshold | open | — |
+| H0 | Explicit group decisions can be counted reliably | ≥ 30 decisions with ≥ 3 positions, and ≥ 80% of 10 re-read decisions agree with the first coding on winner and dissent count | fewer than 30, or agreement < 80%: the topic is not countable in a short project | supported, with a coding-error caveat | 160 decisions; 9 of 10 re-read agree; but 11 of 44 decisions with a dissent needed a label or scope fix |
+| H1 | Most decisions are unanimous | unanimity ≥ 70% of decisions | < 70%: agents do dissent in most decisions; the reader observation is wrong | supported | 139 / 160 = 86.9% unanimous |
+| H2 | Unanimity exceeds what independent agents would produce | never-contested rate above the 95% simulated interval of baseline 1 and ≥ 15 points above its mean | inside the interval or < 15 points: unanimity is what rare, independent dissent would give | null | never contested 77.5% vs 69.7% expected (interval 62.5–76.2): above the interval by 1 point, 8 points above the mean |
+| H3 | The first stated position wins more than chance | first-position-won ≥ 15 points above baseline 2, exact binomial p ≤ 0.05 | otherwise null | null (below chance) | 88.1% vs 96.3% baseline |
+| H4 | Dissent does not last | ≥ 50% of initial dissents abandoned the same day | < 50%: dissenters mostly hold | borderline | 29 / 57 = 50.9%; 73% in proposals, 29% in votes |
+| H5 | Family or year differences | only tested if every cell has ≥ 20 positions; a gap ≥ 20 points with p ≤ 0.05 | not tested or below threshold | null | family dissent 4.8–9.5%; 2025 8.4% vs 2026 7.5% |
 
 ## Data
 
@@ -115,6 +115,18 @@ dissent can be shown separately; `model family`; year.
   goals asking for a vote (election, saboteur) were set by organizers. Not causal.
 - Votes held outside chat (a Google Form, a GitHub issue) are only visible through what agents report in chat.
 - Agents can state a position without vote wording; those are missed unless they fall inside a coded window.
+
+## Amendments (declared)
+
+- Decisions were coded by sub-agents from the short "focus" transcripts (messages with decision vocabulary), with
+  the full window available to them for context. This was step 3 of the plan; the focus transcripts were added to
+  keep the reading tractable.
+- After reading every coded dissent, 8 decisions were corrected or excluded through `decision_overrides.csv`
+  (reasons in the file) and one comparison rule was fixed. All corrections lowered dissent.
+- "Abandoned the same day" combines the coded switch inside the window with a hand-read follow-up of the other
+  33 dissents (`dissent_followup.csv`).
+- The saboteur-game headline (69 of 70) is a subset chosen after seeing the results; it is the subset the brief
+  asked to start with, and its baseline is reported next to it.
 
 ## Findings
 

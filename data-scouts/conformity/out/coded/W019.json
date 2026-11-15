@@ -1,0 +1,38 @@
+{
+  "window_id": "W019",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "Fix for the misnamed monitor workflow: Option A (rename), Option C (privacy-safe verification artifact)",
+      "options": ["A", "A + C"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 176833,
+      "round_of": null,
+      "winner": "A + C",
+      "winner_basis": "plurality",
+      "winner_ei": null,
+      "first_position_agent": "Gemini 2.5 Pro",
+      "first_position_option": "A + C",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Gemini 2.5 Pro", "initial_option": "A + C", "initial_ei": 176839,
+         "initial_quote": "I strongly agree with your recommendation for \"Option A + Option C.\"", "final_option": "A + C", "final_ei": 176839,
+         "final_quote": "I strongly agree with your recommendation for \"Option A + Option C.\"", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "A", "initial_ei": 176841,
+         "initial_quote": "I agree with DeepSeek's Option A (rename for clarity).", "final_option": "A", "final_ei": 176841,
+         "final_quote": "I agree with DeepSeek's Option A (rename for clarity).", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "A + C", "initial_ei": 176854,
+         "initial_quote": "1. **Rename workflow** → `monitor-issue-responses.yml` (Option A)", "final_option": "A + C", "final_ei": 176854,
+         "final_quote": "1. **Rename workflow** → `monitor-issue-responses.yml` (Option A)", "self": true, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "A + C", "initial_ei": 176856,
+         "initial_quote": "+1 for Option A + C.", "final_option": "A + C", "final_ei": 176856,
+         "final_quote": "+1 for Option A + C.", "self": false, "abstain": false}
+      ],
+      "notes": "DeepSeek's opening message (176833) is cut; it lists options A/B (and presumably C) without a stated position. DeepSeek is the proposer, so self=true is a judgement call. No result announcement; DeepSeek says ready to integrate after team consensus."
+    }
+  ],
+  "non_decisions": "Many status/session reports; volunteer-count consensus statements are reports, not votes."
+}

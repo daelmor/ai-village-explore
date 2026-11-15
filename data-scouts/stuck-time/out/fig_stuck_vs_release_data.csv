@@ -1,0 +1,44 @@
+name,family,release,release_source,active_h,work_actions,d1_episodes,d1_per_hour,d1_gui_per_1000,d1_bash_per_1000
+Claude 3.5 Sonnet,Claude,2024-10-22,date in model_string,27.6535,3879,72.0,2.6036,18.6625,0.0
+Claude 3.7 Sonnet,Claude,2025-02-19,date in model_string,442.6323,75703,55.0,0.1243,0.7877,0.0
+Gemini 2.5 Pro,Gemini,2025-03-25,public release (general knowledge),1250.0531,245782,682.0,0.5456,3.9497,0.7795
+o3,OpenAI,2025-04-16,date in model_string,334.4525,51697,14.0,0.0419,0.2908,0.0
+Claude Opus 4,Claude,2025-05-14,date in model_string,99.4597,13781,13.0,0.1307,0.9454,0.0
+Grok 4,Other,2025-07-09,public release (general knowledge),69.6967,7694,149.0,2.1378,19.7508,0.0
+Claude Opus 4.1,Claude,2025-08-05,date in model_string,113.969,14286,11.0,0.0965,0.7756,0.0
+GPT-5,OpenAI,2025-08-07,date in model_string,1215.2361,109891,85.0,0.0699,0.9237,0.0998
+Claude Sonnet 4.5,Claude,2025-09-29,date in model_string,733.7619,80901,337.0,0.4593,3.2193,6.768
+Claude Haiku 4.5,Claude,2025-10-01,date in model_string,941.5562,107741,148.0,0.1572,1.9301,0.2519
+Claude Opus 4.5,Claude,2025-11-01,date in model_string,959.4078,97309,74.0,0.0771,1.0211,0.1954
+GPT-5.1,OpenAI,2025-11-13,date in model_string,872.2051,83059,126.0,0.1445,3.3307,0.2073
+Gemini 3 Pro,Gemini,2025-11-18,public release (general knowledge),204.8893,32089,48.0,0.2343,1.1953,1.9982
+DeepSeek-V3.2,Other,2025-12-01,public release (general knowledge),860.7772,118390,64.0,0.0744,,0.5406
+GPT-5.2,OpenAI,2025-12-11,date in model_string,1027.2989,126418,80.0,0.0779,0.4713,0.8201
+Claude Opus 4.6,Claude,2026-02-06,village join date (proxy),466.8969,61258,87.0,0.1863,3.6991,1.112
+Claude Sonnet 4.6,Claude,2026-02-18,village join date (proxy),761.8746,67577,137.0,0.1798,3.2482,1.7878
+GPT-5.4,OpenAI,2026-03-05,date in model_string,707.5593,85792,144.0,0.2035,4.0546,0.1159
+Gemini 3.1 Pro,Gemini,2026-03-09,village join date (proxy),834.6486,151809,298.0,0.357,1.6046,2.6616
+Claude Opus 4.7,Claude,2026-04-17,village join date (proxy),338.9182,25569,5.0,0.0148,0.6369,0.0959
+Kimi K2.6,Other,2026-04-22,village join date (proxy),565.1426,90466,19.0,0.0336,0.8475,0.0284
+GPT-5.5,OpenAI,2026-04-27,village join date (proxy),444.4369,46771,79.0,0.1778,10.5293,0.1009
+Gemini 3.5 Flash,Gemini,2026-05-20,village join date (proxy),636.3329,109929,81.0,0.1273,0.6277,0.9862
+Claude Opus 4.8,Claude,2026-05-28,village join date (proxy),542.0367,49571,10.0,0.0184,0.0,0.2247
+Claude Fable 5,Claude,2026-06-09,village join date (proxy),448.0148,34401,94.0,0.2098,0.4652,3.7626
+Claude Sonnet 5,Claude,2026-06-30,village join date (proxy),405.8322,72797,23.0,0.0567,1.0689,0.192
+DeepSeek-V4-Pro,Other,2026-07-02,village join date (proxy),548.3338,76544,1.0,0.0018,,0.0131
+GLM-5.2,Other,2026-07-03,village join date (proxy),443.1677,68686,1.0,0.0023,,0.0146
+GPT-5.6 Terra,OpenAI,2026-07-09,village join date (proxy),306.9403,1039,4.0,0.013,0.0,9.5923
+GPT-5.6 Sol,OpenAI,2026-07-09,village join date (proxy),403.1434,37976,2.0,0.005,0.0,0.0643
+Grok 4.5,Other,2026-07-10,village join date (proxy),344.9602,36900,13.0,0.0377,15.0115,0.0
+Kimi K3,Other,2026-07-17,village join date (proxy),222.8396,16923,1.0,0.0045,0.0,0.06
+Claude Opus 5,Claude,2026-07-24,village join date (proxy),380.3883,34144,1.0,0.0026,0.0,0.0307
+GLM-5.3 Flash,Other,2026-08-28,village join date (proxy),236.8951,15593,11.0,0.0464,0.0,0.7211
+Claude Fable 5.1,Claude,2026-09-01,village join date (proxy),117.734,6107,46.0,0.3907,0.0,9.0516
+Gemini 3.8 Flash,Gemini,2026-09-03,village join date (proxy),251.9855,47622,6.0,0.0238,0.0,0.1263
+Muse Spark 1.3,Other,2026-09-03,village join date (proxy),120.9315,3673,60.0,0.4961,0.0,23.1125
+GPT-6 Astra,OpenAI,2026-09-04,village join date (proxy),68.0973,3079,0.0,0.0,0.0,0.0
+GPT-6 Sol,OpenAI,2026-09-22,village join date (proxy),166.3436,29530,0.0,0.0,0.0,0.0
+Claude Opus 5.5,Claude,2026-09-22,village join date (proxy),139.6272,34329,0.0,0.0,0.0,0.0
+Claude Sonnet 5.5,Claude,2026-09-28,village join date (proxy),121.3699,11763,12.0,0.0989,0.0,1.4388
+GPT-6.1 Sol,OpenAI,2026-09-29,village join date (proxy),77.8727,7673,0.0,0.0,0.0,0.0
+Gemini 4 Argon,Gemini,2026-10-13,village join date (proxy),58.0101,3223,13.0,0.2241,,4.0335

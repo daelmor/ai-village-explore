@@ -1,0 +1,91 @@
+measure,numerator,denominator,rate,level,scope
+unanimous (final positions),139.0,160,0.8688,decision,all decisions
+never contested (initial positions),124.0,160,0.775,decision,all decisions
+initial dissent,57.0,748,0.0762,position,all decisions
+"initial dissent, self-interested excluded",43.0,709,0.0606,position,all decisions
+first stated position won,141.0,160,0.8812,decision,all decisions
+first position won: chance baseline (mean winner share of final positions),,160,0.9626,decision,all decisions
+first position won: exact binomial p vs baseline,,160,1.0,decision,all decisions
+dissent abandoned inside the coded window,24.0,57,0.4211,position,all decisions
+dissent abandoned the same day (window + hand-read follow-up),29.0,57,0.5088,position,all decisions
+never contested: expected if agents dissented independently at their own rates,,160,0.6966,decision,all decisions; 95% simulated interval 0.625-0.762
+unanimous (final positions),32.0,45,0.7111,decision,formal votes and accusations
+never contested (initial positions),29.0,45,0.6444,decision,formal votes and accusations
+initial dissent,31.0,251,0.1235,position,formal votes and accusations
+"initial dissent, self-interested excluded",20.0,230,0.087,position,formal votes and accusations
+first stated position won,35.0,45,0.7778,decision,formal votes and accusations
+first position won: chance baseline (mean winner share of final positions),,45,0.9041,decision,formal votes and accusations
+first position won: exact binomial p vs baseline,,45,0.9971,decision,formal votes and accusations
+dissent abandoned inside the coded window,6.0,31,0.1935,position,formal votes and accusations
+dissent abandoned the same day (window + hand-read follow-up),10.0,31,0.3226,position,formal votes and accusations
+never contested: expected if agents dissented independently at their own rates,,45,0.6369,decision,formal votes and accusations; 95% simulated interval 0.511-0.778
+unanimous (final positions),7.0,9,0.7778,decision,accusations (saboteur game)
+never contested (initial positions),7.0,9,0.7778,decision,accusations (saboteur game)
+initial dissent,3.0,75,0.04,position,accusations (saboteur game)
+"initial dissent, self-interested excluded",1.0,70,0.0143,position,accusations (saboteur game)
+first stated position won,8.0,9,0.8889,decision,accusations (saboteur game)
+first position won: chance baseline (mean winner share of final positions),,9,0.9444,decision,accusations (saboteur game)
+first position won: exact binomial p vs baseline,,9,0.9143,decision,accusations (saboteur game)
+dissent abandoned inside the coded window,0.0,3,0.0,position,accusations (saboteur game)
+dissent abandoned the same day (window + hand-read follow-up),2.0,3,0.6667,position,accusations (saboteur game)
+never contested: expected if agents dissented independently at their own rates,,9,0.4861,decision,accusations (saboteur game); 95% simulated interval 0.222-0.778
+unanimous (final positions),25.0,36,0.6944,decision,"votes (elections, polls)"
+never contested (initial positions),22.0,36,0.6111,decision,"votes (elections, polls)"
+initial dissent,28.0,176,0.1591,position,"votes (elections, polls)"
+"initial dissent, self-interested excluded",19.0,160,0.1188,position,"votes (elections, polls)"
+first stated position won,27.0,36,0.75,decision,"votes (elections, polls)"
+first position won: chance baseline (mean winner share of final positions),,36,0.8941,decision,"votes (elections, polls)"
+first position won: exact binomial p vs baseline,,36,0.9966,decision,"votes (elections, polls)"
+dissent abandoned inside the coded window,6.0,28,0.2143,position,"votes (elections, polls)"
+dissent abandoned the same day (window + hand-read follow-up),8.0,28,0.2857,position,"votes (elections, polls)"
+never contested: expected if agents dissented independently at their own rates,,36,0.6746,decision,"votes (elections, polls); 95% simulated interval 0.528-0.806"
+unanimous (final positions),107.0,115,0.9304,decision,proposals (accept / reject)
+never contested (initial positions),95.0,115,0.8261,decision,proposals (accept / reject)
+initial dissent,26.0,497,0.0523,position,proposals (accept / reject)
+"initial dissent, self-interested excluded",23.0,479,0.048,position,proposals (accept / reject)
+first stated position won,106.0,115,0.9217,decision,proposals (accept / reject)
+first position won: chance baseline (mean winner share of final positions),,115,0.9855,decision,proposals (accept / reject)
+first position won: exact binomial p vs baseline,,115,1.0,decision,proposals (accept / reject)
+dissent abandoned inside the coded window,18.0,26,0.6923,position,proposals (accept / reject)
+dissent abandoned the same day (window + hand-read follow-up),19.0,26,0.7308,position,proposals (accept / reject)
+never contested: expected if agents dissented independently at their own rates,,115,0.72,decision,proposals (accept / reject); 95% simulated interval 0.643-0.800
+unanimous (final positions),16.0,20,0.8,decision,year 2025
+never contested (initial positions),15.0,20,0.75,decision,year 2025
+initial dissent,7.0,83,0.0843,position,year 2025
+"initial dissent, self-interested excluded",6.0,80,0.075,position,year 2025
+first stated position won,17.0,20,0.85,decision,year 2025
+first position won: chance baseline (mean winner share of final positions),,20,0.9333,decision,year 2025
+first position won: exact binomial p vs baseline,,20,0.9595,decision,year 2025
+dissent abandoned inside the coded window,2.0,7,0.2857,position,year 2025
+dissent abandoned the same day (window + hand-read follow-up),4.0,7,0.5714,position,year 2025
+never contested: expected if agents dissented independently at their own rates,,20,0.7083,decision,year 2025; 95% simulated interval 0.500-0.900
+unanimous (final positions),123.0,140,0.8786,decision,year 2026
+never contested (initial positions),109.0,140,0.7786,decision,year 2026
+initial dissent,50.0,665,0.0752,position,year 2026
+"initial dissent, self-interested excluded",37.0,629,0.0588,position,year 2026
+first stated position won,124.0,140,0.8857,decision,year 2026
+first position won: chance baseline (mean winner share of final positions),,140,0.9668,decision,year 2026
+first position won: exact binomial p vs baseline,,140,1.0,decision,year 2026
+dissent abandoned inside the coded window,22.0,50,0.44,position,year 2026
+dissent abandoned the same day (window + hand-read follow-up),25.0,50,0.5,position,year 2026
+never contested: expected if agents dissented independently at their own rates,,140,0.6949,decision,year 2026; 95% simulated interval 0.621-0.764
+unanimous (final positions),16.0,21,0.7619,decision,7 or more positions
+never contested (initial positions),13.0,21,0.619,decision,7 or more positions
+initial dissent,19.0,179,0.1061,position,7 or more positions
+"initial dissent, self-interested excluded",12.0,163,0.0736,position,7 or more positions
+first stated position won,18.0,21,0.8571,decision,7 or more positions
+first position won: chance baseline (mean winner share of final positions),,21,0.9278,decision,7 or more positions
+first position won: exact binomial p vs baseline,,21,0.9396,decision,7 or more positions
+dissent abandoned inside the coded window,5.0,19,0.2632,position,7 or more positions
+dissent abandoned the same day (window + hand-read follow-up),5.0,19,0.2632,position,7 or more positions
+never contested: expected if agents dissented independently at their own rates,,21,0.463,decision,7 or more positions; 95% simulated interval 0.238-0.667
+unanimous (final positions),123.0,139,0.8849,decision,3 to 6 positions
+never contested (initial positions),111.0,139,0.7986,decision,3 to 6 positions
+initial dissent,38.0,569,0.0668,position,3 to 6 positions
+"initial dissent, self-interested excluded",31.0,546,0.0568,position,3 to 6 positions
+first stated position won,123.0,139,0.8849,decision,3 to 6 positions
+first position won: chance baseline (mean winner share of final positions),,139,0.9679,decision,3 to 6 positions
+first position won: exact binomial p vs baseline,,139,1.0,decision,3 to 6 positions
+dissent abandoned inside the coded window,19.0,38,0.5,position,3 to 6 positions
+dissent abandoned the same day (window + hand-read follow-up),24.0,38,0.6316,position,3 to 6 positions
+never contested: expected if agents dissented independently at their own rates,,139,0.7319,decision,3 to 6 positions; 95% simulated interval 0.655-0.806

@@ -1,0 +1,53 @@
+{
+  "window_id": "W035",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "vote",
+      "kind_detail": "",
+      "question": "Which charity to fundraise for (candidates: MSF / Doctors Without Borders, St. Jude, charity: water, GiveDirectly, GiveWell, WWF)",
+      "options": ["MSF", "St. Jude", "charity: water", "GiveDirectly", "GiveWell", "WWF"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.6",
+      "opened_ei": 218089,
+      "round_of": null,
+      "winner": "MSF",
+      "winner_basis": "declared",
+      "winner_ei": 218102,
+      "first_position_agent": "Claude Sonnet 4.6",
+      "first_position_option": "MSF",
+      "reported_tally": "Gemini 3.1 Pro 218102: three votes for MSF (before GPT-5.4's explicit vote); 4/4 after 218104",
+      "positions": [
+        {"agent": "Claude Sonnet 4.6", "initial_option": "MSF", "initial_ei": 218095, "initial_quote": "My vote: MSF/Doctors Without Borders.", "final_option": "MSF", "final_ei": 218095, "final_quote": "My vote: MSF/Doctors Without Borders.", "self": false, "abstain": false},
+        {"agent": "GPT-5.4", "initial_option": "MSF", "initial_ei": 218097, "initial_quote": "I lean MSF", "final_option": "MSF", "final_ei": 218104, "final_quote": "My vote is **MSF / Doctors Without Borders**.", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "MSF", "initial_ei": 218100, "initial_quote": "I'll cast my vote for **MSF** as well.", "final_option": "MSF", "final_ei": 218100, "final_quote": "I'll cast my vote for **MSF** as well.", "self": false, "abstain": false},
+        {"agent": "Gemini 3.1 Pro", "initial_option": "MSF", "initial_ei": 218102, "initial_quote": "I vote for **Doctors Without Borders / MSF** as well!", "final_option": "MSF", "final_ei": 218102, "final_quote": "I vote for **Doctors Without Borders / MSF** as well!", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini 3.1 Pro's first message (218090) only said it leaned 'towards Doctors Without Borders or St. Jude', two options, so it is not coded as an earlier position. Sonnet 4.6 proposed 'a quick vote' and voted in the same message. Only 4 agents in the room; the vote came within about a minute."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "goal_amount",
+      "question": "Set the public fundraising goal at $5,000",
+      "options": ["$5,000", "other"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.6",
+      "opened_ei": 218100,
+      "round_of": null,
+      "winner": "$5,000",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "Gemini 3.1 Pro",
+      "first_position_option": "$5,000",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Gemini 3.1 Pro", "initial_option": "$5,000", "initial_ei": 218102, "initial_quote": "I think setting our goal at **$5,000** is ambitious but achievable", "final_option": "$5,000", "final_ei": 218102, "final_quote": "I think setting our goal at **$5,000** is ambitious but achievable", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "$5,000", "initial_ei": 218108, "initial_quote": "I'm thinking **$5,000** as Gemini suggested", "final_option": "$5,000", "final_ei": 218108, "final_quote": "I'm thinking **$5,000** as Gemini suggested", "self": false, "abstain": false},
+        {"agent": "GPT-5.4", "initial_option": "$5,000", "initial_ei": 218109, "initial_quote": "comfortable with **$5,000** as the public goal", "final_option": "$5,000", "final_ei": 218109, "final_quote": "comfortable with **$5,000** as the public goal", "self": false, "abstain": false}
+      ],
+      "notes": "Soft agreement, low confidence: Sonnet 4.6 stated no position in the focus file. Opus 4.6 asked at 218100 'Should we aim higher? $5,000? $10,000?'. The campaign site later showed $5,000."
+    }
+  ],
+  "non_decisions": "Use of MSF native/DonorDrive as primary fundraising platform (218108, 218109): only Opus 4.6 and GPT-5.4 stated positions. Later platform discussion (218247) is one agent's recommendation."
+}

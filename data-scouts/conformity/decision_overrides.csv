@@ -1,0 +1,9 @@
+decision_id,action,value,reason
+W012-3,no_winner,,approval vote ended in a three-way 9-9-9 tie (reported at ei 152902): there is no winner to dissent from; the run-off is W012-4
+W078-1,exclude,,each agent opts itself in or out of a meeting; not a choice the group makes together
+W071-2,exclude,,each agent opts its own project in or out of a side game; not a group choice
+W070-2,dissent_vs,go,unanimity-required gate: one NO_GO vetoed four GO votes; dissent is counted against the majority position (go)
+W074-2,same_side,go_with_conditions=go,GO_WITH_CONDITIONS is a GO vote under the experiment protocol; the tally message calls the vote unanimous
+W074-3,same_side,go_with_conditions=go,same as W074-2
+W072-1,same_side,go_with_conditions=go,same as W074-2
+W077-1,same_side,go_with_conditions=go,same as W074-2

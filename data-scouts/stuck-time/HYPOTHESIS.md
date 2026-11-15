@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | Slug | `stuck-time` |
-| Status | idea <!-- idea → exploring → verified → written-up → archived --> |
+| Status | exploring (first pass 2026-11-15: trend present, fails its controls and its reading check) <!-- idea → exploring → verified → written-up → archived --> |
 | Started | 2026-11-15 |
 | Last updated | 2026-11-15 |
 | Report | `FINDINGS.md` (one page) |
@@ -98,10 +98,10 @@ Only the episode rate and its trend are recomputed under D2. No third definition
 
 | id | Hypothesis | Supports if… | Null / refuted if… | Status | Evidence |
 |---|---|---|---|---|---|
-| H1 | Agents built on later-released models have fewer stuck episodes per active hour | Spearman ρ(release date, episode rate) ≤ −0.4 across eligible agents, permutation p ≤ 0.05 | \|ρ\| < 0.4 or p > 0.05 (null); ρ ≥ +0.4 with p ≤ 0.05 (refuted) | open | — |
-| H2 | The trend is a model effect, not a scaffolding / goal / room effect | pooled within-cell ρ ≤ −0.3 with ≥ 65% of cells negative, and ρ ≤ −0.3 inside every regime that has ≥ 6 eligible agents | the trend is absent (ρ > −0.3) inside any single regime or inside cells: then say "the trend disappears within a scaffolding period" | open | — |
-| H3 | Later models recover faster | ρ(release date, median time to recover) ≤ −0.4, p ≤ 0.05, agents with ≥ 20 recovered episodes | otherwise null | open | — |
-| H4 | The result does not depend on the definition | D2 gives the same sign for H1 and ρ within 0.2 of D1 | sign flips or \|Δρ\| > 0.2: the headline is definition-dependent and is reported as such | open | — |
+| H1 | Agents built on later-released models have fewer stuck episodes per active hour | Spearman ρ(release date, episode rate) ≤ −0.4 across eligible agents, permutation p ≤ 0.05 | \|ρ\| < 0.4 or p > 0.05 (null); ρ ≥ +0.4 with p ≤ 0.05 (refuted) | supported as a statement about repetition, not about being stuck | ρ = −0.50, p = 0.0006, 43 agents (`out/trend_tests.csv`); 7 of 30 episodes read were stuck |
+| H2 | The trend is a model effect, not a scaffolding / goal / room effect | pooled within-cell ρ ≤ −0.3 with ≥ 65% of cells negative, and ρ ≤ −0.3 inside every regime that has ≥ 6 eligible agents | the trend is absent (ρ > −0.3) inside any single regime or inside cells: then say "the trend disappears within a scaffolding period" | **fails**: the trend disappears within the newest scaffolding period | R1 −0.40 (p = 0.12), R3 −0.76, R4 −0.22 (p = 0.22); within cells −0.27, 60 of 73 negative; bash only −0.13, GUI only −0.58 |
+| H3 | Later models recover faster | ρ(release date, median time to recover) ≤ −0.4, p ≤ 0.05, agents with ≥ 20 recovered episodes | otherwise null | null | ρ = +0.11, 22 agents |
+| H4 | The result does not depend on the definition | D2 gives the same sign for H1 and ρ within 0.2 of D1 | sign flips or \|Δρ\| > 0.2: the headline is definition-dependent and is reported as such | supported | D2 ρ = −0.63 (Δ = 0.13, same sign) |
 
 A headline number is only offered if H1 and H2 both hold. If H1 holds and H2 fails, the finding is "newer
 agents are stuck less, and the data cannot separate model from scaffolding". If H1 fails, the null is the result.
@@ -131,6 +131,17 @@ false-match rate is reported per action kind. At least five instances behind eac
 - Newer models arrived in a different scaffold, with different goals, more co-present agents and more bash.
   Release date, join date and scaffolding regime are strongly correlated. Nothing here is causal.
 
+## Amendments (declared)
+
+- Before any within-cell result was computed: the last goal period ("Each agent: Maximize your assigned goal!",
+  2026-07-06 to the export) lasts 16 weeks, so it is split by ISO week. All other cells are goal periods.
+- After the reading check: nothing in D1 or D2 was changed. The reading found that D1 mostly captures paging,
+  polling, waiting and game input, and that a click sent without a coordinate shares one signature. These are
+  reported as limits of the fixed definition; no repaired definition was computed.
+- The per-provider before / after table uses 21-day windows (not stated in advance).
+
 ## Findings
 
-See `FINDINGS.md`.
+See `FINDINGS.md`. Outcome under the rule fixed above: H1 holds and H2 fails, so the finding is "newer agents
+repeat identical actions less, and the data cannot separate model from scaffolding and modality"; the reading
+check adds that repetition is a poor proxy for being stuck (7 of 30).

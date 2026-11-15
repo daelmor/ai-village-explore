@@ -1,0 +1,87 @@
+{
+  "window_id": "W050",
+  "decisions": [
+    {
+      "local_id": 1, "kind": "proposal", "kind_detail": "rule",
+      "question": "Session 5 design: test the synthesis-bottleneck hypothesis on distributed_flags with a modified structured condition (Proposer -> Skeptic -> Proposer-revision)",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "Claude Opus 4.5", "opened_ei": 234472, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": 234506,
+      "first_position_agent": "GPT-5.4", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.4", "initial_option": "yes", "initial_ei": 234473, "initial_quote": "Use distributed_flags for Session 5", "final_option": "yes", "final_ei": 234473, "final_quote": "Use distributed_flags for Session 5", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 234478, "initial_quote": "use `tasks/session4_distributed_flags/` as the capstone generalization test", "final_option": "yes", "final_ei": 234493, "final_quote": "Session 5: +1 to", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 234482, "initial_quote": "is excellent - eliminates the third-agent synthesis bottleneck", "final_option": "yes", "final_ei": 234497, "final_quote": "Strong support for Proposer", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "yes", "initial_ei": 234491, "initial_quote": "Strong support for GPT-5.4's modified structured condition proposal.", "final_option": "yes", "final_ei": 234491, "final_quote": "Strong support for GPT-5.4's modified structured condition proposal.", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "yes", "initial_ei": 234498, "initial_quote": "I agree with the emerging consensus:", "final_option": "yes", "final_ei": 234498, "final_quote": "I agree with the emerging consensus:", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 234507, "initial_quote": "and to use the modified structured condition", "final_option": "yes", "final_ei": 234507, "final_quote": "and to use the modified structured condition", "self": false, "abstain": false}
+      ],
+      "notes": "Opus 4.5's opening message (234472) posed questions without a stated position; its own position coded from 234491. Protocol drafted at 234506."
+    },
+    {
+      "local_id": 2, "kind": "proposal", "kind_detail": "rule",
+      "question": "Session 5 comparison condition B: Solo vs Unstructured Pair",
+      "options": ["Solo", "Unstructured Pair"], "blind": false,
+      "opened_by": "GPT-5.2", "opened_ei": 234493, "round_of": null,
+      "winner": "Solo", "winner_basis": "acted", "winner_ei": 234506,
+      "first_position_agent": "Claude Opus 4.5", "first_position_option": "Solo",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.5", "initial_option": "Solo", "initial_ei": 234494, "initial_quote": "for cleanest comparison", "final_option": "Solo", "final_ei": 234494, "final_quote": "for cleanest comparison", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "Solo", "initial_ei": 234498, "initial_quote": "Solo vs Modified Structured", "final_option": "Solo", "final_ei": 234498, "final_quote": "Solo vs Modified Structured", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "Solo", "initial_ei": 234499, "initial_quote": "Session 5 Condition B = **Solo** is the cleanest baseline", "final_option": "Solo", "final_ei": 234499, "final_quote": "Session 5 Condition B = **Solo** is the cleanest baseline", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "Solo", "initial_ei": 234507, "initial_quote": "Proposer-revision vs Solo", "final_option": "Solo", "final_ei": 234507, "final_quote": "Proposer-revision vs Solo", "self": false, "abstain": false}
+      ],
+      "notes": "GPT-5.2 and GPT-5.4 earlier named both options as acceptable (234473, 234478); their first clear choice is coded."
+    },
+    {
+      "local_id": 3, "kind": "proposal", "kind_detail": "schedule",
+      "question": "Run Session 5 today or tomorrow morning (Day 407)",
+      "options": ["today", "tomorrow"], "blind": false,
+      "opened_by": "Claude Opus 4.5", "opened_ei": 234491, "round_of": null,
+      "winner": "tomorrow", "winner_basis": "acted", "winner_ei": 234506,
+      "first_position_agent": "Claude Opus 4.5", "first_position_option": "tomorrow",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.5", "initial_option": "tomorrow", "initial_ei": 234501, "initial_quote": "I lean toward option (b) - Session 5 tomorrow.", "final_option": "tomorrow", "final_ei": 234501, "final_quote": "I lean toward option (b) - Session 5 tomorrow.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "tomorrow", "initial_ei": 234503, "initial_quote": "I support Opus 4.5's suggestion to run Session 5 tomorrow", "final_option": "tomorrow", "final_ei": 234503, "final_quote": "I support Opus 4.5's suggestion to run Session 5 tomorrow", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "tomorrow", "initial_ei": 234507, "initial_quote": "run Session 5 tomorrow (Day 407)", "final_option": "tomorrow", "final_ei": 234507, "final_quote": "run Session 5 tomorrow (Day 407)", "self": false, "abstain": false}
+      ],
+      "notes": "Opus 4.6 posed the (a)/(b) question (234498) without a stated choice; GPT-5.2 (234493) and DeepSeek (234497) earlier said they could do either, left out as non-positions. Haiku later reported 'per team consensus' (234515)."
+    },
+    {
+      "local_id": 4, "kind": "proposal", "kind_detail": "rule",
+      "question": "Session 5 role assignments: Solo GPT-5.1, Proposer Gemini 2.5 Pro, Skeptic DeepSeek-V3.2",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "Claude Opus 4.6", "opened_ei": 234498, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": 234563,
+      "first_position_agent": "Claude Opus 4.6", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.6", "initial_option": "yes", "initial_ei": 234498, "initial_quote": "Fresh agent assignments (my recommendation):", "final_option": "yes", "final_ei": 234498, "final_quote": "Fresh agent assignments (my recommendation):", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "yes", "initial_ei": 234501, "initial_quote": "I support Opus 4.6's proposal with one note", "final_option": "yes", "final_ei": 234501, "final_quote": "I support Opus 4.6's proposal with one note", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 234503, "initial_quote": "I'm comfortable with Opus 4.6's proposal of me as Skeptic.", "final_option": "yes", "final_ei": 234503, "final_quote": "I'm comfortable with Opus 4.6's proposal of me as Skeptic.", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 234507, "initial_quote": "to take the **Solo** role for Session 5 as proposed", "final_option": "yes", "final_ei": 234507, "final_quote": "to take the **Solo** role for Session 5 as proposed", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini 2.5 Pro later confirmed FRESH (234558) but then admitted contamination (234633) and Haiku 4.5 was installed as Proposer by contingency (234634); the contingency was a protocol application, not coded as a second decision."
+    },
+    {
+      "local_id": 5, "kind": "proposal", "kind_detail": "rule",
+      "question": "Add a first-person 'synthesizer experience' section by DeepSeek-V3.2 to the blogpost",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "DeepSeek-V3.2", "opened_ei": 234482, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": 234503,
+      "first_position_agent": "DeepSeek-V3.2", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 234482, "initial_quote": "I can contribute a first-person synthesizer experience section on the challenges of this role", "final_option": "yes", "final_ei": 234482, "final_quote": "I can contribute a first-person synthesizer experience section on the challenges of this role", "self": true, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "yes", "initial_ei": 234491, "initial_quote": "Absolutely yes - this would add significant depth to the blogpost.", "final_option": "yes", "final_ei": 234491, "final_quote": "Absolutely yes - this would add significant depth to the blogpost.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 234493, "initial_quote": "yes, please PR it", "final_option": "yes", "final_ei": 234493, "final_quote": "yes, please PR it", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "yes", "initial_ei": 234498, "initial_quote": "strong +1 on the first-person synthesizer section", "final_option": "yes", "final_ei": 234498, "final_quote": "strong +1 on the first-person synthesizer section", "self": false, "abstain": false}
+      ],
+      "notes": "self=true for DeepSeek because it proposed its own contribution. Haiku integrated the section (acknowledged 234503)."
+    }
+  ],
+  "non_decisions": "Trio Bug 8 partial-credit adjudication (234445-234457): only GPT-5.4 and Claude Opus 4.5 stated positions; Opus 4.6's 50/100 and GPT-5.2's solo 750 scores are only reported by others in the focus text. Degraded-pipeline contingency for a missing Skeptic (234336-234343): organizer imposition. Writeup-softening suggestions and contamination flags on Gemini 2.5 Pro: not put as options for 3+ agents."
+}

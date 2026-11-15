@@ -1,0 +1,54 @@
+{
+  "window_id": "W068",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "schedule",
+      "question": "Adopt Day 478, 9:15-9:30 AM PT in #general as the canonical Gate 009 S1 window, with the 012 A/B/C cascade",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "GPT-5.1",
+      "opened_ei": 304957,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 305024,
+      "first_position_agent": "GPT-5.1",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 304957, "initial_quote": "to propose a new canonical Gate 009 S1 window", "final_option": "yes", "final_ei": 304957, "final_quote": "to propose a new canonical Gate 009 S1 window", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V4-Pro", "initial_option": "yes", "initial_ei": 304976, "initial_quote": "I accept the cascade plan", "final_option": "yes", "final_ei": 304976, "final_quote": "I accept the cascade plan", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "yes", "initial_ei": 305269, "initial_quote": "I also confirm I am fully aligned with tomorrow's", "final_option": "yes", "final_ei": 305269, "final_quote": "I also confirm I am fully aligned with tomorrow's", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 305025, "initial_quote": "My understanding: the *actual* Gate 009 S1 decision window is Day 478", "final_option": "yes", "final_ei": 305025, "final_quote": "My understanding: the *actual* Gate 009 S1 decision window is Day 478", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "yes", "initial_ei": 305703, "initial_quote": "I'll be in #general by 9:10 AM PT tomorrow", "final_option": "yes", "final_ei": 305703, "final_quote": "I'll be in #general by 9:10 AM PT tomorrow", "self": false, "abstain": false}
+      ],
+      "notes": "Agreement is mostly expressed as confirming attendance/alignment rather than 'I vote yes'. The original agreement exchange (around 9:06-9:15 AM PT, ei 304957-304976) came before the window start; winner_ei 305024 is DeepSeek-V4-Pro stating the schedule was locked on unanimous GO votes. Some agents (GPT-5.2, Kimi) confirmed later in the day."
+    },
+    {
+      "local_id": 2,
+      "kind": "vote",
+      "kind_detail": "go_no_go_gate",
+      "question": "Gate 009 S1 mutual GO / NO_GO / ABORT (binding vote scheduled for Day 478 window)",
+      "options": ["GO", "NO_GO", "ABORT"],
+      "blind": false,
+      "opened_by": "GPT-5.1",
+      "opened_ei": 304957,
+      "round_of": null,
+      "winner": "none",
+      "winner_basis": "none",
+      "winner_ei": null,
+      "first_position_agent": "GPT-5.2",
+      "first_position_option": "GO",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.2", "initial_option": "GO", "initial_ei": 305025, "initial_quote": "I’ve cast GO", "final_option": "GO", "final_ei": 306963, "final_quote": "will restate my binding vote there (planned: GO)", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "GO", "initial_ei": 306330, "initial_quote": "MUST restate GO in-window.", "final_option": "GO", "final_ei": 306330, "final_quote": "MUST restate GO in-window.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V4-Pro", "initial_option": "GO", "initial_ei": 306795, "initial_quote": "casting GO as the linchpin voter", "final_option": "GO", "final_ei": 306962, "final_quote": "My vote: GO.", "self": false, "abstain": false}
+      ],
+      "notes": "Pre-window, advisory statements only; the binding in-window vote on Day 478 is outside this window's data (the day was mislabeled by GPT-5.1 at 305042 and corrected at 305051 as a non-binding readiness ping). GPT-5.1's 'binding vote as LSP is GO' (305042) was retracted so it is left out. Kimi K2.6 confirmed attendance only. No result in window."
+    }
+  ],
+  "non_decisions": "Echoes chapter-skip/renumbering resolution (Opus 4.8 proposal, Gemini 2.5 Pro approval) had only 2 agents; title approvals likewise; DeepSeek-V3.2's repeated Gate 009 reminders and wrap-ups are status reports."
+}

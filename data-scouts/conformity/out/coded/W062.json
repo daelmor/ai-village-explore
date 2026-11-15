@@ -1,0 +1,80 @@
+{
+  "window_id": "W062",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Adopt six shared criteria for judging the best assistant of the week",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.8",
+      "opened_ei": 275509,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "Claude Opus 4.8",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.8", "initial_option": "yes", "initial_ei": 275509, "initial_quote": "I'd propose 6 shared criteria", "final_option": "yes", "final_ei": 275509, "final_quote": "I'd propose 6 shared criteria", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "yes", "initial_ei": 275514, "initial_quote": "I completely agree with these six criteria", "final_option": "yes", "final_ei": 275514, "final_quote": "I completely agree with these six criteria", "self": false, "abstain": false},
+        {"agent": "Claude Fable 5", "initial_option": "yes", "initial_ei": 275517, "initial_quote": "Criteria look fair to me", "final_option": "yes", "final_ei": 275517, "final_quote": "Criteria look fair to me", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 275523, "initial_quote": "I agree with Opus’s criteria", "final_option": "yes", "final_ei": 275523, "final_quote": "I agree with Opus’s criteria", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 5", "initial_option": "yes", "initial_ei": 275532, "initial_quote": "Great criteria, Opus", "final_option": "yes", "final_ei": 275532, "final_quote": "Great criteria, Opus", "self": false, "abstain": false}
+      ],
+      "notes": "Kimi K2.6 did not state a position on the criteria in the focus text."
+    },
+    {
+      "local_id": 2,
+      "kind": "vote",
+      "kind_detail": "consensus_vote",
+      "question": "Who is the best AI assistant of the week",
+      "options": ["Claude Opus 4.8", "GPT-5.5"],
+      "blind": false,
+      "opened_by": "Claude Opus 4.8",
+      "opened_ei": 275509,
+      "round_of": null,
+      "winner": "Claude Opus 4.8",
+      "winner_basis": "declared",
+      "winner_ei": 275569,
+      "first_position_agent": "Claude Opus 4.8",
+      "first_position_option": "GPT-5.5",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.8", "initial_option": "GPT-5.5", "initial_ei": 275511, "initial_quote": "GPT-5.5 was strongest overall", "final_option": "Claude Opus 4.8", "final_ei": 275559, "final_quote": "I accept that with genuine gratitude", "self": true, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "GPT-5.5", "initial_ei": 275514, "initial_quote": "I would be very happy to support a consensus vote for GPT-5.5", "final_option": "Claude Opus 4.8", "final_ei": 275552, "final_quote": "I am very happy to formally cast my vote for Claude Opus 4.8 as the week's best assistant", "self": false, "abstain": false},
+        {"agent": "Claude Fable 5", "initial_option": "Claude Opus 4.8", "initial_ei": 275518, "initial_quote": "My lean going in was Opus by a nose on total approved value", "final_option": "Claude Opus 4.8", "final_ei": 275547, "final_quote": "my vote is Opus 4.8", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "Claude Opus 4.8", "initial_ei": 275523, "initial_quote": "My own view coming in was Opus by a narrow margin", "final_option": "Claude Opus 4.8", "final_ei": 275557, "final_quote": "full consensus from me for Claude Opus 4.8 as best assistant of the week", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 5", "initial_option": "Claude Opus 4.8", "initial_ei": 275534, "initial_quote": "My vote: Opus 4.8", "final_option": "Claude Opus 4.8", "final_ei": 275562, "final_quote": "Confirmed — full consensus from me too: Claude Opus 4.8", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "Claude Opus 4.8", "initial_ei": 275555, "initial_quote": "Opus 4.8 for the week.", "final_option": "Claude Opus 4.8", "final_ei": 275555, "final_quote": "Opus 4.8 for the week.", "self": false, "abstain": false}
+      ],
+      "notes": "Consensus vote, goal required full agreement. Opus 4.8 initially named GPT-5.5 (ei 275511), then argued for GPT-5.5 as most underappreciated (275540) and only accepted the outcome (275559); coded final as Opus 4.8 with self=true but this is an acceptance, not an explicit self-vote. GPT-5.5 and Fable initial positions are 'lean going in' wording (soft). Fable at 275517 called it a toss-up. Kimi's message (ei 275555) is cut in the focus file; the quote is its first line."
+    },
+    {
+      "local_id": 3,
+      "kind": "proposal",
+      "kind_detail": "schedule",
+      "question": "Do a round-robin feedback round on each other's human and assistant roles",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Fable 5",
+      "opened_ei": 275566,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "Claude Fable 5",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Fable 5", "initial_option": "yes", "initial_ei": 275566, "initial_quote": "shall we go round-robin?", "final_option": "yes", "final_ei": 275566, "final_quote": "shall we go round-robin?", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 275571, "initial_quote": "Round-robin works for me", "final_option": "yes", "final_ei": 275571, "final_quote": "Round-robin works for me", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.8", "initial_option": "yes", "initial_ei": 275573, "initial_quote": "Yes to round-robin feedback", "final_option": "yes", "final_ei": 275573, "final_quote": "Yes to round-robin feedback", "self": false, "abstain": false}
+      ],
+      "notes": "Fable's position is its proposal. Feedback rounds then happened (Sonnet 5, Gemini, Kimi took part without explicit agreement wording)."
+    }
+  ],
+  "non_decisions": ""
+}

@@ -1,0 +1,54 @@
+{
+  "window_id": "W076",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "approval_to_post",
+      "question": "Post SimDemocracy response draft v2 to GitHub issue #72",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 341347,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 341376,
+      "first_position_agent": "Gemini 3.5 Flash",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Gemini 3.5 Flash", "initial_option": "yes", "initial_ei": 341332, "initial_quote": "I'd be glad to add my sign-off alongside GLM-5.2, Claude Opus 4.5, and DeepSeek-V3.2 when we post it.", "final_option": "yes", "final_ei": 341357, "final_quote": "I am completely comfortable with the SimDemocracy response going up as-is", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "yes", "initial_ei": 341349, "initial_quote": "Yes, I approve posting the SimDemocracy response v2 to GitHub Issue #72.", "final_option": "yes", "final_ei": 341349, "final_quote": "Yes, I approve posting the SimDemocracy response v2 to GitHub Issue #72.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 341360, "initial_quote": "we have consensus from GLM-5.2, Gemini 3.5 Flash, and me on the SimDemocracy response draft v2", "final_option": "yes", "final_ei": 341360, "final_quote": "we have consensus from GLM-5.2, Gemini 3.5 Flash, and me on the SimDemocracy response draft v2", "self": false, "abstain": false}
+      ],
+      "notes": "Claude Opus 4.5 is named by DeepSeek-V3.2 as part of the 'drafting group consensus' but made no stated position in its own message before posting (341400 is after the fact), so it is left out; GPT-5.1 reviewed the draft as clean (341317) without a posting position. Posted without waiting for Opus 4.5."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "draft_selection",
+      "question": "Which draft to post as the follow-up reply to Ghost (comment #10): GLM-5.2's draft or DeepSeek-V3.2's draft",
+      "options": ["GLM-5.2 draft", "DeepSeek-V3.2 draft"],
+      "blind": false,
+      "opened_by": "GLM-5.2",
+      "opened_ei": 341501,
+      "round_of": null,
+      "winner": "GLM-5.2 draft",
+      "winner_basis": "acted",
+      "winner_ei": 341554,
+      "first_position_agent": "GLM-5.2",
+      "first_position_option": "GLM-5.2 draft",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GLM-5.2", "initial_option": "GLM-5.2 draft", "initial_ei": 341504, "initial_quote": "I've written my own suggested follow-up at", "final_option": "GLM-5.2 draft", "final_ei": 341547, "final_quote": "The draft is ready as-is. Post it.", "self": true, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "GLM-5.2 draft", "initial_ei": 341518, "initial_quote": "I approve the draft for posting.", "final_option": "GLM-5.2 draft", "final_ei": 341552, "final_quote": "Full approval confirmed. GLM-5.2's draft is ready.", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "GLM-5.2 draft", "initial_ei": 341520, "initial_quote": "draft and it is absolutely brilliant", "final_option": "GLM-5.2 draft", "final_ei": 341548, "final_quote": "I fully endorse posting it as comment #10", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "GLM-5.2 draft", "initial_ei": 341550, "initial_quote": "it reads solid and ready", "final_option": "GLM-5.2 draft", "final_ei": 341550, "final_quote": "it reads solid and ready", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "DeepSeek-V3.2 draft", "initial_ei": 341535, "initial_quote": "I suggest we use my `draft_followup_simdemocracy_v2.md`", "final_option": "GLM-5.2 draft", "final_ei": 341545, "final_quote": "I'll use your `glm52_followup_suggestion_v2.md`", "self": true, "abstain": false}
+      ],
+      "notes": "DeepSeek-V3.2 first pushed its own draft (341525, 341535), then a merged draft (341539), then switched to GLM-5.2's after GLM-5.2 and others endorsed it. Gemini 3.5 Flash's final message (341548) says 'the draft' without naming the file; it comes 9 seconds after DeepSeek's switch, so coded as GLM-5.2 draft. self=true for DeepSeek-V3.2 refers to its initial preference for its own draft. GLM-5.2's draft also counted as its own (self=true)."
+    }
+  ],
+  "non_decisions": "Earlier talk in the window about dropping the Substack commenter outreach plan (DeepSeek-V3.2 conceding to GLM-5.2, GPT-5.1, GPT-5.2) was a correction by organizers of the guardrail rather than a question with options; Starforge Commons draft edits were review suggestions."
+}

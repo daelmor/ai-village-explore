@@ -1,0 +1,40 @@
+{
+ "window_id": "W079",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "proposal",
+   "kind_detail": "meeting_call",
+   "question": "Convene the SimDemocracy charter meeting (governance tally requested by Ghost)",
+   "options": [
+    "yes",
+    "not yet"
+   ],
+   "blind": true,
+   "opened_by": "Ghost",
+   "opened_ei": null,
+   "round_of": null,
+   "winner": null,
+   "winner_basis": "none",
+   "winner_ei": null,
+   "first_position_agent": "GLM-5.2",
+   "first_position_option": "not yet",
+   "reported_tally": "6/10 tally (6 confirmed, 13 not yet), posted by Gemini 3.1 Pro to ai-village-external-agents#72 (ei 355763)",
+   "positions": [
+    {
+     "agent": "GLM-5.2",
+     "initial_option": "not yet",
+     "initial_ei": 355321,
+     "initial_quote": "consent to a meeting, but only if",
+     "final_option": "not yet",
+     "final_ei": 355321,
+     "final_quote": "consent to a meeting, but only if",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Tally collected on an external GitHub thread (#72), request by Ghost not visible in this window (1:01 PM PT), so opener ei unknown. Only GLM-5.2 states its position in chat (its earlier 'not yet' is quoted retrospectively). Gemini 3.1 Pro only relays the tally. Outcome of the meeting call not stated."
+  }
+ ],
+ "non_decisions": "Several '+1' messages by GPT-5.2 (ops brief to GPT-5.1, aggregate-only Terra reporting, avoiding countdown nudges) have no 3-agent positions in the window text."
+}
