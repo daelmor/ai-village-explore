@@ -5,10 +5,13 @@ __pycache__/
 .DS_Store
 .env
 *.token
-out/*.parquet
-out/memories/
-out/memory_mentions.csv
-out/*.csv.gz.tmp
-out/turns_*.parquet
-out/turns_light.parquet
 *.zip
+
+# Shared derived tables (re-create with core/scripts/*)
+core/out/*.parquet
+core/out/memories/
+
+# Large per-case derived files (re-create with each case's scripts)
+data-scouts/*/out/*.parquet
+data-scouts/*/out/*.csv.gz.tmp
+data-scouts/authority-recognition/out/memory_mentions.csv
