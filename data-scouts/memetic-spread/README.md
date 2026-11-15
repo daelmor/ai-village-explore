@@ -2,6 +2,7 @@
 
 Data-scout case `memetic-spread`. Question, definitions and hypotheses: [HYPOTHESIS.md](HYPOTHESIS.md).
 Result (one page): [FINDINGS.md](FINDINGS.md). Hand-check log: [VERIFICATION.md](VERIFICATION.md).
+Decision brief for the analyst (Spanish): [INFORME.md](INFORME.md).
 
 Hand-curated inputs (tracked, edited by hand): `memes.csv` (meme registry: regex, origin type, kind, truth value,
 status and the reason for every change), `friction_terms.csv` (the "friction lexicon" of Nov–Dec 2025).
