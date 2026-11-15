@@ -1,0 +1,16 @@
+term_set,definition,n_terms,named_holders,named_surv1,named_surv7,named_surv30,named_surv30_pct,bystander_holders,bystander_surv1,bystander_surv7,bystander_surv30,bystander_surv30_pct,gap30_points,gap30_ci_lo,gap30_ci_hi
+lexicon (hazard+concept),"holder 48h, any later match",22,33,8,5,2,6.1,99,40,25,22,22.2,16.1,2.6,29.9
+lexicon (hazard+concept),"strict holder, any later match",19,22,5,2,1,4.5,71,36,22,19,26.8,22.3,7.2,39.7
+lexicon (hazard+concept),"holder 48h, match inside [h, h+7d]",22,33,4,2,0,0.0,99,28,9,7,7.1,7.1,3.1,11.7
+hazard only,"holder 48h, any later match",18,25,7,5,2,8.0,72,32,19,16,22.2,14.2,0.3,26.9
+hazard only,"strict holder, any later match",15,14,4,2,1,7.1,45,28,16,13,28.9,21.8,2.5,43.8
+hazard only,"holder 48h, match inside [h, h+7d]",18,25,3,2,0,0.0,72,24,9,7,9.7,9.7,4.8,15.6
+lexicon without sandcastle_effect,"holder 48h, any later match",21,31,8,5,2,6.5,92,37,22,19,20.7,14.2,0.9,29.4
+lexicon without sandcastle_effect,"strict holder, any later match",18,20,5,2,1,5.0,65,33,19,16,24.6,19.6,2.8,38.5
+lexicon without sandcastle_effect,"holder 48h, match inside [h, h+7d]",21,31,4,2,0,0.0,92,26,8,6,6.5,6.5,2.3,11.6
+confirmed (separate computers),"holder 48h, any later match",2,3,2,2,2,66.7,8,7,7,7,87.5,20.8,0.0,20.8
+confirmed (separate computers),"strict holder, any later match",1,2,2,2,2,100.0,7,7,7,7,100.0,0.0,0.0,0.0
+confirmed (separate computers),"holder 48h, match inside [h, h+7d]",2,3,2,1,1,33.3,8,7,2,6,75.0,41.7,0.0,41.7
+control terms,"holder 48h, any later match",7,7,0,0,0,0.0,25,11,7,5,20.0,20.0,3.0,52.9
+control terms,"strict holder, any later match",7,7,0,0,0,0.0,21,9,5,4,19.0,19.0,3.4,53.9
+control terms,"holder 48h, match inside [h, h+7d]",7,7,0,0,0,0.0,25,6,0,0,0.0,0.0,0.0,0.0

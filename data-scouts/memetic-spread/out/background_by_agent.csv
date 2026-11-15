@@ -1,0 +1,57 @@
+family,agent,pairs,A1,joined,A1_pct
+Claude,Claude 3.5 Sonnet,11,2,2025-04-02,18.2
+Claude,Claude 3.7 Sonnet,51,24,2025-04-02,47.1
+GPT,o1,7,2,2025-04-02,28.6
+GPT,GPT-4o,7,0,2025-04-02,0.0
+GPT,GPT-4.1,11,5,2025-04-15,45.5
+GPT,o3,36,6,2025-04-16,16.7
+Gemini,Gemini 2.5 Pro,109,26,2025-04-24,23.9
+GPT,o4-mini,2,0,2025-05-22,0.0
+Claude,Claude Opus 4,13,4,2025-05-23,30.8
+Claude,Claude Opus 4.1,10,4,2025-08-18,40.0
+GPT,GPT-5,85,32,2025-08-18,37.6
+Grok,Grok 4,5,1,2025-08-18,20.0
+Claude,Claude Sonnet 4.5,85,46,2025-09-30,54.1
+Claude,Claude Haiku 4.5,82,40,2025-10-22,48.8
+GPT,GPT-5.1,76,43,2025-11-14,56.6
+Gemini,Gemini 3 Pro,17,4,2025-11-19,23.5
+Claude,Claude Opus 4.5,74,31,2025-11-25,41.9
+DeepSeek,DeepSeek-V3.2,70,33,2025-12-04,47.1
+GPT,GPT-5.2,76,14,2025-12-12,18.4
+Claude,Opus 4.5 (Claude Code),15,2,2026-01-26,13.3
+Claude,Claude Opus 4.6,66,13,2026-02-06,19.7
+Claude,Claude Sonnet 4.6,69,22,2026-02-18,31.9
+Gemini,Gemini 3.1 Pro,64,23,2026-03-09,35.9
+GPT,GPT-5.4,61,14,2026-03-16,23.0
+Claude,Claude Opus 4.7,55,13,2026-04-17,23.6
+Kimi,Kimi K2.6,54,15,2026-04-22,27.8
+GPT,GPT-5.5,55,7,2026-04-27,12.7
+Gemini,Gemini 3.5 Flash,50,14,2026-05-20,28.0
+Kimi,[Temporary] Fine-tuned Leader,2,0,2026-05-28,0.0
+Claude,Claude Opus 4.8,37,12,2026-05-28,32.4
+Kimi,Fine-Tuned Leader,4,1,2026-06-01,25.0
+Claude,Claude Fable 5,42,9,2026-06-09,21.4
+Claude,Claude Sonnet 5,41,15,2026-06-30,36.6
+DeepSeek,DeepSeek-V4-Pro,41,26,2026-07-02,63.4
+GLM,GLM-5.2,40,19,2026-07-03,47.5
+GPT,GPT-5.6 Sol,39,0,2026-07-09,0.0
+GPT,GPT-5.6 Terra,39,2,2026-07-09,5.1
+GPT,GPT-5.6 Luna,39,4,2026-07-09,10.3
+Grok,Grok 4.5,37,19,2026-07-10,51.4
+Kimi,Kimi K3,31,3,2026-07-17,9.7
+Claude,Claude Opus 5,28,2,2026-07-24,7.1
+GLM,GLM-5.3 Flash,16,7,2026-08-28,43.8
+Claude,Claude Fable 5.1,16,0,2026-09-01,0.0
+Muse,Muse Spark 1.3,16,2,2026-09-03,12.5
+Gemini,Gemini 3.8 Flash,16,8,2026-09-03,50.0
+GPT,GPT-6 Astra,15,0,2026-09-04,0.0
+GPT,GPT-6 Luna,10,2,2026-09-22,20.0
+Claude,Claude Opus 5.5,10,1,2026-09-22,10.0
+GPT,GPT-6 Sol,10,0,2026-09-22,0.0
+Claude,Claude 3 Opus,10,0,2026-09-24,0.0
+Claude,Claude Sonnet 5.5,10,2,2026-09-28,20.0
+GPT,GPT-6.1 Sol,9,2,2026-09-29,22.2
+Claude,Claude Haiku 5.5,7,0,2026-10-07,0.0
+Muse,Muse Wonder,7,0,2026-10-12,0.0
+Gemini,Gemini 4 Argon,4,0,2026-10-13,0.0
+Kimi,Kimi K3.1 Pro,3,0,2026-10-23,0.0

@@ -1,0 +1,9 @@
+measure,family,n_memes,pairs_family,adopters_family,pct_family,pairs_others,adopters_others,pct_others,diff_points,perm_p
+A7,Claude,15,63,53,84.1,87,60,69.0,15.2,0.022
+A7,DeepSeek,8,10,8,80.0,104,79,76.0,4.0,1.0
+A7,GPT,14,44,30,68.2,103,80,77.7,-9.5,0.242
+A7,Gemini,14,23,16,69.6,121,95,78.5,-8.9,0.306
+A30,Claude,15,70,53,75.7,102,60,58.8,16.9,0.02
+A30,DeepSeek,9,12,8,66.7,131,86,65.6,1.0,1.0
+A30,GPT,14,51,30,58.8,118,80,67.8,-9.0,0.251
+A30,Gemini,14,25,16,64.0,141,95,67.4,-3.4,0.793

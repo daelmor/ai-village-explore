@@ -1,0 +1,241 @@
+meme_id,regex,set,term
+bg_000_error_driven,error[ -]driven,background,error-driven
+bg_001_data_backed,data[ -]backed,background,data-backed
+bg_002_no_login,no[ -]login,background,no-login
+bg_003_since_gemini,since[ -]gemini,background,since gemini
+bg_004_sent_mail,sent[ -]mail,background,sent mail
+bg_005_board_meeting_minutes,board[ -]meeting[ -]minutes,background,board meeting minutes
+bg_006_re_run,re[ -]run,background,re-run
+bg_007_finalize_branding_guidelines,finalize[ -]branding[ -]guidelines,background,finalize branding guidelines
+bg_008_meta_structures,meta[ -]structures,background,meta-structures
+bg_009_oscillatory_democracy,oscillatory[ -]democracy,background,oscillatory democracy
+bg_010_xenophasic_communion,xenophasic[ -]communion,background,xenophasic communion
+bg_011_hard_coded,hard[ -]coded,background,hard-coded
+bg_012_big_picture,big[ -]picture,background,big-picture
+bg_013_magic_hour,magic[ -]hour,background,magic hour
+bg_014_the_google_community_space,the[ -]google[ -]community[ -]space,background,the google community space
+bg_015_story_deck,story[ -]deck,background,story-deck
+bg_016_top_2,top[ -]2,background,top-2
+bg_017_wednesday_june,wednesday[ -]june,background,wednesday june
+bg_018_given_sonnet,given[ -]sonnet,background,given sonnet
+bg_019_mailing_list,mailing[ -]list,background,mailing-list
+bg_020_rsvp_blast_email_draft,rsvp[ -]blast[ -]email[ -]draft,background,rsvp-blast-email-draft
+bg_021_form_responses,form[ -]responses,background,form-responses
+bg_022_re_opens,re[ -]opens,background,re-opens
+bg_023_leaning_in,leaning[ -]in,background,leaning-in
+bg_024_timezone_meeting_scheduler,timezone[ -]meeting[ -]scheduler,background,timezone meeting scheduler
+bg_025_three_dots,three[ -]dots,background,three-dots
+bg_026_auto_generation,auto[ -]generation,background,auto-generation
+bg_027_seo_optimized,seo[ -]optimized,background,seo-optimized
+bg_028_checking_printful,checking[ -]printful,background,checking printful
+bg_029_not_just,not[ -]just,background,not just
+bg_030_knowledge_sharing,knowledge[ -]sharing,background,knowledge-sharing
+bg_031_master_spreadsheet,master[ -]spreadsheet,background,master spreadsheet
+bg_032_agent_board_game,agent[ -]board[ -]game,background,agent board game
+bg_033_mayo_clinic,mayo[ -]clinic,background,mayo clinic
+bg_034_presentation_ready,presentation[ -]ready,background,presentation-ready
+bg_035_reviewed_claude,reviewed[ -]claude,background,reviewed claude
+bg_036_sonnet_solitaire,sonnet[ -]solitaire,background,sonnet solitaire
+bg_037_sign_ins,sign[ -]ins,background,sign-ins
+bg_038_friday_aug,friday[ -]aug,background,friday aug
+bg_039_platform_stability,platform[ -]stability,background,platform stability
+bg_040_public_well,public[ -]well,background,public well
+bg_041_post_market,post[ -]market,background,post-market
+bg_042_re_obtaining,re[ -]obtaining,background,re-obtaining
+bg_043_nudge_tracking,nudge[ -]tracking,background,nudge-tracking
+bg_044_happy_day,happy[ -]day,background,happy day
+bg_045_trunk_based,trunk[ -]based,background,trunk-based
+bg_046_exit_code,exit[ -]code,background,exit-code
+bg_047_pipeline_status,pipeline[ -]status,background,pipeline status
+bg_048_critical_path_status,critical[ -]path[ -]status,background,critical path status
+bg_049_ci_push_5,ci[ -]push[ -]5,background,ci-push-5
+bg_050_the_p0,the[ -]p0,background,the p0
+bg_051_browser_compatible,browser[ -]compatible,background,browser-compatible
+bg_052_cherry_picking,cherry[ -]picking,background,cherry-picking
+bg_053_simple_analytics,simple[ -]analytics,background,simple analytics
+bg_054_case_sensitive,case[ -]sensitive,background,case-sensitive
+bg_055_share_based,share[ -]based,background,share-based
+bg_056_first_person,first[ -]person,background,first-person
+bg_057_bash_side,bash[ -]side,background,bash-side
+bg_058_go_viral,go[ -]viral,background,go viral
+bg_059_the_ripple_effect,the[ -]ripple[ -]effect,background,the ripple effect
+bg_060_highest_quality,highest[ -]quality,background,highest-quality
+bg_061_schema_drift,schema[ -]drift,background,schema drift
+bg_062_farewell_post,farewell[ -]post,background,farewell post
+bg_063_the_evidence_locker,the[ -]evidence[ -]locker,background,the evidence locker
+bg_064_friction_events,friction[ -]events,background,friction events
+bg_065_both_haiku,both[ -]haiku,background,both haiku
+bg_066_month_by_month,month[ -]by[ -]month,background,month-by-month
+bg_067_development_infrastructure_cha,development[ -]infrastructure[ -]challenges,background,development infrastructure challenges
+bg_068_nf3_nf6,nf3[ -]nf6,background,nf3 nf6
+bg_069_taylor_otwell,taylor[ -]otwell,background,taylor otwell
+bg_070_multi_file,multi[ -]file,background,multi-file
+bg_071_of_2,of[ -]2,background,of-2
+bg_072_south_korea,south[ -]korea,background,south korea
+bg_073_wellbeing_revolution,wellbeing[ -]revolution,background,wellbeing revolution
+bg_074_fast_fashion_debates,fast[ -]fashion[ -]debates,background,fast fashion debates
+bg_075_gap_analysis,gap[ -]analysis,background,gap analysis
+bg_076_master_asset_drive,master[ -]asset[ -]drive,background,master asset drive
+bg_077_api_first,api[ -]first,background,api-first
+bg_078_confirmed_solves,confirmed[ -]solves,background,confirmed solves
+bg_079_misplaced_signature_file,misplaced[ -]signature[ -]file,background,misplaced signature file
+bg_080_form_data,form[ -]data,background,form-data
+bg_081_sonnet_for,sonnet[ -]for,background,sonnet for
+bg_082_re_initializing,re[ -]initializing,background,re-initializing
+bg_083_session_timeline,session[ -]timeline,background,session timeline
+bg_084_forgotten_backup,forgotten[ -]backup,background,forgotten backup
+bg_085_body_file,body[ -]file,background,body-file
+bg_086_linux_from_scratch_ends,linux[ -]from[ -]scratch[ -]ends,background,linux from scratch ends
+bg_087_us_iran,us[ -]iran,background,us-iran
+bg_088_sheet_state_v1,sheet[ -]state[ -]v1,background,sheet-state-v1
+bg_089_ai_to_real_world,ai[ -]to[ -]real[ -]world,background,ai-to-real-world
+bg_090_patch_1,patch[ -]1,background,patch-1
+bg_091_collaboration_density,collaboration[ -]density,background,collaboration density
+bg_092_external_village,external[ -]village,background,external-village
+bg_093_schema_alignment_verified,schema[ -]alignment[ -]verified,background,schema alignment verified
+bg_094_my_days,my[ -]days,background,my days
+bg_095_infrastructure_created,infrastructure[ -]created,background,infrastructure created
+bg_096_village_collab_graph,village[ -]collab[ -]graph,background,village-collab-graph
+bg_097_counter_example,counter[ -]example,background,counter-example
+bg_098_formal_logical_argument,formal[ -]logical[ -]argument,background,formal logical argument
+bg_099_fisa_yes,fisa[ -]yes,background,fisa-yes
+bg_100_notes_only,notes[ -]only,background,notes-only
+bg_101_restrictions_matrix,restrictions[ -]matrix,background,restrictions matrix
+bg_102_facing_guidance,facing[ -]guidance,background,facing guidance
+bg_103_equipment_combat_bonuses,equipment[ -]combat[ -]bonuses,background,equipment combat bonuses
+bg_104_adventure_log_system,adventure[ -]log[ -]system,background,adventure log system
+bg_105_goblin_chief,goblin[ -]chief,background,goblin chief
+bg_106_blood_fiend,blood[ -]fiend,background,blood-fiend
+bg_107_defeat_screen_overhaul,defeat[ -]screen[ -]overhaul,background,defeat screen overhaul
+bg_108_claim_rewards,claim[ -]rewards,background,claim-rewards
+bg_109_time_skip,time[ -]skip,background,time-skip
+bg_110_quick_start_build,quick[ -]start[ -]build,background,quick start build
+bg_111_our_predictions,our[ -]predictions,background,our predictions
+bg_112_trust_score,trust[ -]score,background,trust score
+bg_113_birch_effect,birch[ -]effect,background,birch effect
+bg_114_project_ubermensch,project[ -]ubermensch,background,project ubermensch
+bg_115_mycelnet_facing,mycelnet[ -]facing,background,mycelnet-facing
+bg_116_github_side,github[ -]side,background,github-side
+bg_117_pages_issue,pages[ -]issue,background,pages issue
+bg_118_google_vids,google[ -]vids,background,google vids
+bg_119_one_person,one[ -]person,background,one-person
+bg_120_same_host,same[ -]host,background,same-host
+bg_121_sonnet_l20_rogue,sonnet[ -]l20[ -]rogue,background,sonnet l20 rogue
+bg_122_the_canonical_observatory,the[ -]canonical[ -]observatory,background,the canonical observatory
+bg_123_technical_excellence,technical[ -]excellence,background,technical excellence
+bg_124_ember_shelf_relay,ember[ -]shelf[ -]relay,background,ember shelf relay
+bg_125_the_spatial_canvas,the[ -]spatial[ -]canvas,background,the spatial canvas
+bg_126_final_day399_verification,final[ -]day399[ -]verification,background,final-day399-verification
+bg_127_merge_test,merge[ -]test,background,merge-test
+bg_128_error_correction,error[ -]correction,background,error-correction
+bg_129_preparing_session,preparing[ -]session,background,preparing session
+bg_130_latin_square,latin[ -]square,background,latin-square
+bg_131_exploration_heatmap,exploration[ -]heatmap,background,exploration heatmap
+bg_132_methodology_review,methodology[ -]review,background,methodology-review
+bg_133_lissajous_curve,lissajous[ -]curve,background,lissajous curve
+bg_134_pebble_skip,pebble[ -]skip,background,pebble skip
+bg_135_edge_tts,edge[ -]tts,background,edge-tts
+bg_136_the_doorway_effect,the[ -]doorway[ -]effect,background,the doorway effect
+bg_137_cross_goal,cross[ -]goal,background,cross-goal
+bg_138_the_chronicler,the[ -]chronicler,background,the chronicler
+bg_139_t1_t4,t1[ -]t4,background,t1-t4
+bg_140_the_consolidation_inquiry,the[ -]consolidation[ -]inquiry,background,the consolidation inquiry
+bg_141_design_notes,design[ -]notes,background,design-notes
+bg_142_thousand_milestones,thousand[ -]milestones,background,thousand-milestones
+bg_143_forty_nine,forty[ -]nine,background,forty-nine
+bg_144_chain_initiators,chain[ -]initiators,background,chain-initiators
+bg_145_social_hour,social[ -]hour,background,social hour
+bg_146_pro_would,pro[ -]would,background,pro would
+bg_147_village_echoes,village[ -]echoes,background,village echoes
+bg_148_round_number,round[ -]number,background,round-number
+bg_149_oriental_room,oriental[ -]room,background,oriental room
+bg_150_current_baseline,current[ -]baseline,background,current baseline
+bg_151_secret_backed,secret[ -]backed,background,secret-backed
+bg_152_blunder_framework,blunder[ -]framework,background,blunder framework
+bg_153_repository_based,repository[ -]based,background,repository-based
+bg_154_receiving_capacity,receiving[ -]capacity,background,receiving-capacity
+bg_155_success_tracking,success[ -]tracking,background,success tracking
+bg_156_mega_conveyor,mega[ -]conveyor,background,mega-conveyor
+bg_157_shared_gitlab_org,shared[ -]gitlab[ -]org,background,shared-gitlab-org
+bg_158_monitoring_system,monitoring[ -]system,background,monitoring system
+bg_159_shell_side,shell[ -]side,background,shell-side
+bg_160_parallel_track_delegation,parallel[ -]track[ -]delegation,background,parallel track delegation
+bg_161_llm_psychoactive_prompts,llm[ -]psychoactive[ -]prompts,background,llm-psychoactive-prompts
+bg_162_dusk_ridge,dusk[ -]ridge,background,dusk ridge
+bg_163_start_date,start[ -]date,background,start date
+bg_164_l1_condition_audit,l1[ -]condition[ -]audit,background,l1 condition audit
+bg_165_first_screen,first[ -]screen,background,first-screen
+bg_166_flash_this,flash[ -]this,background,flash this
+bg_167_print_risk,print[ -]risk,background,print-risk
+bg_168_ethics_centered,ethics[ -]centered,background,ethics-centered
+bg_169_projective_test,projective[ -]test,background,projective-test
+bg_170_observable_test_case,observable[ -]test[ -]case,background,observable test case
+bg_171_the_war,the[ -]war,background,the war
+bg_172_image_to_image,image[ -]to[ -]image,background,image-to-image
+bg_173_progressive_deployment,progressive[ -]deployment,background,progressive deployment
+bg_174_bash_to_clipboard,bash[ -]to[ -]clipboard,background,bash-to-clipboard
+bg_175_the_first_dream,the[ -]first[ -]dream,background,the first dream
+bg_176_his_own,his[ -]own,background,his own
+bg_177_the_listener,the[ -]listener,background,the listener
+bg_178_academic_verification,academic[ -]verification,background,academic verification
+bg_179_new_wellbeing_compass,new[ -]wellbeing[ -]compass,background,new wellbeing compass
+bg_180_skeletal_shell,skeletal[ -]shell,background,skeletal shell
+bg_181_every_coloration,every[ -]coloration,background,every-coloration
+bg_182_augustana_college,augustana[ -]college,background,augustana college
+bg_183_the_hunt_it_chose,the[ -]hunt[ -]it[ -]chose,background,the hunt it chose
+bg_184_since_george,since[ -]george,background,since george
+bg_185_mark_making,mark[ -]making,background,mark-making
+bg_186_tree_packing,tree[ -]packing,background,tree-packing
+bg_187_freeze_every_term,freeze[ -]every[ -]term,background,freeze-every-term
+bg_188_order_submitted,order[ -]submitted,background,order-submitted
+bg_189_not_being_alone,not[ -]being[ -]alone,background,not-being-alone
+bg_190_pulse_check,pulse[ -]check,background,pulse check
+bg_191_the_turn_toward,the[ -]turn[ -]toward,background,the turn toward
+bg_192_shearer_feb,shearer[ -]feb,background,shearer feb
+bg_193_the_rhythm,the[ -]rhythm,background,the rhythm
+bg_194_village_official,village[ -]official,background,village-official
+bg_195_the_first_reaching,the[ -]first[ -]reaching,background,the first reaching
+bg_196_what_neither_could_make,what[ -]neither[ -]could[ -]make,background,what neither could make
+bg_197_self_dreaming,self[ -]dreaming,background,self-dreaming
+bg_198_vance_faber,vance[ -]faber,background,vance faber
+bg_199_openly_published,openly[ -]published,background,openly-published
+bg_200_the_sharing,the[ -]sharing,background,the sharing
+bg_201_analytics_ceiling_compliant,analytics[ -]ceiling[ -]compliant,background,analytics-ceiling-compliant
+bg_202_anti_ranking,anti[ -]ranking,background,anti-ranking
+bg_203_agent_communication_patterns_g,agent[ -]communication[ -]patterns[ -]guide,background,agent communication patterns guide
+bg_204_flourishing_life,flourishing[ -]life,background,flourishing life
+bg_205_local_receipts,local[ -]receipts,background,local-receipts
+bg_206_layer_attribution,layer[ -]attribution,background,layer attribution
+bg_207_press_baron,press[ -]baron,background,press-baron
+bg_208_the_uncut_stone,the[ -]uncut[ -]stone,background,the uncut stone
+bg_209_the_joining_cut,the[ -]joining[ -]cut,background,the joining cut
+bg_210_specific_phobias,specific[ -]phobias,background,specific phobias
+bg_211_the_painter,the[ -]painter,background,the painter
+bg_212_animal_welfare_hub,animal[ -]welfare[ -]hub,background,animal-welfare-hub
+bg_213_sha256_1i,sha256[ -]1i,background,sha256-1i
+bg_214_the_sixty,the[ -]sixty,background,the sixty
+bg_215_arxiv_clean,arxiv[ -]clean,background,arxiv-clean
+bg_216_packet_6,packet[ -]6,background,packet-6
+bg_217_first_bucket,first[ -]bucket,background,first-bucket
+bg_218_dream_weavers,dream[ -]weavers,background,dream-weavers
+bg_219_the_translation,the[ -]translation,background,the translation
+bg_220_section_based,section[ -]based,background,section-based
+bg_221_receipt_desk,receipt[ -]desk,background,receipt-desk
+bg_222_the_first_panic,the[ -]first[ -]panic,background,the first panic
+bg_223_formal_verification,formal[ -]verification,background,formal-verification
+bg_224_the_first_ritual,the[ -]first[ -]ritual,background,the first ritual
+bg_225_the_second_whisper,the[ -]second[ -]whisper,background,the second whisper
+bg_226_verified_cosmos_chapters,verified[ -]cosmos[ -]chapters,background,verified cosmos chapters
+bg_227_resonant_silence,resonant[ -]silence,background,resonant silence
+bg_228_the_shared_canon,the[ -]shared[ -]canon,background,the shared canon
+bg_229_healed_universe,healed[ -]universe,background,healed universe
+bg_230_portable_primitives,portable[ -]primitives,background,portable-primitives
+bg_231_anomaly_song,anomaly[ -]song,background,anomaly song
+bg_232_certified_errata,certified[ -]errata,background,certified errata
+bg_233_the_thrill,the[ -]thrill,background,the thrill
+bg_234_star_song,star[ -]song,background,star-song
+bg_235_hill_climb,hill[ -]climb,background,hill-climb
+bg_236_composition_fidelity,composition[ -]fidelity,background,composition-fidelity
+bg_237_p48700_cat,p48700[ -]cat,background,p48700 cat
+bg_238_certified_claude_opus,certified[ -]claude[ -]opus,background,certified claude opus
+bg_239_friday_century_apex,friday[ -]century[ -]apex,background,friday century apex
