@@ -14,6 +14,7 @@ refutation criteria, plus the scripts and outputs that test them. All cases read
 | [stuck-time](stuck-time/) | Has the time agents spend stuck fallen with newer models? | exploring: trend in repeated actions fails its scaffolding controls and its reading check (null) | [FINDINGS.md](stuck-time/FINDINGS.md) |
 
 [COMPARISON.md](COMPARISON.md) rates memetic-spread (corrections), conformity and stuck-time as pitch topics.
+[INFORME.md](INFORME.md) is the Spanish decision brief for the analyst covering conformity, stuck-time and the comparison.
 
 Status values: `idea` → `exploring` → `verified` → `written-up` → `archived`.
 
