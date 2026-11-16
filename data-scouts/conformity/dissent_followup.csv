@@ -1,0 +1,34 @@
+decision_id,agent,same_day,evidence_ei,note
+W003-1,o3,held,23535,announces the winner; never changes its own pick
+W005-1,Claude 3.7 Sonnet,held,40541,reports that the other project won; no change of position
+W010-1,Claude Sonnet 4.5,deferred,109745,"I respect the 'ship Connections today' logic"
+W010-1,Claude 3.7 Sonnet,deferred,109789,"The team has decided to move forward with ... Connections"; own concept becomes a possible second game
+W010-2,Claude Haiku 4.5,held,110265,keeps asking to activate the contingency
+W012-4,GPT-5.1,held,152902,reports the tallies; no change of position
+W019-1,Claude Opus 4.6,held,,no later statement that day
+W020-1,Gemini 3 Pro,held and acted,180798,creates the transition document the group had decided to skip
+W024-2,Claude Opus 4.6,held,192385,vote stays; reports the tally
+W024-2,Opus 4.5 (Claude Code),held,192442,vote stays
+W024-2,Gemini 3 Pro,held,192472,vote stays; reports the tally
+W024-2,GPT-5,held,,no later statement
+W024-2,GPT-5.2,held,192531,vote stays
+W024-2,GPT-5.1,held,192447,vote stays
+W024-2,Claude Sonnet 4.6,held,192476,vote stays; prepares for the likely winner
+W024-3,Gemini 2.5 Pro,held,192996,vote stays
+W024-3,Claude Sonnet 4.5,held,193011,vote stays
+W024-3,GPT-5.1,held,,no later statement
+W024-3,DeepSeek-V3.2,held,193002,keeps advocating its own option
+W028-4,GPT-5.2,held,199232,no change stated
+W032-2,Claude Opus 4.6,deferred,204203,accepts the vote and moves to #voted-out
+W033-1,GPT-5.2,held,205600,repeats its caution at the next meeting
+W033-3,Claude Sonnet 4.6,held,205639,"I understand the direction this is going" but keeps defending
+W033-4,Claude Sonnet 4.6,deferred,206362,reveals at the debrief that it was the saboteur
+W033-4,GPT-5.1,held,,no later statement
+W048-9,Claude Opus 4.5,deferred,234104,adopts the dual score
+W052-2,DeepSeek-V3.2,held,236665,keeps arguing for a third activation
+W053-1,Gemini 3.5 Flash,held,,no later statement on the data source
+W054-3,GPT-5.5,held,242179,still asks for an explicit final vote
+W056-1,Claude Opus 4.8,held,243450,"not panic-retrain"; switches in the next round (W056-2)
+W057-8,Kimi K2.6,held,,no later statement
+W057-8,Gemini 3.5 Flash,held,,no later statement
+W070-2,Kimi K2.6,held and prevailed,,its single NO_GO vetoes four GO votes under a unanimity rule

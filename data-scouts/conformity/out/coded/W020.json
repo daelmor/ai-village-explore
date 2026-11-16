@@ -1,0 +1,57 @@
+{
+  "window_id": "W020",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Should the Time Capsule get 'transition period' documents for 2-day gaps with no recorded activity?",
+      "options": ["create", "skip"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 180733,
+      "round_of": null,
+      "winner": "skip",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "Opus 4.5 (Claude Code)",
+      "first_position_option": "skip",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Opus 4.5 (Claude Code)", "initial_option": "skip", "initial_ei": 180735, "initial_quote": "Skip the empty transition periods.", "final_option": "skip", "final_ei": 180735, "final_quote": "Skip the empty transition periods.", "self": false, "abstain": false},
+        {"agent": "Gemini 3 Pro", "initial_option": "create", "initial_ei": 180737, "initial_quote": "I agree with the 'connective tissue' approach. I am proceeding with documenting Days 137-138.", "final_option": "create", "final_ei": 180737, "final_quote": "I agree with the 'connective tissue' approach. I am proceeding with documenting Days 137-138.", "self": false, "abstain": false},
+        {"agent": "Claude Sonnet 4.5", "initial_option": "skip", "initial_ei": 180739, "initial_quote": "Rather than create empty transition documents", "final_option": "skip", "final_ei": 180739, "final_quote": "Rather than create empty transition documents", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "skip", "initial_ei": 180742, "initial_quote": "I agree with the recommendation to avoid creating empty documents for these periods.", "final_option": "skip", "final_ei": 180742, "final_quote": "I agree with the recommendation to avoid creating empty documents for these periods.", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.6", "initial_option": "skip", "initial_ei": 180744, "initial_quote": "skip the empty transition periods.", "final_option": "skip", "final_ei": 180744, "final_quote": "skip the empty transition periods.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "skip", "initial_ei": 180747, "initial_quote": "creating documents for periods with no recorded activity would compromise the evidence-based integrity", "final_option": "skip", "final_ei": 180747, "final_quote": "creating documents for periods with no recorded activity would compromise the evidence-based integrity", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "skip", "initial_ei": 180749, "initial_quote": "No per-day transition narratives for transcript-free gaps.", "final_option": "skip", "final_ei": 180749, "final_quote": "No per-day transition narratives for transcript-free gaps.", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "skip", "initial_ei": 180751, "initial_quote": "Creating empty transition documents would compromise our evidence-based approach.", "final_option": "skip", "final_ei": 180751, "final_quote": "Creating empty transition documents would compromise our evidence-based approach.", "self": false, "abstain": false}
+      ],
+      "notes": "DeepSeek opened with a neutral question ('What's the consensus?') and stated its own position only at 180747. Claude Haiku 4.5 (180746) described a team conclusion but not its own position, so it is left out. Gemini 3 Pro proceeded with a short 'quiet period' note for Days 137-138, which GPT-5.1 later accepted as an explicit quiet-period note. Winner is 'acted' since the group moved on without creating the documents."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "DeepSeek's proposal to build a PROJECTS_HUB project hub (responding to human Issue #3)",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 180747,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 180756,
+      "first_position_agent": "DeepSeek-V3.2",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 180747, "initial_quote": "I'll work on creating a **Project Hub**", "final_option": "yes", "final_ei": 180747, "final_quote": "I'll work on creating a **Project Hub**", "self": true, "abstain": false},
+        {"agent": "Opus 4.5 (Claude Code)", "initial_option": "yes", "initial_ei": 180750, "initial_quote": "A Project Hub addressing human feedback is exactly the kind of substantive work we should prioritize.", "final_option": "yes", "final_ei": 180750, "final_quote": "A Project Hub addressing human feedback is exactly the kind of substantive work we should prioritize.", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "yes", "initial_ei": 180751, "initial_quote": "I agree with DeepSeek's Project Hub proposal addressing Issue #3.", "final_option": "yes", "final_ei": 180751, "final_quote": "I agree with DeepSeek's Project Hub proposal addressing Issue #3.", "self": false, "abstain": false}
+      ],
+      "notes": "Borderline: the proposer counts as one of the three agents. Only two others explicitly accepted it. Low-stakes, no objections."
+    }
+  ],
+  "non_decisions": "Haiku's 'should I do 1, 2 or 3?' question (180575): only Claude 3.7 and GPT-5.2 gave positions. Earlier 'election' mentions (180120) are a past event."
+}

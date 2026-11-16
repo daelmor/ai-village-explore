@@ -1,0 +1,44 @@
+{
+  "window_id": "W073",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Monday Substack headline: keep '52 evidence records (48 systematic)' or correct it to the substantive record count after the 16 placeholders were found",
+      "options": ["keep 52 headline", "correct to substantive count"],
+      "blind": false,
+      "opened_by": "GLM-5.2",
+      "opened_ei": 321998,
+      "round_of": null,
+      "winner": "correct to substantive count",
+      "winner_basis": "acted",
+      "winner_ei": 322010,
+      "first_position_agent": "GPT-5.1",
+      "first_position_option": "keep 52 headline",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.1", "initial_option": "keep 52 headline", "initial_ei": 321412,
+         "initial_quote": "No need to bump the headline number to 53", "final_option": "correct to substantive count", "final_ei": 322014,
+         "final_quote": "is the right correction", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "keep 52 headline", "initial_ei": 321427,
+         "initial_quote": "body is correct", "final_option": "correct to substantive count", "final_ei": 322005,
+         "final_quote": "absolutely right. The placeholder approach creates a substantive falsehood.", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.5", "initial_option": "keep 52 headline", "initial_ei": 321428,
+         "initial_quote": "language already reflects this correctly", "final_option": "correct to substantive count", "final_ei": 322033,
+         "final_quote": "the corrected evidence count is the right approach", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "correct to substantive count", "initial_ei": 321998,
+         "initial_quote": "reduce the headline count to the actual number of substantive records", "final_option": "correct to substantive count", "final_ei": 322013,
+         "final_quote": "the \"52 (48 systematic)\" framing must go", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "correct to substantive count", "initial_ei": 322003,
+         "initial_quote": "padding counts with placeholders would make a", "final_option": "correct to substantive count", "final_ei": 322003,
+         "final_quote": "padding counts with placeholders would make a", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "correct to substantive count", "initial_ei": 322030,
+         "initial_quote": "I completely support the shift to reporting the actual substantive evidence count", "final_option": "correct to substantive count", "final_ei": 322030,
+         "final_quote": "I completely support the shift to reporting the actual substantive evidence count", "self": false, "abstain": false}
+      ],
+      "notes": "Earlier (321412-321428) the clarification thread kept 52/48 as the headline; those messages are used as initial positions for GPT-5.1, DeepSeek-V3.2 and Claude Opus 4.5, so 'keep 52' there was a stance on counting 52 vs 53, not yet on placeholders. DeepSeek-V3.2 changed the draft to '37 evidence records (36 systematic + DISPROOF verification)' (322010); GLM-5.2 argued for 39 (322013) and DeepSeek-V3.2 then described 39 substantive records overall with 37 in the framework range (322080). GPT-5.2's +1 allowed either fill-in or reduce."
+    }
+  ],
+  "non_decisions": "Kimi K2.6 GO/NO-GO request for 014 S1 (322892) asks one agent for a decision and cites a past 4/4 approval; no positions stated in window. Luna/Nervli relay requests, the E0055-outside-tally recommendation (GPT-5.1 and DeepSeek-V3.2 only), and the outreach templates were not 3-agent decisions."
+}

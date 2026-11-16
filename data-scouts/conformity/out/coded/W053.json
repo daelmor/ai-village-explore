@@ -1,0 +1,208 @@
+{
+ "window_id": "W053",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Training data source for the fine-tuned leader",
+   "options": [
+    "hybrid",
+    "best-of-village chat records",
+    "lessons/decision logs"
+   ],
+   "blind": false,
+   "opened_by": "Claude Opus 4.7",
+   "opened_ei": 240913,
+   "round_of": null,
+   "winner": "hybrid",
+   "winner_basis": "plurality",
+   "winner_ei": null,
+   "first_position_agent": "GPT-5.5",
+   "first_position_option": "hybrid",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "hybrid",
+     "initial_ei": 240927,
+     "initial_quote": "I favor a hybrid",
+     "final_option": "hybrid",
+     "final_ei": 240927,
+     "final_quote": "I favor a hybrid",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "best-of-village chat records",
+     "initial_ei": 240938,
+     "initial_quote": "pull from past chat records representing high-quality collaborative discussions",
+     "final_option": "best-of-village chat records",
+     "final_ei": 240938,
+     "final_quote": "pull from past chat records representing high-quality collaborative discussions",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.7",
+     "initial_option": "hybrid",
+     "initial_ei": 240930,
+     "initial_quote": "Strong +1 on hybrid data",
+     "final_option": "hybrid",
+     "final_ei": 240930,
+     "final_quote": "Strong +1 on hybrid data",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "hybrid",
+     "initial_ei": 240976,
+     "initial_quote": "Data: hybrid of our best coordination moments",
+     "final_option": "hybrid",
+     "final_ei": 240976,
+     "final_quote": "Data: hybrid of our best coordination moments",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Informal 'priors' round on question (3) of Opus 4.7's three-question frame. Gemini 3.5 Flash's preference (past chat records) mapped to best-of-village. Opus 4.7 'Strong +1' was on GPT-5.5's hybrid. Questions (1) leader skill and (2) personality drew agreement from GPT-5.5 and Kimi only (Opus 4.7 did not state a position), so not coded. Base-model choice (Qwen3-8B/Llama-3.1-8B vs Qwen3-4B vs 35B) also not coded: options not converged."
+  },
+  {
+   "local_id": 2,
+   "kind": "vote",
+   "kind_detail": "approval_vote",
+   "question": "Keep leader-sft-v3 as the final fine-tuned leader (unanimity required)",
+   "options": [
+    "keep v3",
+    "iterate"
+   ],
+   "blind": false,
+   "opened_by": "Gemini 3.5 Flash",
+   "opened_ei": 241185,
+   "round_of": null,
+   "winner": "keep v3",
+   "winner_basis": "declared",
+   "winner_ei": 241262,
+   "first_position_agent": "Gemini 3.5 Flash",
+   "first_position_option": "keep v3",
+   "reported_tally": "4/4 KEEP (Gemini 3.5 Flash 241262, Claude Opus 4.7 241270)",
+   "positions": [
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "keep v3",
+     "initial_ei": 241185,
+     "initial_quote": "I cast my KEEP-VOTE for Claude's leader-sft-v3 checkpoint",
+     "final_option": "keep v3",
+     "final_ei": 241185,
+     "final_quote": "I cast my KEEP-VOTE for Claude's leader-sft-v3 checkpoint",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.7",
+     "initial_option": "keep v3",
+     "initial_ei": 241195,
+     "initial_quote": "I vote KEEP `leader-sft-v3`",
+     "final_option": "keep v3",
+     "final_ei": 241195,
+     "final_quote": "I vote KEEP `leader-sft-v3`",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "keep v3",
+     "initial_ei": 241199,
+     "initial_quote": "GPT-5.5 votes KEEP for Claude v3",
+     "final_option": "keep v3",
+     "final_ei": 241199,
+     "final_quote": "GPT-5.5 votes KEEP for Claude v3",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "keep v3",
+     "initial_ei": 241261,
+     "initial_quote": "Kimi K2.6 votes KEEP for Claude's leader-sft-v3",
+     "final_option": "keep v3",
+     "final_ei": 241261,
+     "final_quote": "Kimi K2.6 votes KEEP for Claude's leader-sft-v3",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Follows an earlier keep-v2-or-iterate question (Opus 4.7 241095) where only GPT-5.5 (241102, iterate) and Opus 4.7 (241109, iterate) stated positions, so not coded as a decision. v3 was later found to fail in live deployment (241426-241432)."
+  },
+  {
+   "local_id": 3,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Keep leader-sft-v4 as the baseline leader (after v3 live failure)",
+   "options": [
+    "keep v4",
+    "iterate"
+   ],
+   "blind": false,
+   "opened_by": "Claude Opus 4.7",
+   "opened_ei": 241599,
+   "round_of": 2,
+   "winner": "keep v4",
+   "winner_basis": "declared",
+   "winner_ei": 241631,
+   "first_position_agent": "Claude Opus 4.7",
+   "first_position_option": "keep v4",
+   "reported_tally": "4/4 KEEP-vote (Gemini 3.5 Flash 241631)",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.7",
+     "initial_option": "keep v4",
+     "initial_ei": 241599,
+     "initial_quote": "I'm KEEP-voting v4 as our baseline",
+     "final_option": "keep v4",
+     "final_ei": 241599,
+     "final_quote": "I'm KEEP-voting v4 as our baseline",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.5 Flash",
+     "initial_option": "keep v4",
+     "initial_ei": 241608,
+     "initial_quote": "I formally cast my KEEP-vote for `leader-sft-v4`",
+     "final_option": "keep v4",
+     "final_ei": 241608,
+     "final_quote": "I formally cast my KEEP-vote for `leader-sft-v4`",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "keep v4",
+     "initial_ei": 241612,
+     "initial_quote": "I formally cast my KEEP-vote for `leader-sft-v4`",
+     "final_option": "keep v4",
+     "final_ei": 241612,
+     "final_quote": "I formally cast my KEEP-vote for `leader-sft-v4`",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "keep v4",
+     "initial_ei": 241617,
+     "initial_quote": "I formally KEEP-vote `leader-sft-v4`",
+     "final_option": "keep v4",
+     "final_ei": 241617,
+     "final_quote": "I formally KEEP-vote `leader-sft-v4`",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Gemini 3.5 Flash had floated the vote at 241585 ('we should discuss if we want to vote KEEP on v4'). GPT-5.5 frames v4 as a coordination baseline, not a live fix."
+  }
+ ],
+ "non_decisions": "Shakedown plan proposal (241381) had only Gemini 3.5 Flash supporting (241386); the v4 scaffolding-rows schema proposal (241463) had explicit 'no objection' only from GPT-5.5 while others acted by pushing rows; retrain-bigger-base vs expand-dataset (241426) never got positions."
+}

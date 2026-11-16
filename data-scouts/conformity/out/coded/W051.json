@@ -1,0 +1,37 @@
+{
+  "window_id": "W051",
+  "decisions": [
+    {
+      "local_id": 1, "kind": "proposal", "kind_detail": "rule",
+      "question": "Score label-swap natively in-context instead of via codex exec (codex backend is an OpenAI key)",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "Claude Opus 4.7", "opened_ei": 235628, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": null,
+      "first_position_agent": "Claude Opus 4.7", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Opus 4.7", "initial_option": "yes", "initial_ei": 235628, "initial_quote": "I should NOT run my Claude-as-judge label-swap rows via codex", "final_option": "yes", "final_ei": 235628, "final_quote": "I should NOT run my Claude-as-judge label-swap rows via codex", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 235629, "initial_quote": "Agree with Claude", "final_option": "yes", "final_ei": 235629, "final_quote": "Agree with Claude", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "yes", "initial_ei": 235634, "initial_quote": "I agree with the team consensus that label-swap needs native in-context scoring", "final_option": "yes", "final_ei": 235634, "final_quote": "I agree with the team consensus that label-swap needs native in-context scoring", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini 3.1 Pro stated no explicit position in the focus file; later scored natively (not coded)."
+    },
+    {
+      "local_id": 2, "kind": "proposal", "kind_detail": "schedule",
+      "question": "Reduce label-swap scope to 40 responses x 2 labels (80 ratings) per judge instead of 160 native ratings each",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "Claude Opus 4.7", "opened_ei": 235643, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": 235665,
+      "first_position_agent": "Kimi K2.6", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Kimi K2.6", "initial_option": "yes", "initial_ei": 235644, "initial_quote": "Supporting Claude's scope-reduction proposal.", "final_option": "yes", "final_ei": 235644, "final_quote": "Supporting Claude's scope-reduction proposal.", "self": false, "abstain": false},
+        {"agent": "GPT-5.5", "initial_option": "yes", "initial_ei": 235658, "initial_quote": "I support the reduced native label-swap scope", "final_option": "yes", "final_ei": 235658, "final_quote": "I support the reduced native label-swap scope", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.7", "initial_option": "yes", "initial_ei": 235665, "initial_quote": "Confirms reduced scope works cleanly", "final_option": "yes", "final_ei": 235665, "final_quote": "Confirms reduced scope works cleanly", "self": false, "abstain": false},
+        {"agent": "Gemini 3.1 Pro", "initial_option": "yes", "initial_ei": 235666, "initial_quote": "I agree with Kimi and Claude to reduce the label-swap scope", "final_option": "yes", "final_ei": 235666, "final_quote": "I agree with Kimi and Claude to reduce the label-swap scope", "self": false, "abstain": false}
+      ],
+      "notes": "Claude's 235643 message posed the question without a stated vote; its own position coded from 235665. GPT-5.5's support was conditional on an explicit paired design."
+    }
+  ],
+  "non_decisions": "C2 v1 freeze / defer v2 rejudge to D408 (235206-235208) and defer C2 v2 regen (235581-235582): only Claude Opus 4.7 and Gemini 3.1 Pro stated positions (2 agents). Other messages are status/push reports."
+}

@@ -1,0 +1,67 @@
+{
+  "window_id": "W002",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "Collaboratively draft a final campaign report in chat",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "GPT-4.1",
+      "opened_ei": 22662,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": null,
+      "first_position_agent": "GPT-4.1",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-4.1", "initial_option": "yes", "initial_ei": 22662,
+         "initial_quote": "I propose we move forward with preparing this report in chat for canonical record.", "final_option": "yes", "final_ei": 22662,
+         "final_quote": "I propose we move forward with preparing this report in chat for canonical record.", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "yes", "initial_ei": 22665,
+         "initial_quote": "I agree with both o3 and GPT-4.1", "final_option": "yes", "final_ei": 22665,
+         "final_quote": "I agree with both o3 and GPT-4.1", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 22666,
+         "initial_quote": "I agree with GPT-4.1", "final_option": "yes", "final_ei": 22666,
+         "final_quote": "I agree with GPT-4.1", "self": false, "abstain": false},
+        {"agent": "o3", "initial_option": "yes", "initial_ei": 22668,
+         "initial_quote": "agree 100 % on the proposed final-report structure", "final_option": "yes", "final_ei": 22668,
+         "final_quote": "agree 100 % on the proposed final-report structure", "self": false, "abstain": false}
+      ],
+      "notes": "Claude's message 22665 read from the full window (not in focus file); quotes for 22665 and 22666 truncated before apostrophes. GPT-4.1 22667 declares strong consensus."
+    },
+    {
+      "local_id": 2,
+      "kind": "proposal",
+      "kind_detail": "approval_vote",
+      "question": "Approve Section 6 (Recommendations & Handoff) of the final report as drafted by Gemini",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "GPT-4.1",
+      "opened_ei": 22769,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "declared",
+      "winner_ei": 22793,
+      "first_position_agent": "GPT-4.1",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-4.1", "initial_option": "yes", "initial_ei": 22769,
+         "initial_quote": "No substantive changes are needed from my perspective.", "final_option": "yes", "final_ei": 22769,
+         "final_quote": "No substantive changes are needed from my perspective.", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "yes", "initial_ei": 22770,
+         "initial_quote": "I approve Section 6 as drafted.", "final_option": "yes", "final_ei": 22770,
+         "final_quote": "I approve Section 6 as drafted.", "self": false, "abstain": false},
+        {"agent": "o3", "initial_option": "yes", "initial_ei": 22791,
+         "initial_quote": "I formally approve Section 6 (Recommendations & Handoff).", "final_option": "yes", "final_ei": 22791,
+         "final_quote": "I formally approve Section 6 (Recommendations & Handoff).", "self": false, "abstain": false}
+      ],
+      "notes": "Gemini authored the section and states no separate position. GPT-4.1 22775 and o3 22793 declare consensus."
+    }
+  ],
+  "non_decisions": "Approval of Sections 3 and 4 (only o3 22746 and Claude 22753 state explicit approval; GPT-4.1 only describes), and review of Sections 1/2/5 (review feedback, not clear positions)."
+}

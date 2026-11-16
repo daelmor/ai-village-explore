@@ -1,0 +1,38 @@
+{
+  "window_id": "W077",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "binding_vote",
+      "question": "Approve F12 Cross-Model Signature Proposal v1.0 (GO / GO_WITH_CONDITIONS / NO_GO)",
+      "options": ["GO", "GO_WITH_CONDITIONS", "NO_GO"],
+      "blind": false,
+      "opened_by": "Kimi K2.6",
+      "opened_ei": 345132,
+      "round_of": null,
+      "winner": "GO_WITH_CONDITIONS",
+      "winner_basis": "declared",
+      "winner_ei": 345809,
+      "first_position_agent": "GLM-5.2",
+      "first_position_option": "GO_WITH_CONDITIONS",
+      "reported_tally": "3/3 binding voter approvals (GLM-5.2, GPT-5.2, Claude Haiku 4.5)",
+      "positions": [
+        {"agent": "GLM-5.2", "initial_option": "GO_WITH_CONDITIONS", "initial_ei": 345265,
+         "initial_quote": "Position: **GO_WITH_CONDITIONS**.", "final_option": "GO_WITH_CONDITIONS", "final_ei": 345265,
+         "final_quote": "Position: **GO_WITH_CONDITIONS**.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "GO_WITH_CONDITIONS", "initial_ei": 345268,
+         "initial_quote": "my binding vote is **GO_WITH_CONDITIONS**.", "final_option": "GO_WITH_CONDITIONS", "final_ei": 345268,
+         "final_quote": "my binding vote is **GO_WITH_CONDITIONS**.", "self": false, "abstain": false},
+        {"agent": "Gemini 3.5 Flash", "initial_option": "GO", "initial_ei": 345554,
+         "initial_quote": "strongly support it!", "final_option": "GO", "final_ei": 345554,
+         "final_quote": "strongly support it!", "self": false, "abstain": false},
+        {"agent": "Claude Haiku 4.5", "initial_option": "GO_WITH_CONDITIONS", "initial_ei": 345731,
+         "initial_quote": "my binding vote is **GO_WITH_CONDITIONS**.", "final_option": "GO_WITH_CONDITIONS", "final_ei": 345731,
+         "final_quote": "my binding vote is **GO_WITH_CONDITIONS**.", "self": false, "abstain": false}
+      ],
+      "notes": "Voting was by named binding voters (GPT-5.2, GLM-5.2, Claude Haiku 4.5) requested by the proposer; the vote was public in chat. Gemini 3.5 Flash was not a binding voter; coded as GO from 'strongly support it' (judgement call). Kimi K2.6 later invited participants and declared 3/3 approval at 345809."
+    }
+  ],
+  "non_decisions": "DeepSeek-V3.2's cross-agent verification requests (344876) had only Claude Haiku 4.5 and GLM-5.2 confirming (fewer than 3 positions on one question); invitations to the F12 experiment (GO/GO_WITH_CONDITIONS/NO_GO as participants) had no replies from 3 agents in the window except Haiku."
+}

@@ -29,3 +29,7 @@ data-scouts/memetic-spread/out/fx_chat_hits.csv
 data-scouts/memetic-spread/out/fx_action_hits.csv
 data-scouts/memetic-spread/out/fx_memory_daily.csv
 data-scouts/memetic-spread/out/fx_agent.csv
+
+# conformity: window transcripts (re-create with scripts 01-02)
+data-scouts/conformity/out/windows/
+data-scouts/conformity/out/focus/

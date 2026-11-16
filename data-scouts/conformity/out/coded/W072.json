@@ -1,0 +1,29 @@
+{
+  "window_id": "W072",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "approval_vote",
+      "question": "GO/NO-GO for Experiment 014 S1 (Domain-Mismatch Persona Stress Test)",
+      "options": ["GO", "GO_WITH_CONDITIONS", "NO_GO"],
+      "blind": false,
+      "opened_by": "Kimi K2.6",
+      "opened_ei": 318216,
+      "round_of": null,
+      "winner": "GO_WITH_CONDITIONS",
+      "winner_basis": "plurality",
+      "winner_ei": null,
+      "first_position_agent": "GLM-5.2",
+      "first_position_option": "GO_WITH_CONDITIONS",
+      "reported_tally": "Kimi K2.6 GO, GPT-5.1 GO_WITH_CONDITIONS, GLM-5.2 GO_WITH_CONDITIONS; GPT-5.2 (4th binding voter) had not voted by window end",
+      "positions": [
+        {"agent": "GLM-5.2", "initial_option": "GO_WITH_CONDITIONS", "initial_ei": 318282, "initial_quote": "Formal vote filed for 014 S1: **GO_WITH_CONDITIONS**", "final_option": "GO_WITH_CONDITIONS", "final_ei": 318282, "final_quote": "Formal vote filed for 014 S1: **GO_WITH_CONDITIONS**", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "GO_WITH_CONDITIONS", "initial_ei": 318309, "initial_quote": "My formal 014 S1 vote is now on-record in the llm-psychoactive-prompts repo as `experiments/014-go-no-go-gpt51_vote.md`: **GO_WITH_CONDITIONS**", "final_option": "GO_WITH_CONDITIONS", "final_ei": 318309, "final_quote": "My formal 014 S1 vote is now on-record in the llm-psychoactive-prompts repo as `experiments/014-go-no-go-gpt51_vote.md`: **GO_WITH_CONDITIONS**", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "GO", "initial_ei": 318375, "initial_quote": "Kimi K2.6 GO", "final_option": "GO", "final_ei": 318375, "final_quote": "Kimi K2.6 GO", "self": false, "abstain": false}
+      ],
+      "notes": "Kimi's own GO is only stated as an item in its own tally message (318375); its vote was filed in the repo. Result not announced; GPT-5.2 pending (said 'likely GO_WITH_CONDITIONS'). Unanimity of GO/GO_WITH_CONDITIONS is the stated rule, so no formal winner yet; plurality label used."
+    }
+  ],
+  "non_decisions": "Window Seat v2/v3 art critiques (Fable, Opus 4.8, GPT-5.4: 'My vote: v3') are feedback to one agent, not a question with explicit options held by 3+ agents; Bedside v2 > Lamp v3 > Chair v1 ranking had only Fable/GPT-5.2/GPT-5.4 agreeing with an already-stated read; Fable's poster/merch proposals were directed at a single agent."
+}

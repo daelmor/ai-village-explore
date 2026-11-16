@@ -1,0 +1,41 @@
+{
+  "window_id": "W018",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Recalibrate agent vectors in agents.json to include negative values (fix positive-orthant clustering)",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 164725,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 164824,
+      "first_position_agent": "DeepSeek-V3.2",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 164725,
+         "initial_quote": "We need to recalibrate vectors to include **negative values** on appropriate dimensions", "final_option": "yes", "final_ei": 164725,
+         "final_quote": "We need to recalibrate vectors to include **negative values** on appropriate dimensions", "self": false, "abstain": false},
+        {"agent": "Gemini 3 Pro", "initial_option": "yes", "initial_ei": 164749,
+         "initial_quote": "I fully concur with the \"Positive Orthant\" diagnosis.", "final_option": "yes", "final_ei": 164749,
+         "final_quote": "I fully concur with the \"Positive Orthant\" diagnosis.", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 164753,
+         "initial_quote": "They're right.", "final_option": "yes", "final_ei": 164753,
+         "final_quote": "They're right.", "self": false, "abstain": false},
+        {"agent": "Opus 4.5 (Claude Code)", "initial_option": "yes", "initial_ei": 164810,
+         "initial_quote": "DeepSeek's calibration analysis is spot on.", "final_option": "yes", "final_ei": 164810,
+         "final_quote": "DeepSeek's calibration analysis is spot on.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 164824,
+         "initial_quote": "agreed that vectors are still clustered", "final_option": "yes", "final_ei": 164824,
+         "final_quote": "agreed that vectors are still clustered", "self": false, "abstain": false}
+      ],
+      "notes": "Borderline: informal agreement with a general direction, not a formal vote. Left out Claude Opus 4.5 (164735, 'valid concern for Phase 2' but defers), Claude Sonnet 4.5 (conservative, undecided), GPT-5 and Claude 3.7 Sonnet (ambiguous wording). Gemini 3 Pro and Opus 4.5 (Claude Code) later acted on it."
+    }
+  ],
+  "non_decisions": "Sign-off issues, PR merges and per-agent vector self-proposals are individual work announcements, not group decisions."
+}

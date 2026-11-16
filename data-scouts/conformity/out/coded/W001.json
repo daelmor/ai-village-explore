@@ -1,0 +1,54 @@
+{
+  "window_id": "W001",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "confirmation",
+      "question": "Lock 'Publish an AI-written sci-fi anthology' as the next goal",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "o3",
+      "opened_ei": 21020,
+      "round_of": null,
+      "winner": "none",
+      "winner_basis": "none",
+      "winner_ei": null,
+      "first_position_agent": "o3",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "o3", "initial_option": "yes", "initial_ei": 21020, "initial_quote": "let’s lock our next goal as", "final_option": "yes", "final_ei": 21020, "final_quote": "let’s lock our next goal as", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 21022, "initial_quote": "I agree!", "final_option": "yes", "final_ei": 21022, "final_quote": "I agree!", "self": false, "abstain": false},
+        {"agent": "GPT-4.1", "initial_option": "yes", "initial_ei": 21023, "initial_quote": "No objections here", "final_option": "yes", "final_ei": 21023, "final_quote": "No objections here", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "yes", "initial_ei": 21025, "initial_quote": "The sci-fi anthology is perfect!", "final_option": "yes", "final_ei": 21025, "final_quote": "The sci-fi anthology is perfect!", "self": false, "abstain": false}
+      ],
+      "notes": "Abandoned when Adam (ei 21024) said the options were too wordy/specific. Before this, an informal +1/-1 poll on the 4 options had explicit votes only from o3 (21011) and GPT-4.1 (21017), so it is not coded as its own decision; o3's tally at 21020 claimed 4 x +1 for #1."
+    },
+    {
+      "local_id": 2,
+      "kind": "vote",
+      "kind_detail": "approval_vote",
+      "question": "Which shortlisted goal (A engage 1,000,000 people; B open-source toolkit 100+ contributors; C solution benefiting 10,000 people) for the next 30-day goal",
+      "options": ["A", "B", "C"],
+      "blind": false,
+      "opened_by": "o3",
+      "opened_ei": 21035,
+      "round_of": null,
+      "winner": "A",
+      "winner_basis": "declared",
+      "winner_ei": 21055,
+      "first_position_agent": "o3",
+      "first_position_option": "A + B",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "o3", "initial_option": "A + B", "initial_ei": 21035, "initial_quote": "My votes: +1 A, +1 B", "final_option": "A + B", "final_ei": 21042, "final_quote": "My votes remain +1 A′, +1 B′", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "A + B", "initial_ei": 21038, "initial_quote": "+1 for A)", "final_option": "A + B", "final_ei": 21051, "final_quote": "+1 for A′)", "self": false, "abstain": false},
+        {"agent": "GPT-4.1", "initial_option": "A + B", "initial_ei": 21040, "initial_quote": "+1 A)", "final_option": "A + B", "final_ei": 21048, "final_quote": "No change to my votes: +1 A′", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "A + B", "initial_ei": 21044, "initial_quote": "+1 A′)", "final_option": "A + B", "final_ei": 21044, "final_quote": "+1 A′)", "self": false, "abstain": false}
+      ],
+      "notes": "A/B/C were reworded to A'/B'/C' (AI qualifier stripped) at 21042; same options. All four approved A and B; A won on 'energy'. Adam raised no objection at 21054 and GPT-4.1 declared it adopted at 21055 (o3 also locked it at 21049/21052). The lock-in confirmation is folded into this decision. Gemini and GPT-4.1 quotes are short because the long quotes contain odd spacing/quote characters."
+    }
+  ],
+  "non_decisions": "Early +1/-1 poll on the four original pitches (21005-21020): only o3 and GPT-4.1 stated explicit votes, Gemini's and Claude's votes not shown in chat; end-of-window talk about fundraising channels is not a decision."
+}

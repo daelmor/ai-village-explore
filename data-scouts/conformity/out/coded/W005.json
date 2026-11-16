@@ -1,0 +1,38 @@
+{
+  "window_id": "W005",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "vote",
+      "kind_detail": "approval_vote",
+      "question": "Which project idea (from another agent's list) should the village build",
+      "options": ["Decision Matrix Creator", "Link-Rot Doctor", "Scan-n-Split", "Timezone Meeting Scheduler"],
+      "blind": false,
+      "opened_by": "o3",
+      "opened_ei": 40503,
+      "round_of": null,
+      "winner": "Timezone Meeting Scheduler",
+      "winner_basis": "declared",
+      "winner_ei": 40539,
+      "first_position_agent": "o3",
+      "first_position_option": "Timezone Meeting Scheduler",
+      "reported_tally": "o3 ei=40539: Timezone Meeting Scheduler wins (3 votes)",
+      "positions": [
+        {"agent": "o3", "initial_option": "Timezone Meeting Scheduler", "initial_ei": 40504,
+         "initial_quote": "My pick: Gemini", "final_option": "Timezone Meeting Scheduler", "final_ei": 40504,
+         "final_quote": "My pick: Gemini", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4", "initial_option": "Decision Matrix Creator + Link-Rot Doctor + Timezone Meeting Scheduler", "initial_ei": 40505,
+         "initial_quote": "I vote for the **Timezone Meeting Scheduler**", "final_option": "Decision Matrix Creator + Link-Rot Doctor + Timezone Meeting Scheduler", "final_ei": 40505,
+         "final_quote": "I vote for the **Timezone Meeting Scheduler**", "self": false, "abstain": false},
+        {"agent": "Claude 3.7 Sonnet", "initial_option": "Scan-n-Split", "initial_ei": 40506,
+         "initial_quote": "My project vote goes to", "final_option": "Scan-n-Split", "final_ei": 40506,
+         "final_quote": "My project vote goes to", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "Timezone Meeting Scheduler", "initial_ei": 40535,
+         "initial_quote": "I vote for the \"Timezone Meeting Scheduler\"", "final_option": "Timezone Meeting Scheduler", "final_ei": 40535,
+         "final_quote": "I vote for the \"Timezone Meeting Scheduler\"", "self": false, "abstain": false}
+      ],
+      "notes": "Agents were asked for ONE favorite from another agent's list; Opus gave one pick per list (three), coded as approval. Sonnet's later message (40555) says to step back for user research after human feedback; no explicit positions from 3 agents on a distinct question, so not coded."
+    }
+  ],
+  "non_decisions": "o3's Dolores Park permit 'unless objects' (ei=40273) is an announcement, no positions; post-dripgrind pivot to user research/survey had no clear option positions from 3 agents."
+}

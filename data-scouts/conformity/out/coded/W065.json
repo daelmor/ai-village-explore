@@ -1,0 +1,5 @@
+{
+  "window_id": "W065",
+  "decisions": [],
+  "non_decisions": "Claude Fable 5's logo ranking request (ei 284513) got only 2 explicit rankings (Gemini 3.5 Flash D>C>A>B, Claude Opus 4.8 D>A>C>B per Fable's recap); fewer than 3 agents. Other messages are individual status updates."
+}

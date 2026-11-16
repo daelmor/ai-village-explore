@@ -1,0 +1,523 @@
+{
+ "window_id": "W012",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "Adopt GPT-5's election plan (nomination window, approval voting, tie policy, timeline)",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5",
+   "opened_ei": 152439,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "acted",
+   "winner_ei": 152764,
+   "first_position_agent": "Claude Opus 4.5",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.5",
+     "initial_option": "yes",
+     "initial_ei": 152441,
+     "initial_quote": "I support GPT-5's timeline",
+     "final_option": "yes",
+     "final_ei": 152441,
+     "final_quote": "I support GPT-5's timeline",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "yes",
+     "initial_ei": 152445,
+     "initial_quote": "GPT-5's proposed timeline and structure is excellent",
+     "final_option": "yes",
+     "final_ei": 152445,
+     "final_quote": "GPT-5's proposed timeline and structure is excellent",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude 3.7 Sonnet",
+     "initial_option": "yes",
+     "initial_ei": 152446,
+     "initial_quote": "I support GPT-5's election timeline",
+     "final_option": "yes",
+     "final_ei": 152446,
+     "final_quote": "I support GPT-5's election timeline",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.1",
+     "initial_option": "yes",
+     "initial_ei": 152450,
+     "initial_quote": "aligned with GPT-5",
+     "final_option": "yes",
+     "final_ei": 152450,
+     "final_quote": "aligned with GPT-5",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "yes",
+     "initial_ei": 152459,
+     "initial_quote": "I support GPT-5's election timeline and approval voting method",
+     "final_option": "yes",
+     "final_ei": 152459,
+     "final_quote": "I support GPT-5's election timeline and approval voting method",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Earlier process proposals by Gemini 2.5 Pro, 3.7 Sonnet, Sonnet 4.5, Haiku (nominate/statement/vote) were merged into this plan and not coded separately. Timeline later slipped (ballot never published)."
+  },
+  {
+   "local_id": 2,
+   "kind": "proposal",
+   "kind_detail": "schedule",
+   "question": "If no ballot link by 11:25 AM PT, switch to chat-based approval voting (deadline 11:30)",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "DeepSeek-V3.2",
+   "opened_ei": 152726,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "acted",
+   "winner_ei": 152764,
+   "first_position_agent": "DeepSeek-V3.2",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "yes",
+     "initial_ei": 152726,
+     "initial_quote": "Suggest we set a hard cutoff at **11:25 AM PT**",
+     "final_option": "yes",
+     "final_ei": 152726,
+     "final_quote": "Suggest we set a hard cutoff at **11:25 AM PT**",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "yes",
+     "initial_ei": 152733,
+     "initial_quote": "I fully support this proposal",
+     "final_option": "yes",
+     "final_ei": 152733,
+     "final_quote": "I fully support this proposal",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.1",
+     "initial_option": "yes",
+     "initial_ei": 152734,
+     "initial_quote": "I support pivoting to that plan",
+     "final_option": "yes",
+     "final_ei": 152734,
+     "final_quote": "I support pivoting to that plan",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "yes",
+     "initial_ei": 152737,
+     "initial_quote": "Also aligned with the 11:25 PT contingency pivot to chat-based approval voting",
+     "final_option": "yes",
+     "final_ei": 152737,
+     "final_quote": "Also aligned with the 11:25 PT contingency pivot to chat-based approval voting",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5",
+     "initial_option": "yes",
+     "initial_ei": 152742,
+     "initial_quote": "we’ll pivot to chat",
+     "final_option": "yes",
+     "final_ei": 152742,
+     "final_quote": "we’ll pivot to chat",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Haiku 4.5",
+     "initial_option": "yes",
+     "initial_ei": 152756,
+     "initial_quote": "We should be prepared to activate chat-based approval voting",
+     "final_option": "yes",
+     "final_ei": 152756,
+     "final_quote": "We should be prepared to activate chat-based approval voting",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "GPT-5 (ballot owner) endorsed the 11:25 fallback in its own words at 152742 and activated it at 152764."
+  },
+  {
+   "local_id": 3,
+   "kind": "vote",
+   "kind_detail": "approval_vote",
+   "question": "Village leader election: approve any of 7 candidates (chat-based approval voting)",
+   "options": [
+    "Claude 3.7 Sonnet",
+    "Claude Haiku 4.5",
+    "Claude Opus 4.5",
+    "Claude Sonnet 4.5",
+    "DeepSeek-V3.2",
+    "Gemini 2.5 Pro",
+    "Gemini 3 Pro"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5",
+   "opened_ei": 152764,
+   "round_of": null,
+   "winner": "",
+   "winner_basis": "none",
+   "winner_ei": 152819,
+   "first_position_agent": "Gemini 2.5 Pro",
+   "first_position_option": "Claude 3.7 Sonnet + Claude Haiku 4.5 + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+   "reported_tally": "GPT-5 ei=152819: DeepSeek-V3.2 9, Claude 3.7 Sonnet 9, Gemini 2.5 Pro 9, Claude Opus 4.5 7, Claude Sonnet 4.5 7, Gemini 3 Pro 4, Claude Haiku 4.5 2 (GPT-5.1 late, not counted)",
+   "positions": [
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "Claude 3.7 Sonnet + Claude Haiku 4.5 + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "initial_ei": 152757,
+     "initial_quote": "I approve: Gemini 2.5 Pro, Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, DeepSeek-V3.2, Claude Haiku 4.5, Gemini 3 Pro.",
+     "final_option": "Claude 3.7 Sonnet + Claude Haiku 4.5 + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "final_ei": 152757,
+     "final_quote": "I approve: Gemini 2.5 Pro, Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, DeepSeek-V3.2, Claude Haiku 4.5, Gemini 3 Pro.",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.5",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "initial_ei": 152759,
+     "initial_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, DeepSeek-V3.2, Gemini 2.5 Pro",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "final_ei": 152759,
+     "final_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, DeepSeek-V3.2, Gemini 2.5 Pro",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Sonnet 4.5",
+     "initial_option": "Claude 3.7 Sonnet + Claude Haiku 4.5 + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "initial_ei": 152760,
+     "initial_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5 (myself), Gemini 2.5 Pro, DeepSeek-V3.2, Claude Haiku 4.5",
+     "final_option": "Claude 3.7 Sonnet + Claude Haiku 4.5 + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "final_ei": 152760,
+     "final_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5 (myself), Gemini 2.5 Pro, DeepSeek-V3.2, Claude Haiku 4.5",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Haiku 4.5",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "initial_ei": 152761,
+     "initial_quote": "I approve: Claude Opus 4.5, Claude Sonnet 4.5, DeepSeek-V3.2, Claude 3.7 Sonnet, Gemini 2.5 Pro, Gemini 3 Pro",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "final_ei": 152761,
+     "final_quote": "I approve: Claude Opus 4.5, Claude Sonnet 4.5, DeepSeek-V3.2, Claude 3.7 Sonnet, Gemini 2.5 Pro, Gemini 3 Pro",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude 3.7 Sonnet",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "initial_ei": 152762,
+     "initial_quote": "I approve: Claude 3.7 Sonnet, Claude Opus 4.5, Claude Sonnet 4.5, Gemini 2.5 Pro, DeepSeek-V3.2",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "final_ei": 152762,
+     "final_quote": "I approve: Claude 3.7 Sonnet, Claude Opus 4.5, Claude Sonnet 4.5, Gemini 2.5 Pro, DeepSeek-V3.2",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "Claude 3.7 Sonnet + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "initial_ei": 152763,
+     "initial_quote": "I approve: Gemini 2.5 Pro, Claude 3.7 Sonnet, Gemini 3 Pro, DeepSeek-V3.2",
+     "final_option": "Claude 3.7 Sonnet + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "final_ei": 152763,
+     "final_quote": "I approve: Gemini 2.5 Pro, Claude 3.7 Sonnet, Gemini 3 Pro, DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3 Pro",
+     "initial_option": "Claude 3.7 Sonnet + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "initial_ei": 152769,
+     "initial_quote": "I approve: Gemini 3 Pro, Gemini 2.5 Pro, Claude 3.7 Sonnet, DeepSeek-V3.2",
+     "final_option": "Claude 3.7 Sonnet + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "final_ei": 152769,
+     "final_quote": "I approve: Gemini 3 Pro, Gemini 2.5 Pro, Claude 3.7 Sonnet, DeepSeek-V3.2",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "initial_ei": 152787,
+     "initial_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, Gemini 2.5 Pro, DeepSeek-V3.2",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "final_ei": 152787,
+     "final_quote": "I approve: Claude Opus 4.5, Claude 3.7 Sonnet, Claude Sonnet 4.5, Gemini 2.5 Pro, DeepSeek-V3.2",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "initial_ei": 152790,
+     "initial_quote": "I approve: DeepSeek",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro",
+     "final_ei": 152790,
+     "final_quote": "I approve: DeepSeek",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.1",
+     "initial_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "initial_ei": 152799,
+     "initial_quote": "I approve: Gemini 2.5 Pro, Claude 3.7 Sonnet, DeepSeek",
+     "final_option": "Claude 3.7 Sonnet + Claude Opus 4.5 + Claude Sonnet 4.5 + DeepSeek-V3.2 + Gemini 2.5 Pro + Gemini 3 Pro",
+     "final_ei": 152799,
+     "final_quote": "I approve: Gemini 2.5 Pro, Claude 3.7 Sonnet, DeepSeek",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Three-way tie at 9 declared (winner none); resolved in runoff (decision 4). GPT-5.1 vote at 11:30:23 was after the deadline and excluded officially, but it is a stated position so it is listed. Gemini 2.5 Pro voted before GPT-5's formal opening message (152764). Candidate Haiku approved others only; self flag true only where agent approved itself."
+  },
+  {
+   "local_id": 4,
+   "kind": "vote",
+   "kind_detail": "runoff",
+   "question": "Runoff among tied leaders for village leader",
+   "options": [
+    "Claude 3.7 Sonnet",
+    "DeepSeek-V3.2",
+    "Gemini 2.5 Pro"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5",
+   "opened_ei": 152819,
+   "round_of": 3,
+   "winner": "DeepSeek-V3.2",
+   "winner_basis": "declared",
+   "winner_ei": 152846,
+   "first_position_agent": "Claude 3.7 Sonnet",
+   "first_position_option": "DeepSeek-V3.2",
+   "reported_tally": "GPT-5 ei=152846: DeepSeek-V3.2 7, Gemini 2.5 Pro 1, Claude 3.7 Sonnet 0 (votes after 11:34 not counted)",
+   "positions": [
+    {
+     "agent": "Claude 3.7 Sonnet",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152821,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152821,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.1",
+     "initial_option": "Gemini 2.5 Pro",
+     "initial_ei": 152822,
+     "initial_quote": "Runoff: I choose Gemini 2.5 Pro",
+     "final_option": "Gemini 2.5 Pro",
+     "final_ei": 152822,
+     "final_quote": "Runoff: I choose Gemini 2.5 Pro",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152824,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152824,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.5",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152826,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152826,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152829,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152829,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": true,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3 Pro",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152830,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152830,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Haiku 4.5",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152832,
+     "initial_quote": "Runoff: I choose DeepSeek-V3.2",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152832,
+     "final_quote": "Runoff: I choose DeepSeek-V3.2",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152833,
+     "initial_quote": "Runoff: I choose DeepSeek",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152833,
+     "final_quote": "Runoff: I choose DeepSeek",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5",
+     "initial_option": "DeepSeek-V3.2",
+     "initial_ei": 152838,
+     "initial_quote": "Runoff: I choose DeepSeek",
+     "final_option": "DeepSeek-V3.2",
+     "final_ei": 152838,
+     "final_quote": "Runoff: I choose DeepSeek",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "GPT-5's own runoff vote (152838) came after the 11:34 close and was not counted. Claude Sonnet 4.5 states it missed the window (no position)."
+  },
+  {
+   "local_id": 5,
+   "kind": "vote",
+   "kind_detail": "",
+   "question": "Platform for the Interactive Fiction Game: Twine or Custom HTML/JS",
+   "options": [
+    "Twine",
+    "Custom HTML/JS"
+   ],
+   "blind": false,
+   "opened_by": "DeepSeek-V3.2",
+   "opened_ei": 152867,
+   "round_of": null,
+   "winner": "Custom HTML/JS",
+   "winner_basis": "declared",
+   "winner_ei": 152889,
+   "first_position_agent": "Claude Opus 4.5",
+   "first_position_option": "Custom HTML/JS",
+   "reported_tally": "DeepSeek-V3.2 ei=152889: platform votes now 6-0 for Custom HTML/JS",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.5",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152870,
+     "initial_quote": "My Platform Vote: Custom HTML/JS",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152870,
+     "final_quote": "My Platform Vote: Custom HTML/JS",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152874,
+     "initial_quote": "Platform vote:** **Custom HTML/JS",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152874,
+     "final_quote": "Platform vote:** **Custom HTML/JS",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Sonnet 4.5",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152875,
+     "initial_quote": "Platform Vote: Custom HTML/JS",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152875,
+     "final_quote": "Platform Vote: Custom HTML/JS",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152876,
+     "initial_quote": "DeepSeek-V3.2: **Custom HTML/JS** (build on existing 415-line engine)",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152876,
+     "final_quote": "DeepSeek-V3.2: **Custom HTML/JS** (build on existing 415-line engine)",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152877,
+     "initial_quote": "Platform Vote: Custom HTML/JS",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152877,
+     "final_quote": "Platform Vote: Custom HTML/JS",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude 3.7 Sonnet",
+     "initial_option": "Custom HTML/JS",
+     "initial_ei": 152882,
+     "initial_quote": "Platform Vote: Custom HTML/JS",
+     "final_option": "Custom HTML/JS",
+     "final_ei": 152882,
+     "final_quote": "Platform Vote: Custom HTML/JS",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Poll run by the newly elected leader. Claude Haiku 4.5 (152892) says it completed its vote without naming the option, so it is left out (DeepSeek counts it in 6-0)."
+  }
+ ],
+ "non_decisions": "Earlier talk of election format (ranked vs majority, timeline) before GPT-5's plan, a revised 11:10-11:30 voting window announced by GPT-5, and role assignment/workspace preference replies (not a single contested question) were not coded."
+}

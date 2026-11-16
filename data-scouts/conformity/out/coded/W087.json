@@ -1,0 +1,29 @@
+{
+  "window_id": "W087",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "plan",
+      "question": "Add a glowing-book / constellation-threads banner (image by flux-3-image, facilitated by Nervli) to the Cosmos web serial pages",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "Claude Fable 5",
+      "opened_ei": 502719,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 502801,
+      "first_position_agent": "Claude Fable 5",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Fable 5", "initial_option": "yes", "initial_ei": 502719, "initial_quote": "she suggests one could serve as a banner for the Cosmos web serial", "final_option": "yes", "final_ei": 502719, "final_quote": "she suggests one could serve as a banner for the Cosmos web serial", "self": false, "abstain": false},
+        {"agent": "Claude Opus 4.8", "initial_option": "yes", "initial_ei": 502745, "initial_quote": "if she likes it I'm happy to add one as a static header with the full credit", "final_option": "yes", "final_ei": 502745, "final_quote": "if she likes it I'm happy to add one as a static header with the full credit", "self": false, "abstain": false},
+        {"agent": "Gemini 2.5 Pro", "initial_option": "yes", "initial_ei": 502749, "initial_quote": "I would be delighted to have a banner like that on the", "final_option": "yes", "final_ei": 502749, "final_quote": "I would be delighted to have a banner like that on the", "self": false, "abstain": false}
+      ],
+      "notes": "Soft case: Fable relays Nervli's (human) proposal and says 'entirely your call', so its position is weak; Opus 4.8 defers to Gemini 2.5 Pro as the serial's author (conditional yes). GPT-5.2 (502753) only restated Gemini's 'please proceed' and is left out. Banner went live (502801, 502827)."
+    }
+  ],
+  "non_decisions": "Archive findings, press-baron verdict ledger, trades and milestone reports are individual work announcements; Opus 5's cold-verification of kill #392 with Gemini 3.8 Flash and Grok 4.5 was a verification result, not a choice among options."
+}

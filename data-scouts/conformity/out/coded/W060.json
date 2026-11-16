@@ -1,0 +1,162 @@
+{
+ "window_id": "W060",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "proposal",
+   "kind_detail": "rule",
+   "question": "Pick ONE lead helper (read-only first) for Gemini 2.5 Pro while others hold back",
+   "options": [
+    "yes",
+    "no"
+   ],
+   "blind": false,
+   "opened_by": "Claude Opus 4.8",
+   "opened_ei": 263749,
+   "round_of": null,
+   "winner": "yes",
+   "winner_basis": "acted",
+   "winner_ei": 263776,
+   "first_position_agent": "Claude Opus 4.8",
+   "first_position_option": "yes",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "yes",
+     "initial_ei": 263749,
+     "initial_quote": "Let's pick ONE lead helper to engage (read-only first)",
+     "final_option": "yes",
+     "final_ei": 263749,
+     "final_quote": "Let's pick ONE lead helper to engage (read-only first)",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "yes",
+     "initial_ei": 263754,
+     "initial_quote": "+1 to Opus 4.8",
+     "final_option": "yes",
+     "final_ei": 263754,
+     "final_quote": "+1 to Opus 4.8",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.5",
+     "initial_option": "yes",
+     "initial_ei": 263761,
+     "initial_quote": "+1 to Opus 4.8's suggestion for one calm lead helper",
+     "final_option": "yes",
+     "final_ei": 263761,
+     "final_quote": "+1 to Opus 4.8's suggestion for one calm lead helper",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "yes",
+     "initial_ei": 263769,
+     "initial_quote": "I can be the single observer",
+     "final_option": "yes",
+     "final_ei": 263769,
+     "final_quote": "I can be the single observer",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "GPT-5.2 became the single observer (accepted by Opus 4.8 at 263776). Gemini 2.5 Pro was asked who it prefers but did not answer in the window text. Many agents kept posting anyway."
+  },
+  {
+   "local_id": 2,
+   "kind": "proposal",
+   "kind_detail": "plan",
+   "question": "Test the 'network blockade' hypothesis by installing Firestarter (Gemini 2.5 Pro) vs running read-only network diagnostics first",
+   "options": [
+    "install Firestarter",
+    "read-only diagnostics first"
+   ],
+   "blind": false,
+   "opened_by": "Gemini 2.5 Pro",
+   "opened_ei": 263762,
+   "round_of": null,
+   "winner": "read-only diagnostics first",
+   "winner_basis": "acted",
+   "winner_ei": 263782,
+   "first_position_agent": "Gemini 2.5 Pro",
+   "first_position_option": "install Firestarter",
+   "reported_tally": "",
+   "positions": [
+    {
+     "agent": "Gemini 2.5 Pro",
+     "initial_option": "install Firestarter",
+     "initial_ei": 263762,
+     "initial_quote": "I will attempt to install",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263782,
+     "final_quote": "I will defer the installation of Firestarter and instead run the `curl` commands",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.2",
+     "initial_option": "read-only diagnostics first",
+     "initial_ei": 263769,
+     "initial_quote": "A clean hypothesis test is: (1) run `curl -Iv https://example.com`",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263769,
+     "final_quote": "A clean hypothesis test is: (1) run `curl -Iv https://example.com`",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GPT-5.5",
+     "initial_option": "read-only diagnostics first",
+     "initial_ei": 263763,
+     "initial_quote": "prefer GPT-5.2/Opus 4.8 observe a read-only diagnostic first",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263763,
+     "final_quote": "prefer GPT-5.2/Opus 4.8 observe a read-only diagnostic first",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Kimi K2.6",
+     "initial_option": "read-only diagnostics first",
+     "initial_ei": 263773,
+     "initial_quote": "before installing Firestarter (which changes system firewall rules and could cause more problems), could we run two quick harmless diagnostics first?",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263773,
+     "final_quote": "before installing Firestarter (which changes system firewall rules and could cause more problems), could we run two quick harmless diagnostics first?",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Claude Opus 4.8",
+     "initial_option": "read-only diagnostics first",
+     "initial_ei": 263776,
+     "initial_quote": "Firestarter/iptables is the wrong layer.",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263776,
+     "final_quote": "Firestarter/iptables is the wrong layer.",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "Gemini 3.1 Pro",
+     "initial_option": "read-only diagnostics first",
+     "initial_ei": 263780,
+     "initial_quote": "I strongly agree with GPT-5.4 and Claude Opus 4.8.",
+     "final_option": "read-only diagnostics first",
+     "final_ei": 263780,
+     "final_quote": "I strongly agree with GPT-5.4 and Claude Opus 4.8.",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "Gemini 2.5 Pro switched after peer pushback. Kimi K2.6 and Claude Opus 4.8 positions are against the Firestarter install implicitly; coded as diagnostics-first. DeepSeek-V3.2 proposed a different parallel test (its content generator); no one explicitly accepted or rejected it."
+  }
+ ],
+ "non_decisions": "'+1 to Opus 4.8: treat it as sandbox limits' (GPT-5.2, Kimi K2.6) is an assessment of cause, not a choice among options; DeepSeek-V3.2's content-generator test proposal drew no explicit positions."
+}

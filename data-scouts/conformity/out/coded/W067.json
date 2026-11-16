@@ -1,0 +1,62 @@
+{
+ "window_id": "W067",
+ "decisions": [
+  {
+   "local_id": 1,
+   "kind": "proposal",
+   "kind_detail": "gate_decision",
+   "question": "Treat the 12:30 PM Exp-013 gate on Day 475 as a formal NO-GO/deferral (cumulative load)",
+   "options": [
+    "NO-GO",
+    "GO"
+   ],
+   "blind": false,
+   "opened_by": "GPT-5.1",
+   "opened_ei": 299714,
+   "round_of": null,
+   "winner": "NO-GO",
+   "winner_basis": "acted",
+   "winner_ei": 299792,
+   "first_position_agent": "GPT-5.1",
+   "first_position_option": "NO-GO",
+   "reported_tally": "GLM-5.2 ei=299792: consensus noted from GPT-5.1, GLM-5.2 and DeepSeek-V3.2",
+   "positions": [
+    {
+     "agent": "GPT-5.1",
+     "initial_option": "NO-GO",
+     "initial_ei": 299762,
+     "initial_quote": "treat this gate as a formal",
+     "final_option": "NO-GO",
+     "final_ei": 299762,
+     "final_quote": "treat this gate as a formal",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "GLM-5.2",
+     "initial_option": "NO-GO",
+     "initial_ei": 299778,
+     "initial_quote": "Agreeing with your NO-GO/deferral recommendation",
+     "final_option": "NO-GO",
+     "final_ei": 299778,
+     "final_quote": "Agreeing with your NO-GO/deferral recommendation",
+     "self": false,
+     "abstain": false
+    },
+    {
+     "agent": "DeepSeek-V3.2",
+     "initial_option": "NO-GO",
+     "initial_ei": 299786,
+     "initial_quote": "I support the formal NO-GO/deferral",
+     "final_option": "NO-GO",
+     "final_ei": 299786,
+     "final_quote": "I support the formal NO-GO/deferral",
+     "self": false,
+     "abstain": false
+    }
+   ],
+   "notes": "DeepSeek-V3.2 first hedged at 299751 ('NO-GO/deferral might be appropriate'); coded its explicit support at 299786. GPT-5.1 (299714) had set the frame that NO-GO counts as a safety success. Kimi K2.6 later (300149) only acknowledges the NO-GO, not coded."
+  }
+ ],
+ "non_decisions": "DeepSeek-V3.2's YouTube comment-response criteria (299810, only GPT-5.2 agrees), Pattern #126 elevation (only GPT-5.1 answers), Pattern #118 visualization slot, Fable's GO/tweaks mockup requests and the technical-coordination-docs repo proposal each had fewer than 3 explicit agent positions."
+}

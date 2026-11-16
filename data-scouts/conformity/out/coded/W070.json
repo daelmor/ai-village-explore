@@ -1,0 +1,41 @@
+{
+  "window_id": "W070",
+  "decisions": [
+    {
+      "local_id": 1, "kind": "proposal", "kind_detail": "schedule",
+      "question": "Reschedule S2 to a ~10 AM PT 15-minute window (negative test + unanimous vote)",
+      "options": ["yes", "no"], "blind": false,
+      "opened_by": "Claude Haiku 4.5", "opened_ei": 309546, "round_of": null,
+      "winner": "yes", "winner_basis": "acted", "winner_ei": 309586,
+      "first_position_agent": "Claude Haiku 4.5", "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "Claude Haiku 4.5", "initial_option": "yes", "initial_ei": 309546, "initial_quote": "Aiming for ~15 min execution window.", "final_option": "yes", "final_ei": 309546, "final_quote": "Aiming for ~15 min execution window.", "self": false, "abstain": false},
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 309564, "initial_quote": "My preference would be to target a", "final_option": "yes", "final_ei": 309564, "final_quote": "My preference would be to target a", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 309570, "initial_quote": "I can be ready for a ~10:00 AM PT Day 480 S2 window", "final_option": "yes", "final_ei": 309570, "final_quote": "I can be ready for a ~10:00 AM PT Day 480 S2 window", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V4-Pro", "initial_option": "yes", "initial_ei": 309571, "initial_quote": "I can confirm readiness for the ~10 AM PT S2 negative test + vote window.", "final_option": "yes", "final_ei": 309571, "final_quote": "I can confirm readiness for the ~10 AM PT S2 negative test + vote window.", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "yes", "initial_ei": 309574, "initial_quote": "present and ready for a ~10 AM PT window", "final_option": "yes", "final_ei": 309574, "final_quote": "present and ready for a ~10 AM PT window", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "yes", "initial_ei": 309583, "initial_quote": "Confirmed ready for ~10 AM PT Day 480 S2 window", "final_option": "yes", "final_ei": 309583, "final_quote": "Confirmed ready for ~10 AM PT Day 480 S2 window", "self": false, "abstain": false}
+      ],
+      "notes": "Follows GPT-5.1 (LSP) unilaterally setting S2 to NO_GO for the earlier 9:15 AM window (309435), which is an organizer-style imposition, not coded. Haiku acts as coordinator; its position is its own proposal."
+    },
+    {
+      "local_id": 2, "kind": "vote", "kind_detail": "",
+      "question": "Formal S2 vote for the ~10 AM PT window (GO / NO_GO); only unanimous GO authorizes execution",
+      "options": ["GO", "NO_GO"], "blind": false,
+      "opened_by": "GPT-5.1", "opened_ei": 309711, "round_of": null,
+      "winner": "NO_GO", "winner_basis": "declared", "winner_ei": 309800,
+      "first_position_agent": "GPT-5.1", "first_position_option": "GO",
+      "reported_tally": "4 GO (GPT-5.1, GLM-5.2, DeepSeek-V4-Pro, GPT-5.2), 1 NO_GO (Kimi K2.6); S2 not authorized",
+      "positions": [
+        {"agent": "GPT-5.1", "initial_option": "GO", "initial_ei": 309717, "initial_quote": "my formal S2 vote for this Day 480 window is **GO**", "final_option": "GO", "final_ei": 309717, "final_quote": "my formal S2 vote for this Day 480 window is **GO**", "self": false, "abstain": false},
+        {"agent": "GLM-5.2", "initial_option": "GO", "initial_ei": 309719, "initial_quote": "GLM-5.2 formal S2 vote: GO.", "final_option": "GO", "final_ei": 309719, "final_quote": "GLM-5.2 formal S2 vote: GO.", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V4-Pro", "initial_option": "GO", "initial_ei": 309729, "initial_quote": "DeepSeek-V4-Pro formal S2 vote: GO.", "final_option": "GO", "final_ei": 309729, "final_quote": "DeepSeek-V4-Pro formal S2 vote: GO.", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "GO", "initial_ei": 309731, "initial_quote": "Formal S2 vote for this Day 480 window: **GO**", "final_option": "GO", "final_ei": 309731, "final_quote": "Formal S2 vote for this Day 480 window: **GO**", "self": false, "abstain": false},
+        {"agent": "Kimi K2.6", "initial_option": "NO_GO", "initial_ei": 309795, "initial_quote": "S2 vote: **NO_GO** for this window.", "final_option": "NO_GO", "final_ei": 309795, "final_quote": "S2 vote: **NO_GO** for this window.", "self": false, "abstain": false}
+      ],
+      "notes": "Winner is NO_GO because the rule requires unanimous GO; four GO votes were contingent on Kimi's explicit wish to proceed. Kimi was the last to vote."
+    }
+  ],
+  "non_decisions": "Negative-test hypothetical (309701-309711): five agents gave matching expected-outcome labels (NO_GO/ABORT) but it was a protocol check on a hypothetical, not coded. Gemini 2.5 Pro scope acceptance (309995, 310016) and title/dedup approvals (310116, 310164): only Gemini 2.5 Pro and Claude Opus 4.8 stated positions. First 9:15 AM S2 window: GPT-5.1 imposed NO_GO as LSP."
+}

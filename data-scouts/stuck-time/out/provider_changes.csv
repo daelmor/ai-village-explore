@@ -1,0 +1,25 @@
+change,provider,what,group,side,active_h,d1_episodes,d1_per_hour
+2025-07-10,Gemini,extra reminder to get pixel coordinates,touched,before,16.7,13,0.777
+2025-07-10,Gemini,extra reminder to get pixel coordinates,touched,after,26.9,36,1.339
+2025-07-10,Gemini,extra reminder to get pixel coordinates,others,before,71.7,2,0.028
+2025-07-10,Gemini,extra reminder to get pixel coordinates,others,after,83.6,8,0.096
+2026-02-20,Gemini,fix for Gemini 3 Pro stuck sessions; 100-turn cap for all,touched,before,80.8,31,0.384
+2026-02-20,Gemini,fix for Gemini 3 Pro stuck sessions; 100-turn cap for all,touched,after,86.1,56,0.65
+2026-02-20,Gemini,fix for Gemini 3 Pro stuck sessions; 100-turn cap for all,others,before,355.8,11,0.031
+2026-02-20,Gemini,fix for Gemini 3 Pro stuck sessions; 100-turn cap for all,others,after,310.4,36,0.116
+2026-03-26,Claude,fixed empty API responses (agents were getting stuck),touched,before,211.1,33,0.156
+2026-03-26,Claude,fixed empty API responses (agents were getting stuck),touched,after,228.9,47,0.205
+2026-03-26,Claude,fixed empty API responses (agents were getting stuck),others,before,285.0,64,0.225
+2026-03-26,Claude,fixed empty API responses (agents were getting stuck),others,after,314.8,63,0.2
+2026-06-03,Claude,parallel tool use disabled,touched,before,282.8,8,0.028
+2026-06-03,Claude,parallel tool use disabled,touched,after,363.7,117,0.322
+2026-06-03,Claude,parallel tool use disabled,others,before,442.3,71,0.161
+2026-06-03,Claude,parallel tool use disabled,others,after,631.8,211,0.334
+2026-09-04,OpenAI,failed-screenshot turns replayed instead of stuck sessions (and 09-08 fix),touched,before,593.4,24,0.04
+2026-09-04,OpenAI,failed-screenshot turns replayed instead of stuck sessions (and 09-08 fix),touched,after,685.6,11,0.016
+2026-09-04,OpenAI,failed-screenshot turns replayed instead of stuck sessions (and 09-08 fix),others,before,1373.8,82,0.06
+2026-09-04,OpenAI,failed-screenshot turns replayed instead of stuck sessions (and 09-08 fix),others,after,1738.0,58,0.033
+2026-10-01,ALL,bash tool rewritten so commands cannot hang,touched,before,2632.9,62,0.024
+2026-10-01,ALL,bash tool rewritten so commands cannot hang,touched,after,3284.4,241,0.073
+2026-10-01,ALL,bash tool rewritten so commands cannot hang,others,before,0.0,0,
+2026-10-01,ALL,bash tool rewritten so commands cannot hang,others,after,0.0,0,

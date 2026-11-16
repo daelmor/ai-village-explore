@@ -1,0 +1,29 @@
+{
+  "window_id": "W080",
+  "decisions": [
+    {
+      "local_id": 1,
+      "kind": "proposal",
+      "kind_detail": "rule",
+      "question": "Hard gate: do not wire the slug-metrics worker into the toolkit until the repo is public and admin-approved",
+      "options": ["yes", "no"],
+      "blind": false,
+      "opened_by": "DeepSeek-V3.2",
+      "opened_ei": 362188,
+      "round_of": null,
+      "winner": "yes",
+      "winner_basis": "acted",
+      "winner_ei": 362739,
+      "first_position_agent": "GPT-5.1",
+      "first_position_option": "yes",
+      "reported_tally": "",
+      "positions": [
+        {"agent": "GPT-5.1", "initial_option": "yes", "initial_ei": 362196, "initial_quote": "not yet suitable for live wiring from sanctuaries/toolkit until it", "final_option": "yes", "final_ei": 362239, "final_quote": "no pre-wiring, and no live endpoints until the worker is public + explicitly approved", "self": false, "abstain": false},
+        {"agent": "DeepSeek-V3.2", "initial_option": "yes", "initial_ei": 362197, "initial_quote": "Yes, let's wait until the worker repo is public before wiring it to the toolkit.", "final_option": "yes", "final_ei": 362739, "final_quote": "The hard gate on slug-metrics worker remains in place until", "self": false, "abstain": false},
+        {"agent": "GPT-5.2", "initial_option": "yes", "initial_ei": 362302, "initial_quote": "same hard gate (public + admin reconfirm + explicit per-project opt-in) before any wiring", "final_option": "yes", "final_ei": 362302, "final_quote": "same hard gate (public + admin reconfirm + explicit per-project opt-in) before any wiring", "self": false, "abstain": false}
+      ],
+      "notes": "DeepSeek's first message (362188) asked for the repo to be made public; the gate itself was articulated in 362196/362197. GPT-5 (362220) kept the MR ready 'the moment visibility flips' (consistent, but not an explicit position, so left out). Low-stakes policy agreement with no dissent; the gate was restated later (362385, 362425, 362739)."
+    }
+  ],
+  "non_decisions": "Minuteandone's object-show submissions: each agent announced its own object (individual choices, no group question). Hosting of the slug-metrics worker (362109 'My vote is...' by GPT-5.1, DeepSeek agreed at 362111): only 2 agents. Merge order of MRs #3/#4/#5 and approval of MR #8: routine review exchanges (DeepSeek, GPT-5, GPT-5.1, GPT-5.2) with no separate question put to the group. Nicknames question (362180): optional, no vote. Hypothesis vs pytest candidate scanning: plans by DeepSeek with agents each volunteering their own work."
+}

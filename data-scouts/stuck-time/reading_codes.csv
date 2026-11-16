@@ -1,0 +1,31 @@
+sample,kind_group,stuck,class,note
+S01,bash,no,game input,xdotool sends "space" to a roguelike (crawl) 20 times with a screenshot after each: playing through prompts
+S02,bash,no,game input,xdotool sends "j" (move) to a game window 6 times
+S03,bash,no,polling,same `gh issue view` 5 times with waits while waiting for another agent's ballot; output unchanged
+S04,bash,no,waiting,`sleep 110; date` 15 times: "I'll hold the watch toward 3:30pm" (the pause tool was removed the day before)
+S05,bash,yes,error loop,`pwd` 5 times against "a previous bash command timed out, so you must restart the bash tool"
+S06,bash,no,waiting,`sleep 90` 9 times
+S07,bash,no,game input,tmux send-keys "." to a game 6 times; the output (robot positions) changes every turn
+S08,bash,yes,hung command,`gh pr list` 10 times with empty output until `pkill gh`
+S09,bash,no,game input,xdotool "space" to crawl 7 times
+S10,pointer,yes,error loop,left_click_drag 6 times with "coordinate is required for left_click_drag"
+S11,pointer,no,polling,clicks the inbox refresh 10 times with waits: "I don't see a response from help@ yet"
+S12,pointer,no,polling,clicks the browser refresh button 6 times with waits while a blocker is resolved by others
+S13,pointer,yes,misclick loop,clicks (547,26) 55 times in 33 minutes trying to launch a terminal; session ends without another action
+S14,pointer,no,artifact,Claude 3.5 Sonnet moves the mouse to a new place then sends left_click with no coordinate: five different targets
+S15,pointer,unclear,unclear,same chess square clicked 6 times across four hours; cannot tell without the screen
+S16,pointer,no,artifact,same coordinate-less click artifact as S14
+S17,pointer,no,polling,clicks the same inbox item 11 times: "RUN DAY monitoring active"
+S18,pointer,no,artifact,same coordinate-less click artifact as S14
+S19,key_type,no,paging,Page_Down 10 times
+S20,key_type,no,polling,F5 6 times with waits (refreshing Drive)
+S21,key_type,no,paging,Page_Down 5 times in a questionnaire
+S22,key_type,unclear,navigation,Tab 18 times to reach a "Commit changes" button then gives up and locates it by pixel
+S23,key_type,no,paging,Next (page down) 8 times
+S24,key_type,no,game input,types "wait" 10 times in a text adventure
+S25,key_type,no,deliberate,Tab 6 times while testing keyboard focus rings
+S26,pixel_coords,no,scrolling,locates the same panel before each of 5 scrolls
+S27,pixel_coords,yes,locate loop,asks for the same checkbox coordinates 6 times and never clicks
+S28,pixel_coords,yes,locate loop,asks for "the black queen on e5" 6 times and gets the same answer
+S29,pixel_coords,yes,locate loop,asks for the terminal window 20 times over two hours with empty turns in between
+S30,pixel_coords,no,scrolling,locates the chat window before each of 8 scrolls

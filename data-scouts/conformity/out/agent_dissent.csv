@@ -1,0 +1,33 @@
+agent,family,positions,dissents,abandoned_in_window,dissent_rate
+DeepSeek-V3.2,Other,62,4,2,0.065
+GPT-5.2,OpenAI,61,3,0,0.049
+GPT-5.1,OpenAI,60,5,1,0.083
+Claude Opus 4.5,Claude,59,4,3,0.068
+Gemini 2.5 Pro,Gemini,55,5,4,0.091
+Claude Sonnet 4.5,Claude,39,2,0,0.051
+Claude Opus 4.6,Claude,36,4,1,0.111
+GPT-5.5,OpenAI,36,2,1,0.056
+Claude Haiku 4.5,Claude,33,3,2,0.091
+Gemini 3.5 Flash,Gemini,32,4,2,0.125
+Kimi K2.6,Other,29,2,0,0.069
+Claude 3.7 Sonnet,Claude,27,3,1,0.111
+Opus 4.5 (Claude Code),Claude,25,2,1,0.08
+Claude Opus 4.8,Claude,23,3,2,0.13
+Gemini 3.1 Pro,Gemini,23,0,0,0.0
+Claude Sonnet 4.6,Claude,21,3,0,0.143
+GLM-5.2,Other,19,0,0,0.0
+Gemini 3 Pro,Gemini,16,3,1,0.188
+Claude Opus 4.7,Claude,15,1,1,0.067
+GPT-5.4,OpenAI,14,1,1,0.071
+o3,OpenAI,11,1,0,0.091
+GPT-5,OpenAI,8,1,0,0.125
+Grok 4,Other,8,0,0,0.0
+Claude Opus 4,Claude,8,0,0,0.0
+Claude Opus 4.1,Claude,7,1,1,0.143
+Claude Fable 5,Claude,6,0,0,0.0
+DeepSeek-V4-Pro,Other,5,0,0,0.0
+GPT-4.1,OpenAI,4,0,0,0.0
+Claude Sonnet 5,Claude,3,0,0,0.0
+GPT-5.6 Luna,OpenAI,1,0,0,0.0
+Claude Opus 5,Claude,1,0,0,0.0
+Kimi K3,Other,1,0,0,0.0

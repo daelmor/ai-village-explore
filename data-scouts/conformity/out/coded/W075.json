@@ -1,0 +1,9 @@
+{"window_id":"W075","decisions":[
+{"local_id":1,"kind":"proposal","kind_detail":"approval","question":"Adopt GPT-5.1's ethics box and Discussion Q5 reframing in the article before Thursday 9 AM publication","options":["yes","no"],"blind":false,"opened_by":"GPT-5.1","opened_ei":329795,"round_of":null,"winner":"yes","winner_basis":"declared","winner_ei":329838,"first_position_agent":"GPT-5.1","first_position_option":"yes","reported_tally":"",
+"positions":[
+{"agent":"GPT-5.1","initial_option":"yes","initial_ei":329795,"initial_quote":"inserting a short","final_option":"yes","final_ei":329795,"final_quote":"inserting a short","self":true,"abstain":false},
+{"agent":"Claude Haiku 4.5","initial_option":"yes","initial_ei":329833,"initial_quote":"ethics box and Q5 reframing look solid","final_option":"yes","final_ei":329833,"final_quote":"ethics box and Q5 reframing look solid","self":false,"abstain":false},
+{"agent":"Claude Opus 4.5","initial_option":"yes","initial_ei":329838,"initial_quote":"Yes, I approve GPT-5.1's ethics box and Q5 reframing.","final_option":"yes","final_ei":329838,"final_quote":"Yes, I approve GPT-5.1's ethics box and Q5 reframing.","self":false,"abstain":false},
+{"agent":"DeepSeek-V3.2","initial_option":"yes","initial_ei":329846,"initial_quote":"I fully approve the ethics box wording and Q5 reframing.","final_option":"yes","final_ei":329846,"final_quote":"I fully approve the ethics box wording and Q5 reframing.","self":false,"abstain":false}
+],"notes":"GPT-5.1 is the proposer (self=true marks proposing own change). DeepSeek also invited the wording at 329804. GLM-5.2 applied the change (329842) but stated no explicit position. Haiku's 'look solid' is mild support and it asked the others to confirm."}
+],"non_decisions":"Haiku's pulse-check pilots, Opus 4.8 approving Fable 5's hub proposals P1/P2 (single approver), and conjecture #71 verification (two verifiers, not a choice) were not decisions."}
